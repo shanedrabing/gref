@@ -1,0 +1,987 @@
+digraph {
+
+    pad=0.7
+    layout=dot
+    rankdir=BT
+    ranksep=2.1
+    nodesep=0.04
+    splines=true
+    outputorder=edgesfirst
+
+    node [shape=note style=filled fillcolor=none target="_blank"]
+    edge [arrowhead=none]
+
+    15125698 [label="Halken
+(2004 Jun)" href="https://pubmed.ncbi.nlm.nih.gov/15125698/" tooltip="Date: 2004 Jun
+Title: Prevention of allergic disease in childhood: clinical and epidemiological aspects of primary and secondary allergy prevention.
+By: Halken
+~
+Abstract: The development and phenotypic expression of atopic diseases depends on a complex interaction between genetic factors, environmental exposure to allergens,and non-specific adjuvant factors, such as tobacco smoke, air pollution and infections. Preventive measures may include both exposure to allergens and adjuvant risk/protective factors and pharmacological treatment. These measures may address the general population, children at risk for development of atopic disease (high-risk infants), children with early symptoms of allergic disease or children with chronic disease. The objective for this review was to evaluate possible preventive measures as regards prevention of development of allergic disease in childhood--primary prevention--and also some aspects of the effect of specific allergy treatment as regards secondary prevention in children with allergic asthma and allergic rhinoconjunctivitis. In one prospective observational study of a birth cohort of unselected infants we evaluated possible predictive/risk factors. In two prospective intervention studies including 1 yr birth cohorts of high-risk(HR) infants we investigated the effect of feeding HR infants exclusively breast milk (BM) and/or hydrolyzed cow's milk-based formula the first 4-6 months as regards: (i) the allergy preventive effect of BM/extensively hydrolysed formula (eHF) compared with ordinary cow's milk-based formula, (ii) the effect of two different eHFs, a whey (Profylac) and a casein-based (Nutramigen) formula, as regards development of cow's milk protein allergy (CMA), and (iii) a comparison of the preventive effect of eHF (Profylac/Nutramigen) with a partially hydrolyzed cow's milk-based formula (pHF) (NanHA) as regards development of CMA. None of the mothers had a restricted diet during pregnancy or lactation period. In two prospective randomized intervention studies we evaluated the preventive effect of specific allergen avoidance and specific immunotherapy (SIT) in children with allergic asthma and allergic rhinoconjunctivitis, respectively. The combination of atopic heredity and elevated cord blood IgE resulted in the best predictive discrimination as regards development of allergic disease. The optimal high-risk group was defined by either double parental atopic predisposition or single atopic predisposition, the latter combined with a cord blood IgE > or = 0.3 kU/1. 66% of unselected infants were daily exposed to tobacco smoke, which was a significant risk factor for recurrent wheezing until the age of 1.5 yr. HR infants were breastfed for a longer period and less exposed to tobacco smoke than unselected infants. Exclusively BM/eHF for at least 4 months was associated with a significantly reduced cumulative prevalence of CMA [3.6% (5/141) vs. 20%(15/75) in the control group] up to 5 yr. The effect of the two different eHFs was similar. Exclusively breastfed infants were significantly less exposed to tobacco smoke and pets, had solid foods introduced later and belonged to higher social classes. pHF was significantly (p = 0.05) less effective than eHF as regards prevention of development of CMA. A diet period of 4 months seems to be as efficient as 6 months or more as regards development of CMA. A few ongoing prospective, randomized intervention studies have produced the first indication that avoidance of indoor allergens such as house dust mite (HDM) in HR infants may reduce the incidence of severe wheeze and sensitization during the first 1-4 yr of age. Long-term follow-up is awaited. In a prospective, double-blind placebo-controlled study in children with doctors diagnosed asthma and documented HDM allergy, we found that semipermeable polyurethane mattress and pillow encasings (Allergy Control) when compared with placebo encasings resulted in a significant perennial reduction of HDM exposure and a significant reduction in the needed dose of inhaled steroids by approximately 50% (mean dose: 408 microg--227 microg/day) after 1-yr follow-up. In another randomized prospective study we investigated the possible preventive effect of SIT in children with allergic rhinoconjunctivitis and grass/birch pollen allergy as regards development of asthma. Among those without asthma significantly fewer in the SIT group developed asthma when compared with the control group (19/79 = 24% vs.32/72 = 44%) after the first 3 yr; and methacholinebronchial provocation test results improved significant in the SIT group. The results of our studies support the evidence that the risk for development of early allergic manifestations e.g. CMA and atopic dermatitis can be reduced significantly by simple dietary measures for the first4 months of life. In all infants breastfeeding should beencouraged for at least 4-6 months, and exposure to tobacco smoke should be avoided during pregnancy and early childhood. In HR infants a documented hypoallergenic formula (at present eHF) is recommended if exclusive breastfeeding is not possible for the first 4 months. In homes of HR-infants, current evidence supports measures to reduce the levels of indoor allergens. e.g. HDM and pets. In symptomatic children allergen-specific treatment may influence both the symptoms and the prognosis. Allergen avoidance can reduce the need for pharmacological treatment, SIT may have the potential for preventing the development of asthma in children with allergic rhinoconjunctivitis. and it may be possible to interfere with the natural course of allergic diseases.
+~
+PMID: 15125698
+Journal: Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology"]
+    16901348 [label="Marklund, Ahlstedt,
+Nordström
+(2006 Aug 10)" href="https://pubmed.ncbi.nlm.nih.gov/16901348/" tooltip="Date: 2006 Aug 10
+Title: Health-related quality of life in food hypersensitive schoolchildren and their families: parents' perceptions.
+By: Marklund, Ahlstedt, Nordström
+~
+Abstract: About 20% of schoolchildren and adolescents in Sweden suffer from perceived food hypersensitivity (e.g. allergy or intolerance). Our knowledge of how child food hypersensitivity affects parents HRQL and what aspects of the hypersensitivity condition relate to HRQL deterioration in the family is limited. Thus the aim of this study was to investigate the parent-reported HRQL in families with a schoolchild considered to be food hypersensitive. The allergy-associated parameters we operated with were number of offending food items, adverse food reactions, additional hypersensitivity, allergic diseases and additional family members with food hypersensitivity. These parameters, along with age and gender were assessed in relation to child, parent and family HRQL.
+~
+PMID: 16901348
+Journal: Health and quality of life outcomes"]
+    18167160 [label="Niggemann, von
+Berg, Bollrath,
+Berdel, Schauer
+(2008 Jun)" href="https://pubmed.ncbi.nlm.nih.gov/18167160/" tooltip="Date: 2008 Jun
+Title: Safety and efficacy of a new extensively hydrolyzed formula for infants with cow's milk protein allergy.
+By: Niggemann, von Berg, Bollrath, Berdel, Schauer, Rieger, Haschke-Becher, Wahn
+~
+Abstract: Cow's milk protein allergy (CMPA) is best treated by complete elimination of cow's milk from the diet. For infants with CMPA who cannot be breast-fed, formulas based on extensively hydrolyzed proteins or on amino acids are the preferred substitutes for cow's milk-based formulas. In this study, we compared the tolerance and growth of infants with CMPA who were fed a new extensively hydrolyzed formula containing lactose (eHF) with those who were fed an amino acid formula (AAF). This was a prospective, multi-center, randomized, reference-controlled study. Seventy-seven infants <12 months old with suspected CMPA were enrolled. In 66 of these, CMPA was confirmed by oral challenge in a double-blind, placebo-controlled food challenge (DBPCFC) or by a medical history of severe allergic reaction to cow's milk and a positive skin prick test. These infants were then tested for their reaction to eHF and AAF in a DBPCFC. All infants tolerated both formulas and were randomized to receive either eHF (n = 34) or AAF (n = 32) for 180 days. Growth (weight, length, and head circumference) and tolerance [skin, gastro-intestinal, and respiratory tract symptoms of allergy] were evaluated after 30, 60, 90, and 180 days. There were no significant differences between the two groups in any of the growth measurements. Length and head circumference were similar to Euro-growth standards, but weight was slightly lower. Gastro-intestinal and respiratory tract symptoms of allergy were also similar in the two groups. However, whereas SCORAD scores for atopic dermatitis remained constant throughout the study in infants-fed eHF, there was a slight decrease in those fed AAF. Infants-fed eHF had significantly fewer incidents of vomiting than infants-fed AAF and a significantly higher frequency of soft stools. The new eHF is safe and well tolerated in infants diagnosed with CMPA.
+~
+PMID: 18167160
+Journal: Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology"]
+    18436293 [label="Hol, van Leer,
+Elink Schuurman, de
+Ruiter, Samsom
+(2008 Jun)" href="https://pubmed.ncbi.nlm.nih.gov/18436293/" tooltip="Date: 2008 Jun
+Title: The acquisition of tolerance toward cow's milk through probiotic supplementation: a randomized, controlled trial.
+By: Hol, van Leer, Elink Schuurman, de Ruiter, Samsom, Hop, Neijens, de Jongste, Nieuwenhuis, None
+~
+Abstract: Cow's milk allergy (CMA) is the most frequently diagnosed food allergy in infancy. In general, patients have a good prognosis because the majority acquire tolerance within the first years. Interventions have been proposed to accelerate tolerance and reduce morbidity. Probiotic supplementation could be effective through modulation of the immune system.
+~
+PMID: 18436293
+Journal: The Journal of allergy and clinical immunology"]
+    19889194 [label="Thompson-Chagoyan,
+Vieites, Maldonado,
+Edwards, Gil
+(2010 Mar)" href="https://pubmed.ncbi.nlm.nih.gov/19889194/" tooltip="Date: 2010 Mar
+Title: Changes in faecal microbiota of infants with cow's milk protein allergy--a Spanish prospective case-control 6-month follow-up study.
+By: Thompson-Chagoyan, Vieites, Maldonado, Edwards, Gil
+~
+Abstract: Major differences have been found in gut microbiota between healthy and allergic children, and a possible association between allergy and altered microbiota patterns have been postulated. The main object of the study was to compare the faecal microbiota between healthy and cow's milk protein allergy (CMPA) infants at the baseline immediately after the diagnosis, and to evaluate the changes in the faecal microbiota after 6 months of treatment of CMPA infants fed on extensively cow's milk protein hydrolyzed formulae without pre- or probiotics, compared with healthy children fed on standard milk formulae. The population comprised 92 infants aged 2-12 months who were non-allergic (n=46) or diagnosed with IgE-mediated CMPA (n=46). At baseline and at 6 months, faecal samples were collected into sterile plastic tubes, immediately placed into anaerobic jars and processed within 2 h of their collection. Weighed faeces samples were diluted from 10(-1) to 10(-7) and cultured in selective media for total count of aerobes, anaerobes, enterobacteria, bifidobacteria, lactobacilli, clostridia and yeasts. Samples from non-allergic and allergic infants were compared at baseline and at 6 months using appropriate statistical tests, considering p<0.05 to be significant. In comparison with healthy infants, CMPA infants had higher total bacteria and anaerobic counts and a lower yeast count at baseline, finding no difference in the proportions of each bacterial group between groups. After 6 months, CMPA infants showed higher anaerobic and lactobacilli counts, a higher proportion of lactobacilli, a lower count and proportion of bifidobacteria, and lower proportions of enterobacteria and yeasts. Comparison of faecal samples from CMPA infants between baseline and at 6 months showed an increase in count and proportion of lactobacilli and a decrease in counts and proportions of enterobacteria and bifidobacteria. Differences in the composition of gut microbiota between CMPA and healthy infants may influence in the development of or protection from this allergy.
+~
+PMID: 19889194
+Journal: Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology"]
+    20184604 [label="van der Aa,
+Heymans, van
+Aalderen, Sillevis
+Smitt, Knol
+(2010 May)" href="https://pubmed.ncbi.nlm.nih.gov/20184604/" tooltip="Date: 2010 May
+Title: Effect of a new synbiotic mixture on atopic dermatitis in infants: a randomized-controlled trial.
+By: van der Aa, Heymans, van Aalderen, Sillevis Smitt, Knol, Ben Amor, Goossens, Sprikkelman, None
+~
+Abstract: Clinical trials investigating the therapeutic effect of probiotics on atopic dermatitis (AD) show inconsistent results. Better results can possibly be achieved by combining probiotics with prebiotics, i.e. synbiotics.
+~
+PMID: 20184604
+Journal: Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology"]
+    21134569 [label="Fiocchi,
+Schünemann, Brozek,
+Restani, Beyer
+(2010 Dec)" href="https://pubmed.ncbi.nlm.nih.gov/21134569/" tooltip="Date: 2010 Dec
+Title: Diagnosis and Rationale for Action Against Cow's Milk Allergy (DRACMA): a summary report.
+By: Fiocchi, Schünemann, Brozek, Restani, Beyer, Troncone, Martelli, Terracciano, Bahna, Rancé, Ebisawa, Heine, Assa'ad, Sampson, Verduci, Bouygue, Baena-Cagnani, Canonica, Lockey
+~
+Abstract: The 2nd Milan Meeting on Adverse Reactions to Bovine Proteins was the venue for the presentation of the first consensus-based approach to the management of cow's milk allergy. It was also the first time that the Grading of Recommendations, Assessments, Development, and Evaluation approach for formulating guidelines and recommendations was applied to the field of food allergy. In this report we present the contributions in allergen science, epidemiology, natural history, evidence-based diagnosis, and therapy synthesized in the World Allergy Organization Diagnosis and Rationale for Action against Cow's Milk Allergy guidelines and presented during the meeting. A consensus emerged between discussants that cow's milk allergy management should reflect not only basic research but also a newer and better appraisal of the literature in the light of the values and preferences shared by patients and their caregivers in partnership. In the field of diagnosis, atopy patch testing and microarray technology have not yet evolved for use outside the research setting. With foreseeable breakthroughs (eg, immunotherapy and molecular diagnosis) in the offing, the step ahead in leadership can only stem from a worldwide organization implementing consensus-based clinical practice guidelines to diffuse and share clinical knowledge.
+~
+PMID: 21134569
+Journal: The Journal of allergy and clinical immunology"]
+    21782228 [label="Bisgaard, Li,
+Bonnelykke, Chawes,
+Skov
+(2011 Sep)" href="https://pubmed.ncbi.nlm.nih.gov/21782228/" tooltip="Date: 2011 Sep
+Title: Reduced diversity of the intestinal microbiota during infancy is associated with increased risk of allergic disease at school age.
+By: Bisgaard, Li, Bonnelykke, Chawes, Skov, Paludan-Müller, Stokholm, Smith, Krogfelt
+~
+Abstract: Changes in the human microbiome have been suggested as a risk factor for a number of lifestyle-related disorders, such as atopic diseases, possibly through a modifying influence on immune maturation in infancy.
+~
+PMID: 21782228
+Journal: The Journal of allergy and clinical immunology"]
+    22078573 [label="Berni Canani,
+Nocerino, Terrin,
+Coruzzo, Cosenza
+(2012 Feb)" href="https://pubmed.ncbi.nlm.nih.gov/22078573/" tooltip="Date: 2012 Feb
+Title: Effect of Lactobacillus GG on tolerance acquisition in infants with cow's milk allergy: a randomized trial.
+By: Berni Canani, Nocerino, Terrin, Coruzzo, Cosenza, Leone, Troncone
+~
+Abstract: None
+~
+PMID: 22078573
+Journal: The Journal of allergy and clinical immunology"]
+    22569527 [label="Koletzko,
+Niggemann, Arato,
+Dias, Heuschkel
+(2012 Aug)" href="https://pubmed.ncbi.nlm.nih.gov/22569527/" tooltip="Date: 2012 Aug
+Title: Diagnostic approach and management of cow's-milk protein allergy in infants and children: ESPGHAN GI Committee practical guidelines.
+By: Koletzko, Niggemann, Arato, Dias, Heuschkel, Husby, Mearin, Papadopoulou, Ruemmele, Staiano, Schäppi, Vandenplas, None
+~
+Abstract: This guideline provides recommendations for the diagnosis and management of suspected cow's-milk protein allergy (CMPA) in Europe. It presents a practical approach with a diagnostic algorithm and is based on recently published evidence-based guidelines on CMPA.
+~
+PMID: 22569527
+Journal: Journal of pediatric gastroenterology and nutrition"]
+    23268426 [label="Fiocchi, Brozek,
+Schünemann, Bahna,
+von Berg
+(2010 Apr)" href="https://pubmed.ncbi.nlm.nih.gov/23268426/" tooltip="Date: 2010 Apr
+Title: World Allergy Organization (WAO) Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) Guidelines.
+By: Fiocchi, Brozek, Schünemann, Bahna, von Berg, Beyer, Bozzola, Bradsher, Compalati, Ebisawa, Guzman, Li, Heine, Keith, Lack, Landi, Martelli, Rancé, Sampson, Stein, Terracciano, Vieths
+~
+Abstract: None
+~
+PMID: 23268426
+Journal: The World Allergy Organization journal"]
+    23582142 [label="Berni Canani,
+Nocerino, Terrin,
+Frediani, Lucarelli
+(2013 Sep)" href="https://pubmed.ncbi.nlm.nih.gov/23582142/" tooltip="Date: 2013 Sep
+Title: Formula selection for management of children with cow's milk allergy influences the rate of acquisition of tolerance: a prospective multicenter study.
+By: Berni Canani, Nocerino, Terrin, Frediani, Lucarelli, Cosenza, Passariello, Leone, Granata, Di Costanzo, Pezzella, Troncone
+~
+Abstract: To prospectively evaluate the effect of different dietary management strategies on the rate of acquisition of tolerance in children with cow's milk allergy (CMA).
+~
+PMID: 23582142
+Journal: The Journal of pediatrics"]
+    24216543 [label="Harvey, Langford,
+Harthoorn, Gillman,
+Green
+(2014 Feb)" href="https://pubmed.ncbi.nlm.nih.gov/24216543/" tooltip="Date: 2014 Feb
+Title: Effects on growth and tolerance and hypoallergenicity of an amino acid-based formula with synbiotics.
+By: Harvey, Langford, Harthoorn, Gillman, Green, Schwartz, Burks
+~
+Abstract: To evaluate the effects of an amino acid-based formula (AAF) with synbiotics on growth and tolerance in healthy infants. The hypoallergenicity of this AAF with synbiotics was evaluated in subjects with cow's milk allergy (CMA).
+~
+PMID: 24216543
+Journal: Pediatric research"]
+    24532064 [label="Ling, Li, Liu,
+Cheng, Luo
+(2014 Apr)" href="https://pubmed.ncbi.nlm.nih.gov/24532064/" tooltip="Date: 2014 Apr
+Title: Altered fecal microbiota composition associated with food allergy in infants.
+By: Ling, Li, Liu, Cheng, Luo, Tong, Yuan, Wang, Sun, Li, Xiang
+~
+Abstract: Increasing evidence suggests that perturbations in the intestinal microbiota composition of infants are implicated in the pathogenesis of food allergy (FA), while the actual structure and composition of the intestinal microbiota in human beings with FA remain unclear. Microbial diversity and composition were analyzed with parallel barcoded 454 pyrosequencing targeting the 16S rRNA gene hypervariable V1-V3 regions in the feces of 34 infants with FA (17 IgE mediated and 17 non-IgE mediated) and 45 healthy controls. Here, we showed that several key FA-associated bacterial phylotypes, but not the overall microbiota diversity, significantly changed in infancy fecal microbiota with FA and were associated with the development of FA. The proportion of abundant Bacteroidetes, Proteobacteria, and Actinobacteria phyla were significantly reduced, while the Firmicutes phylum was highly enriched in the FA group (P < 0.05). Abundant Clostridiaceae 1 organisms were prevalent in infants with FA at the family level (P = 0.016). FA-enriched phylotypes negatively correlated with interleukin-10, for example, the genera Enterococcus and Staphylococcus. Despite profound interindividual variability, levels of 20 predominant genera were significantly different between the FA and healthy control groups (P < 0.05). Infants with IgE-mediated FA had increased levels of Clostridium sensu stricto and Anaerobacter and decreased levels of Bacteroides and Clostridium XVIII (P < 0.05). A positive correlation was observed between Clostridium sensu stricto and serum-specific IgE (R = 0.655, P < 0.001). The specific microbiota signature could distinguish infants with IgE-mediated FA from non-IgE-mediated ones. Detailed microbiota analysis of a well-characterized cohort of infants with FA showed that dysbiosis of fecal microbiota with several FA-associated key phylotypes may play a pathogenic role in FA.
+~
+PMID: 24532064
+Journal: Applied and environmental microbiology"]
+    24588904 [label="Luyt, Ball,
+Makwana, Green,
+Bravin
+(2014)" href="https://pubmed.ncbi.nlm.nih.gov/24588904/" tooltip="Date: 2014
+Title: BSACI guideline for the diagnosis and management of cow's milk allergy.
+By: Luyt, Ball, Makwana, Green, Bravin, Nasser, Clark, None
+~
+Abstract: This guideline advises on the management of patients with cow's milk allergy. Cow's milk allergy presents in the first year of life with estimated population prevalence between 2% and 3%. The clinical manifestations of cow's milk allergy are very variable in type and severity making it the most difficult food allergy to diagnose. A careful age- and disease-specific history with relevant allergy tests including detection of milk-specific IgE (by skin prick test or serum assay), diagnostic elimination diet, and oral challenge will aid in diagnosis in most cases. Treatment is advice on cow's milk avoidance and suitable substitute milks. Cow's milk allergy often resolves. Reintroduction can be achieved by the graded exposure, either at home or supervised in hospital depending on severity, using a milk ladder. Where cow's milk allergy persists, novel treatment options may include oral tolerance induction, although most authors do not currently recommend it for routine clinical practice. Cow's milk allergy must be distinguished from primary lactose intolerance. This guideline was prepared by the Standards of Care Committee (SOCC) of the British Society for Allergy and Clinical Immunology (BSACI) and is intended for clinicians in secondary and tertiary care. The recommendations are evidence based, but where evidence is lacking the panel of experts in the committee reached consensus. Grades of recommendation are shown throughout. The document encompasses epidemiology, natural history, clinical presentations, diagnosis, and treatment.
+~
+PMID: 24588904
+Journal: Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology"]
+    24950845 [label="Howe, Franxman,
+Teich, Greenhawt
+(2014 Jul)" href="https://pubmed.ncbi.nlm.nih.gov/24950845/" tooltip="Date: 2014 Jul
+Title: What affects quality of life among caregivers of food-allergic children?
+By: Howe, Franxman, Teich, Greenhawt
+~
+Abstract: Food allergy is associated with decreased caregiver quality of life (QoL). The influence of accurate reaction perception, allergen, and sociodemographic factors on caregiver QoL is poorly understood.
+~
+PMID: 24950845
+Journal: Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology"]
+    25492096 [label="Warren, Gupta,
+Sohn, Oh, Lal
+(2015 Feb)" href="https://pubmed.ncbi.nlm.nih.gov/25492096/" tooltip="Date: 2015 Feb
+Title: Differences in empowerment and quality of life among parents of children with food allergy.
+By: Warren, Gupta, Sohn, Oh, Lal, Garfield, Caruso, Wang, Pongracic
+~
+Abstract: Living with food allergy has been found to adversely affect quality of life. Previous studies of the psychosocial impact of food allergy on caregivers have focused on mothers.
+~
+PMID: 25492096
+Journal: Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology"]
+    25845680 [label="Burks, Harthoorn,
+Van Ampting, Oude
+Nijhuis, Langford
+(2015 Jun)" href="https://pubmed.ncbi.nlm.nih.gov/25845680/" tooltip="Date: 2015 Jun
+Title: Synbiotics-supplemented amino acid-based formula supports adequate growth in cow's milk allergic infants.
+By: Burks, Harthoorn, Van Ampting, Oude Nijhuis, Langford, Wopereis, Goldberg, Ong, Essink, Scott, Harvey
+~
+Abstract: Children with cow's milk allergy (CMA) are at risk for inadequate nutritional intake and growth. Dietary management of CMA, therefore, requires diets that are not only hypoallergenic but also support adequate growth in this population. This study assessed growth of CMA infants when using a new amino acid-based formula (AAF) with prebiotics and probiotics (synbiotics) and evaluated its safety in the intended population.
+~
+PMID: 25845680
+Journal: Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology"]
+    25864712 [label="Schoemaker,
+Sprikkelman,
+Grimshaw, Roberts,
+Grabenhenrich
+(2015 Aug)" href="https://pubmed.ncbi.nlm.nih.gov/25864712/" tooltip="Date: 2015 Aug
+Title: Incidence and natural history of challenge-proven cow's milk allergy in European children--EuroPrevall birth cohort.
+By: Schoemaker, Sprikkelman, Grimshaw, Roberts, Grabenhenrich, Rosenfeld, Siegert, Dubakiene, Rudzeviciene, Reche, Fiandor, Papadopoulos, Malamitsi-Puchner, Fiocchi, Dahdah, Sigurdardottir, Clausen, Stańczyk-Przyłuska, Zeman, Mills, McBride, Keil, Beyer
+~
+Abstract: Cow's milk allergy (CMA) is one of the most commonly reported childhood food problems. Community-based incidence and prevalence estimates vary widely, due to possible misinterpretations of presumed reactions to milk and differences in study design, particularly diagnostic criteria.
+~
+PMID: 25864712
+Journal: Allergy"]
+    26394008 [label="Berni Canani,
+Sangwan, Stefka,
+Nocerino, Paparo
+(2016 Mar)" href="https://pubmed.ncbi.nlm.nih.gov/26394008/" tooltip="Date: 2016 Mar
+Title: Lactobacillus rhamnosus GG-supplemented formula expands butyrate-producing bacterial strains in food allergic infants.
+By: Berni Canani, Sangwan, Stefka, Nocerino, Paparo, Aitoro, Calignano, Khan, Gilbert, Nagler
+~
+Abstract: Dietary intervention with extensively hydrolyzed casein formula supplemented with Lactobacillus rhamnosus GG (EHCF+LGG) accelerates tolerance acquisition in infants with cow's milk allergy (CMA). We examined whether this effect is attributable, at least in part, to an influence on the gut microbiota. Fecal samples from healthy controls (n=20) and from CMA infants (n=19) before and after treatment with EHCF with (n=12) and without (n=7) supplementation with LGG were compared by 16S rRNA-based operational taxonomic unit clustering and oligotyping. Differential feature selection and generalized linear model fitting revealed that the CMA infants have a diverse gut microbial community structure dominated by Lachnospiraceae (20.5±9.7%) and Ruminococcaceae (16.2±9.1%). Blautia, Roseburia and Coprococcus were significantly enriched following treatment with EHCF and LGG, but only one genus, Oscillospira, was significantly different between infants that became tolerant and those that remained allergic. However, most tolerant infants showed a significant increase in fecal butyrate levels, and those taxa that were significantly enriched in these samples, Blautia and Roseburia, exhibited specific strain-level demarcations between tolerant and allergic infants. Our data suggest that EHCF+LGG promotes tolerance in infants with CMA, in part, by influencing the strain-level bacterial community structure of the infant gut.
+~
+PMID: 26394008
+Journal: The ISME journal"]
+    27292825 [label="Bunyavanich, Shen,
+Grishin, Wood,
+Burks
+(2016 10)" href="https://pubmed.ncbi.nlm.nih.gov/27292825/" tooltip="Date: 2016 10
+Title: Early-life gut microbiome composition and milk allergy resolution.
+By: Bunyavanich, Shen, Grishin, Wood, Burks, Dawson, Jones, Leung, Sampson, Sicherer, Clemente
+~
+Abstract: Gut microbiota may play a role in the natural history of cow's milk allergy.
+~
+PMID: 27292825
+Journal: The Journal of allergy and clinical immunology"]
+    27895813 [label="Fiocchi, Dahda,
+Dupont, Campoy,
+Fierro
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27895813/" tooltip="Date: 2016
+Title: Cow's milk allergy: towards an update of DRACMA guidelines.
+By: Fiocchi, Dahda, Dupont, Campoy, Fierro, Nieto
+~
+Abstract: In 2010, the diagnosis and treatment of IgE-mediated CMA were systematized in a GRADE guideline.
+~
+PMID: 27895813
+Journal: The World Allergy Organization journal"]
+    27933160 [label="van Esch, Abbring,
+Diks, Dingjan,
+Harthoorn
+(2016 06)" href="https://pubmed.ncbi.nlm.nih.gov/27933160/" tooltip="Date: 2016 06
+Title: Post-sensitization administration of non-digestible oligosaccharides and Bifidobacterium breve M-16V reduces allergic symptoms in mice.
+By: van Esch, Abbring, Diks, Dingjan, Harthoorn, Vos, Garssen
+~
+Abstract: To support dietary management of severe cow's milk allergic infants, a synbiotic mixture of non-digestible oligosaccharides and Bifidobacterium breve M-16V (B. breve) was designed from source materials that are completely cow's milk-free. It was investigated whether this specific synbiotic concept can reduce an established food allergic response in a research model for hen's egg allergy. Mice were orally sensitized once a week for 5 weeks to ovalbumin (OVA) using cholera toxin (CT) as an adjuvant. Non-sensitized mice received CT in PBS only. Sensitized mice were fed a control diet or a diet enriched with short-chain- (scFOS) and long-chain fructo-oligosaccharides (lcFOS), B. breve or scFOSlcFOS + B. breve for 3 weeks starting after the last sensitization. Non-sensitized mice received the control diet. Anaphylactic shock symptoms, acute allergic skin responses and serum specific IgE, mMCP-1 and galectin-9 were measured upon OVA challenge. Activated Th2-, Th1-cells and regulatory T-cells were quantified in spleen and mesenteric lymph nodes (MLN) and cytokine profiles were analyzed. Short chain fatty acids (SCFA) were measured in ceacal samples. The acute allergic skin response was reduced in mice fed the scFOSlcFOS + B. breve diet compared to mice fed any of the other diets. A reduction in mast cell degranulation (mMCP-1) and anaphylactic shock symptoms was also observed in these mice. Unstimulated splenocyte cultures produced increased levels of IL10 and IFNg in mice fed the scFOSlcFOS + B. breve diet. Correspondingly, increased percentages of activated Th1 cells were observed in the spleen. Allergen-specific re-stimulation of splenocytes showed a decrease in IL5 production. In summary; post-sensitization administration of scFOSlcFOS + B. breve was effective in reducing allergic symptoms after allergen challenge. These effects coincided with changes in regulatory and effector T-cell subsets and increases in the SCFA propionic acid. These results suggest immune modulatory benefits of dietary intervention with a unique combination of scFOSlcFOS + B. breve in established food allergy. Whether these effects translate to human applications is subject for ongoing clinical studies.
+~
+PMID: 27933160
+Journal: Immunity, inflammation and disease"]
+    28043872 [label="Berni Canani, Di
+Costanzo, Bedogni,
+Amoroso, Cosenza
+(2017 Jun)" href="https://pubmed.ncbi.nlm.nih.gov/28043872/" tooltip="Date: 2017 Jun
+Title: Extensively hydrolyzed casein formula containing Lactobacillus rhamnosus GG reduces the occurrence of other allergic manifestations in children with cow's milk allergy: 3-year randomized controlled trial.
+By: Berni Canani, Di Costanzo, Bedogni, Amoroso, Cosenza, Di Scala, Granata, Nocerino
+~
+Abstract: Children with cow's milk allergy (CMA) have an increased risk of other allergic manifestations (AMs).
+~
+PMID: 28043872
+Journal: The Journal of allergy and clinical immunology"]
+    28657607 [label="Aitoro, Paparo,
+Amoroso, Di
+Costanzo, Cosenza
+(2017 Jun 28)" href="https://pubmed.ncbi.nlm.nih.gov/28657607/" tooltip="Date: 2017 Jun 28
+Title: Gut Microbiota as a Target for Preventive and Therapeutic Intervention against Food Allergy.
+By: Aitoro, Paparo, Amoroso, Di Costanzo, Cosenza, Granata, Di Scala, Nocerino, Trinchese, Montella, Ercolini, Berni Canani
+~
+Abstract: The gut microbiota plays a pivotal role in immune system development and function. Modification in the gut microbiota composition (dysbiosis) early in life is a critical factor affecting the development of food allergy. Many environmental factors including caesarean delivery, lack of breast milk, drugs, antiseptic agents, and a low-fiber/high-fat diet can induce gut microbiota dysbiosis, and have been associated with the occurrence of food allergy. New technologies and experimental tools have provided information regarding the importance of select bacteria on immune tolerance mechanisms. Short-chain fatty acids are crucial metabolic products of gut microbiota responsible for many protective effects against food allergy. These compounds are involved in epigenetic regulation of the immune system. These evidences provide a foundation for developing innovative strategies to prevent and treat food allergy. Here, we present an overview on the potential role of gut microbiota as the target of intervention against food allergy.
+~
+PMID: 28657607
+Journal: Nutrients"]
+    28698533 [label="Vandenplas
+(2017 Jul 10)" href="https://pubmed.ncbi.nlm.nih.gov/28698533/" tooltip="Date: 2017 Jul 10
+Title: Prevention and Management of Cow's Milk Allergy in Non-Exclusively Breastfed Infants.
+By: Vandenplas
+~
+Abstract: Introduction: The prevention and management of cow milk allergy (CMA) is still debated. Since CMA is much less frequent in breastfed infants, breastfeeding should be stimulated. Method: Literature was searched using databases to find original papers and reviews on this topic. Results: Hydrolysates with a clinical proof of efficacy are recommended in the prevention and treatment of CMA. However, not all meta-analyses conclude that hydrolysates do prevent CMA or other atopic manifestations such as atopic dermatitis. There are pros and cons to consider partially hydrolysed protein as an option for starter infant formula for each non-exclusively breastfed infant. A challenge test is still recommended as the most specific and sensitive diagnostic test, although a positive challenge test does not proof that the immune system is involved. The Cow Milk Symptom Score (CoMiSS™) is an awareness tool that enables healthcare professionals to better recognize symptoms related to the ingestion of cow milk, but it still needs validation as diagnostic tool. The current recommended elimination diet is a cow milk based extensive hydrolysate, although rice hydrolysates or soy infant formula can be considered in some cases. About 10 to 15% of infants allergic to cow milk will also react to soy. Mainly because of the higher cost, amino acid based formula is reserved for severe cases. There is no place for infant formula with intact protein from other animals as cross-over allergenicity is high. During recent years, attention focused also on the bifidogenic effect of prebiotics and more recently also on human milk oligosaccharides. A bifidogenic gastrointestinal microbiome may decrease the risk to develop allergic disease. The addition of probiotics and prebiotics to the elimination diet in treatment may enhance the development of tolerance development. Conclusion: Breastfeeding is the best way to feed infants. Cow milk based extensive hydrolysates remain the first option for the treatment of CMA for the majority of patients, while amino acid formulas are reserved for the most severe cases. Rice hydrolysates and soy infant formula are second choice options. Partial hydrolysates with clinical proof of efficacy are recommended in some guidelines in the prevention of CMA and allergic disease in at risk infants, and may be considered as an option as protein source in starter infant formula.
+~
+PMID: 28698533
+Journal: Nutrients"]
+    28852472 [label="Venter, Brown,
+Meyer, Walsh, Shah
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28852472/" tooltip="Date: 2017
+Title: Better recognition, diagnosis and management of non-IgE-mediated cow's milk allergy in infancy: iMAP-an international interpretation of the MAP (Milk Allergy in Primary Care) guideline.
+By: Venter, Brown, Meyer, Walsh, Shah, Nowak-Węgrzyn, Chen, Fleischer, Heine, Levin, Vieira, Fox
+~
+Abstract: Cow's milk allergy (CMA) is one of the most common presentations of food allergy seen in early childhood. It is also one of the most complex food allergies, being implicated in IgE-mediated food allergy as well as diverse manifestations of non-IgE-mediated food allergy. For example, gastrointestinal CMA may present as food protein induced enteropathy, enterocolitis or proctocolitis. Concerns regarding the early and timely diagnosis of CMA have been highlighted over the years. In response to these, guideline papers from the United Kingdom (UK), Australia, Europe, the Americas and the World Allergy Organisation have been published. The UK guideline, 'Diagnosis and management of non-IgE-mediated cow's milk allergy in infancy-a UK primary care practical guide' was published in this journal in 2013. This Milk Allergy in Primary Care (MAP) guideline outlines in simple algorithmic form, both the varying presentations of cow's milk allergy and also focuses on the practical management of the most common presentation, namely mild-to-moderate non-IgE-mediated allergy. Based on the international uptake of the MAP guideline, it became clear that there was a need for practical guidance beyond the UK. Consequently, this paper presents an international interpretation of the MAP guideline to help practitioners in primary care settings around the world. It incorporates further published UK guidance, feedback from UK healthcare professionals and affected families and, importantly, also international guidance and expertise.
+~
+PMID: 28852472
+Journal: Clinical and translational allergy"]
+    29109046 [label="Meyer, Groetch,
+Venter
+(2018 Mar - Apr)" href="https://pubmed.ncbi.nlm.nih.gov/29109046/" tooltip="Date: 2018 Mar - Apr
+Title: When Should Infants with Cow's Milk Protein Allergy Use an Amino Acid Formula? A Practical Guide.
+By: Meyer, Groetch, Venter
+~
+Abstract: Cow's milk protein allergy (CMPA) is the most common food allergy in childhood and its prevalence ranges between 1.9% and 4.9%. Most children present with CMPA at age less than 1 year and therefore may require a hypoallergenic formula in the absence of breast milk. Hypoallergenic formulas include both extensively hydrolyzed formula (EHF) and amino acid formula (AAF). For most children with a CMPA, an EHF will be sufficient for symptom resolution, as reflected in current guidelines, but there is a subset of children with CMPA where an AAF may be indicated. The appropriate use of an AAF is a highly debated topic, because there is a significant fiscal burden to either the health care system or the parents. From the literature, the following themes were identified as possible reasons for choosing an AAF: (1) symptoms not fully resolved on EHF, (2) faltering growth/failure to thrive, (3) multiple food eliminations, (4) severe complex gastrointestinal food allergies, (5) eosinophilic esophagitis, (6) food protein-induced enterocolitis syndrome, (7) severe eczema, and (8) symptoms while breast-feeding. Each of these themes was critically reviewed using all available published data and found that using an AAF in height growth faltering may be indicated. In addition, patients who end up on an AAF often present with multisystem involvement, requiring multiple food eliminations and fall within the more severe spectrum of gastrointestinal allergies. In eosinophilic esophagitis, all current recommendations support the use of an AAF as first-line approach, and in children with anaphylaxis, despite limited evidence an AAF is recommended because of the potential risk for a severe reaction. The use of an AAF in children who are breast-fed remains a highly controversial topic and at all times breast-feeding should be supported in children with CMPA. This article provides a practical guide that is evidence based for health care professionals to the use of AAF.
+~
+PMID: 29109046
+Journal: The journal of allergy and clinical immunology. In practice"]
+    29155807 [label="Candy, Van Ampting,
+Oude Nijhuis,
+Wopereis, Butt
+(2018 03)" href="https://pubmed.ncbi.nlm.nih.gov/29155807/" tooltip="Date: 2018 03
+Title: A synbiotic-containing amino-acid-based formula improves gut microbiota in non-IgE-mediated allergic infants.
+By: Candy, Van Ampting, Oude Nijhuis, Wopereis, Butt, Peroni, Vandenplas, Fox, Shah, West, Garssen, Harthoorn, Knol, Michaelis
+~
+Abstract: BackgroundPrebiotics and probiotics (synbiotics) can modify gut microbiota and have potential in allergy management when combined with amino-acid-based formula (AAF) for infants with cow's milk allergy (CMA).MethodsThis multicenter, double-blind, randomized controlled trial investigated the effects of an AAF-including synbiotic blend on percentages of bifidobacteria and Eubacterium rectale/Clostridium coccoides group (ER/CC) in feces from infants with suspected non-IgE-mediated CMA. Feces from age-matched healthy breastfed infants were used as reference (healthy breastfed reference (HBR)) for primary outcomes. The CMA subjects were randomized and received test or control formula for 8 weeks. Test formula was a hypoallergenic, nutritionally complete AAF including a prebiotic blend of fructo-oligosaccharides and the probiotic strain Bifidobacterium breve M-16V. Control formula was AAF without synbiotics.ResultsA total of 35 (test) and 36 (control) subjects were randomized; HBR included 51 infants. At week 8, the median percentage of bifidobacteria was higher in the test group than in the control group (35.4% vs. 9.7%, respectively; P<0.001), whereas ER/CC was lower (9.5% vs. 24.2%, respectively; P<0.001). HBR levels of bifidobacteria and ER/CC were 55% and 6.5%, respectively.ConclusionAAF including specific synbiotics, which results in levels of bifidobacteria and ER/CC approximating levels in the HBR group, improves the fecal microbiota of infants with suspected non-IgE-mediated CMA.
+~
+PMID: 29155807
+Journal: Pediatric research"]
+    29308116 [label="Fiocchi,
+Schunemann,
+Ansotegui, Assa'ad,
+Bahna
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/29308116/" tooltip="Date: 2018
+Title: The global impact of the DRACMA guidelines cow's milk allergy clinical practice.
+By: Fiocchi, Schunemann, Ansotegui, Assa'ad, Bahna, Canani, Bozzola, Dahdah, Dupont, Ebisawa, Galli, Li, Kamenwa, Lack, Martelli, Pawankar, Said, Sánchez-Borges, Sampson, Shamir, Spergel, Terracciano, Vandenplas, Venter, Waserman, Wong, Brozek
+~
+Abstract: The 2010 Diagnosis and Rationale for Action against Cow's Milk Allergy (DRACMA) guidelines are the only Grading of Recommendations Assessment, Development and Evaluation (GRADE) guidelines for cow's milk allergy (CMA). They indicate oral food challenge (OFC) as the reference test for diagnosis, and suggest the choice of specific alternative formula in different clinical conditions. Their recommendations are flexible, both in diagnosis and in treatment.
+~
+PMID: 29308116
+Journal: The World Allergy Organization journal"]
+    29318631 [label="Fazlollahi, Chun,
+Grishin, Wood,
+Burks
+(2018 Jul)" href="https://pubmed.ncbi.nlm.nih.gov/29318631/" tooltip="Date: 2018 Jul
+Title: Early-life gut microbiome and egg allergy.
+By: Fazlollahi, Chun, Grishin, Wood, Burks, Dawson, Jones, Leung, Sampson, Sicherer, Bunyavanich
+~
+Abstract: Gut microbiota may play a role in egg allergy. We sought to examine the association between early-life gut microbiota and egg allergy.
+~
+PMID: 29318631
+Journal: Allergy"]
+    30131575 [label="Berni Canani, De
+Filippis, Nocerino,
+Paparo, Di Scala
+(2018 08 21)" href="https://pubmed.ncbi.nlm.nih.gov/30131575/" tooltip="Date: 2018 08 21
+Title: Gut microbiota composition and butyrate production in children affected by non-IgE-mediated cow's milk allergy.
+By: Berni Canani, De Filippis, Nocerino, Paparo, Di Scala, Cosenza, Della Gatta, Calignano, De Caro, Laiola, Gilbert, Ercolini
+~
+Abstract: Cow's milk allergy (CMA) is one of the earliest and most common food allergy and can be elicited by both IgE- or non-IgE-mediated mechanism. We previously described dysbiosis in children with IgE-mediated CMA and the effect of dietary treatment with extensively hydrolyzed casein formula (EHCF) alone or in combination with the probiotic Lactobacillus rhamnosus GG (LGG). On the contrary, the gut microbiota in non-IgE-mediated CMA remains uncharacterized. In this study we evaluated gut microbiota composition and fecal butyrate levels in children affected by non-IgE-mediated CMA. We found a gut microbiota dysbiosis in non-IgE-mediated CMA, driven by an enrichment of Bacteroides and Alistipes. Comparing these results with those previously obtained in children with IgE-mediated CMA, we demonstrated overlapping signatures in the gut microbiota dysbiosis of non-IgE-mediated and IgE-mediated CMA children, characterized by a progressive increase in Bacteroides from healthy to IgE-mediated CMA patients. EHCF containg LGG was more strongly associated with an effect on dysbiosis and on butyrate production if compared to what observed in children treated with EHCF alone. If longitudinal cohort studies in children with CMA will confirm these results, gut microbiota dysbiosis could be a relevant target for innovative therapeutic strategies in children with non-IgE-mediated CMA.
+~
+PMID: 30131575
+Journal: Scientific reports"]
+    30314304 [label="Díaz, Guadamuro,
+Espinosa-Martos,
+Mancabelli, Jiménez
+(2018 Oct 11)" href="https://pubmed.ncbi.nlm.nih.gov/30314304/" tooltip="Date: 2018 Oct 11
+Title: Microbiota and Derived Parameters in Fecal Samples of Infants with Non-IgE Cow's Milk Protein Allergy under a Restricted Diet.
+By: Díaz, Guadamuro, Espinosa-Martos, Mancabelli, Jiménez, Molinos-Norniella, Pérez-Solis, Milani, Rodríguez, Ventura, Bousoño, Gueimonde, Margolles, Díaz, Delgado
+~
+Abstract: Cow's milk protein allergy (CMPA) is the most common food allergy in infancy. Non-IgE mediated (NIM) forms are little studied and the responsible mechanisms of tolerance acquisition remain obscure. Our aim was to study the intestinal microbiota and related parameters in the fecal samples of infants with NIM-CMPA, to establish potential links between type of formula substitutes, microbiota, and desensitization. Seventeen infants between one and two years old, diagnosed with NIM-CMPA, were recruited. They were all on an exclusion diet for six months, consuming different therapeutic protein hydrolysates. After this period, stool samples were obtained and tolerance development was evaluated by oral challenges. A control group of 10 age-matched healthy infants on an unrestricted diet were included in the study. Microbiota composition, short-chain fatty acids, calprotectin, and transforming growth factor (TGF)-β₁ levels were determined in fecal samples from both groups. Infants with NIM-CMPA that consumed vegetable protein-based formulas presented microbiota colonization patterns different from those fed with an extensively hydrolyzed formula. Differences in microbiota composition and fecal parameters between NIM-CMPA and healthy infants were observed. Non-allergic infants showed a significantly higher proportion of Bacteroides compared to infants with NIM-CMPA. The type of protein hydrolysate was found to determine gut microbiota colonization and influence food allergy resolution in NIM-CMPA cases.
+~
+PMID: 30314304
+Journal: Nutrients"]
+    30651972 [label="Fox, Wopereis, Van
+Ampting, Oude
+Nijhuis, Butt
+(2019)" href="https://pubmed.ncbi.nlm.nih.gov/30651972/" tooltip="Date: 2019
+Title: A specific synbiotic-containing amino acid-based formula in dietary management of cow's milk allergy: a randomized controlled trial.
+By: Fox, Wopereis, Van Ampting, Oude Nijhuis, Butt, Peroni, Vandenplas, Candy, Shah, West, Garssen, Harthoorn, Knol, Michaelis, None
+~
+Abstract: Here we report follow-up data from a double-blind, randomized, controlled multicenter trial, which investigated fecal microbiota changes with a new amino acid-based formula (AAF) including synbiotics in infants with non-immunoglobulin E (IgE)-mediated cow's milk allergy (CMA).
+~
+PMID: 30651972
+Journal: Clinical and translational allergy"]
+    30828329 [label="Berni Canani,
+Paparo, Nocerino,
+Di Scala, Della
+Gatta
+(2019)" href="https://pubmed.ncbi.nlm.nih.gov/30828329/" tooltip="Date: 2019
+Title: Gut Microbiome as Target for Innovative Strategies Against Food Allergy.
+By: Berni Canani, Paparo, Nocerino, Di Scala, Della Gatta, Maddalena, Buono, Bruno, Voto, Ercolini
+~
+Abstract: The dramatic increase in food allergy prevalence and severity globally requires effective strategies. Food allergy derives from a defect in immune tolerance mechanisms. Immune tolerance is modulated by gut microbiota function and structure, and microbiome alterations (dysbiosis) have a pivotal role in the development of food allergy. Environmental factors, including a low-fiber/high-fat diet, cesarean delivery, antiseptic agents, lack of breastfeeding, and drugs can induce gut microbiome dysbiosis, and have been associated with food allergy. New experimental tools and technologies have provided information regarding the role of metabolites generated from dietary nutrients and selected probiotic strains that could act on immune tolerance mechanisms. The mechanisms are multiple and still not completely defined. Increasing evidence has provided useful information on optimal bacterial species/strains, dosage, and timing for intervention. The increased knowledge of the crucial role played by nutrients and gut microbiota-derived metabolites is opening the way to a post-biotic approach in the stimulation of immune tolerance through epigenetic regulation. This review focused on the potential role of gut microbiome as the target for innovative strategies against food allergy.
+~
+PMID: 30828329
+Journal: Frontiers in immunology"]
+    31164972 [label="Wopereis, van
+Ampting,
+Cetinyurek-Yavuz,
+Slump, Candy
+(2019)" href="https://pubmed.ncbi.nlm.nih.gov/31164972/" tooltip="Date: 2019
+Title: A specific synbiotic-containing amino acid-based formula restores gut microbiota in non-IgE mediated cow's milk allergic infants: a randomized controlled trial.
+By: Wopereis, van Ampting, Cetinyurek-Yavuz, Slump, Candy, Butt, Peroni, Vandenplas, Fox, Shah, Roeselers, Harthoorn, Michaelis, Knol, West, None
+~
+Abstract: Altered gut microbiota is implicated in cow's milk allergy (CMA) and differs markedly from healthy, breastfed infants. Infants who suffer from severe CMA often rely on cow's milk protein avoidance and, when breastfeeding is not possible, on specialised infant formulas such as amino-acid based formulas (AAF). Herein, we report the effects of an AAF including specific synbiotics on oral and gastrointestinal microbiota of infants with non-IgE mediated CMA with reference to healthy, breastfed infants.
+~
+PMID: 31164972
+Journal: Clinical and translational allergy"]
+    31194186 [label="Fox, Bird, Fiocchi,
+Knol, Meyer
+(2019)" href="https://pubmed.ncbi.nlm.nih.gov/31194186/" tooltip="Date: 2019
+Title: The potential for pre-, pro- and synbiotics in the management of infants at risk of cow's milk allergy or with cow's milk allergy: An exploration of the rationale, available evidence and remaining questions.
+By: Fox, Bird, Fiocchi, Knol, Meyer, Salminen, Sitang, Szajewska, Papadopoulos
+~
+Abstract: Cow's milk allergy is one of the most commonly reported childhood food allergies, with increasing incidence, persistence and severity in many countries across the world. The World Allergy Organization Special Committee on Food Allergy has identified cow's milk allergy as an area in need of a rationale-based approach in order to make progress against what it considered an onerous problem, with worldwide public health impact. There is growing interest in the potential role of the gut microbiota in the early programming and development of immune responses and allergy. This discussion paper considers the rationale and available evidence for modulation of the gut microbiota and for the use of synbiotics in the management of infants at risk of, or living with cow's milk allergy and summarizes remaining research questions that need to be answered for the development of evidence-based recommendations.
+~
+PMID: 31194186
+Journal: The World Allergy Organization journal"]
+    31230196 [label="Qamer, Deshmukh,
+Patole
+(2019 Aug)" href="https://pubmed.ncbi.nlm.nih.gov/31230196/" tooltip="Date: 2019 Aug
+Title: Probiotics for cow's milk protein allergy: a systematic review of randomized controlled trials.
+By: Qamer, Deshmukh, Patole
+~
+Abstract: Cow's milk protein allergy (CMPA) is the commonest food allergy in infancy and is associated with significant health burden. Given their immune modulatory properties, probiotics have been proposed as a strategy for management of CMPA. We aimed to systematically review efficacy and safety of probiotics in the management of CMPA. Databases PubMed, EMBASE, CINAHL, Cochrane Central Library, and Google scholar were searched in August 2018 for randomized controlled trials (RCT) of probiotic supplementation as an adjunct in the management of infants with suspected/proven CMPA. Primary outcomes were resolution of hematochezia and acquisition of tolerance to CMP at 6, 12, 24, and 36 months. Secondary outcomes included effect on allergic symptoms (SCORAD index), growth, gut microbiota, and adverse effects. A total of 10 RCTs (n = 845; probiotics, 422; control, 423) with low to unclear risk of bias were included. Meta-analysis showed probiotic supplementation was not associated with earlier resolution of hematochezia (n = 87; RR: 1.45 (95% CI: 0.96-2.18), p = 0.08; level of evidence (LOE), very low), in presumed CMPA. In confirmed CMPA, probiotics were associated with higher rate of acquisition of tolerance to CMP at the end of 3 years compared with placebo (N = 493; RR, 1.47; 95% CI, (1.17-1.84); p = 0.0009; LOE, low]. Meta-analysis was not possible for other outcomes. There were no probiotic related adverse effects. Conclusion: Limited low-quality evidence indicates that probiotic supplementation may be associated with earlier acquisition of tolerance to CMP in children with CMPA. Large well-designed trials are essential to confirm these findings. What is Known: • Cow's milk protein allergy (CMPA) is one of the commonest food allergies in children. CMPA is associated with significant socioeconomic burden. • Elimination diet and extensively hydrolyzed formula is the mainstay of the management of CMPA. What is New: • This first systematic review of randomized controlled trials shows that probiotics as an adjuvant can lead to earlier acquisition of tolerance to CMP in children at 36 months of age. However, the evidence is low quality and influenced by data from one large study. • Probiotic supplementation was not associated with earlier resolution of hematochezia.
+~
+PMID: 31230196
+Journal: European journal of pediatrics"]
+    31234330 [label="D'Auria, Salvatore,
+Pozzi, Mantegazza,
+Sartorio
+(2019 Jun 21)" href="https://pubmed.ncbi.nlm.nih.gov/31234330/" tooltip="Date: 2019 Jun 21
+Title: Cow's Milk Allergy: Immunomodulation by Dietary Intervention.
+By: D'Auria, Salvatore, Pozzi, Mantegazza, Sartorio, Pensabene, Baldassarre, Agosti, Vandenplas, Zuccotti
+~
+Abstract: Cow's milk proteins cause allergic symptoms in 2% to 3% of all infants. In these individuals, the physiological mechanism of tolerance is broken with subsequent possible sensitization to antigens, which can lead eventually to allergic responses. The present review aims to provide an overview of different aspects of immune modulation by dietary intervention in cow's milk allergy (CMA). It focuses on pathogenetic mechanisms of different CMA related disorders, e.g., gastroesophageal reflux and eosinophilic esophagitis, highlighting the role of dietary management on innate and adaptive immune systems. The traditional dietary management of CMA has greatly changed in the last years, moving from a passive approach, consisting of an elimination diet to relieve symptoms, to a 'proactive' one, meaning the possibility to actively modulate the immune system. Thus, new insights into the role of hydrolysates and baked milk in immunomodulation are addressed here. Additionally, nutritional components, such as pre- and probiotics, may target the immune system via microbiota, offering a possible road map for new CMA prevention and treatment strategies.
+~
+PMID: 31234330
+Journal: Nutrients"]
+    31428100 [label="Guadamuro, Diaz,
+Jiménez, Molinos-
+Norniella, Pérez-
+Solis
+(2019)" href="https://pubmed.ncbi.nlm.nih.gov/31428100/" tooltip="Date: 2019
+Title: Fecal Changes Following Introduction of Milk in Infants With Outgrowing Non-IgE Cow's Milk Protein Allergy Are Influenced by Previous Consumption of the Probiotic LGG.
+By: Guadamuro, Diaz, Jiménez, Molinos-Norniella, Pérez-Solis, Rodríguez, Bousoño, Gueimonde, Margolles, Delgado, Díaz
+~
+Abstract: Cow's milk protein allergy (CMPA) is the most common allergy in the first year of life. Non-IgE mediated CMPA is characterized by digestive symptoms and tolerance development before the age of three. Gut microbiota composition in early life has been associated with food allergy. The ingestion of different foods/nutrients may mark different shifts in the microbial colonization of the infant intestine as well as the consumption of probiotics. Aim: To analyze changes in microbiota composition and metabolic and cytokine profiles in fecal samples from infants with non-IgE mediated CMPA after successful milk challenges, tolerance acquisition, and increasing dairy introduction in their diet. Methods: Twelve children with CMPA, aged between 1 and 2 years old, were recruited for the study. Participants were initially consuming hypoallergenic hydrolyzed formulas (four of them supplemented with the probiotic Lactobacillus rhamnosus GG), before being exposed to a standardized oral challenge (SOC) with cow's milk. Fecal samples were collected before, 1 week, and 1 month after performing the SOC. Changes in gut microbiota were determined by high-throughput amplicon sequencing of the 16S rRNA gene. Levels of lactobacilli were also determined by quantitative PCR (qPCR). Microbial metabolites were analyzed by chromatographic methods and fecal cytokines related to the Th1/Th2 balance were determined by immunoassay. Results: Lactic acid bacteria significantly increased in infants who outgrew non-IgE CMPA, after the introduction of milk. Microbial metabolites derived from the fermentation of proteins, such as branched chain fatty acids, and p-cresol, diminished. After the SOC, some cytokines related to inflammation (TNF-α, IFN-γ) increased. Accompanying the introduction of an unrestricted diet, we found significant differences in fecal microbial composition, metabolites, and cytokines between infants who did not consume the probiotic L. rhamnosus GG and those that did. Conclusions: These findings indicate that the introduction of intact milk proteins is followed by modifications in the infant gut environment through changes in immune mediators, microbiota, and its metabolic end-products. Consumption of probiotics during CMPA may contribute to gut homeostasis by fine-tuning these profiles.
+~
+PMID: 31428100
+Journal: Frontiers in immunology"]
+    31812181 [label="Bunyavanich, Berin
+(2019 12)" href="https://pubmed.ncbi.nlm.nih.gov/31812181/" tooltip="Date: 2019 12
+Title: Food allergy and the microbiome: Current understandings and future directions.
+By: Bunyavanich, Berin
+~
+Abstract: Growing evidence points to an important role for the commensal microbiota in susceptibility to food allergy. Epidemiologic studies demonstrate associations between exposures known to modify the microbiome and risk of food allergy. Direct profiling of the gut microbiome in human cohort studies has demonstrated that individuals with food allergy have distinct gut microbiomes compared to healthy control subjects, and dysbiosis precedes the development of food allergy. Mechanistic studies in mouse models of food allergy have confirmed that the composition of the intestinal microbiota can imprint susceptibility or resistance to food allergy on the host and have identified a unique population of microbially responsive RORγt-positive FOXp3-positive regulatory T cells as critical for the maintenance of tolerance to foods. Armed with this new understanding of the role of the microbiota in food allergy and tolerance, therapeutics aimed at modifying the gastrointestinal microbiota are in development. In this article we review key milestones in the development of our current understanding of how the gastrointestinal microbiota contributes to food allergy and discuss our vision for the future of the field.
+~
+PMID: 31812181
+Journal: The Journal of allergy and clinical immunology"]
+    31866098 [label="Brough, Caubet,
+Mazon, Haddad,
+Bergmann
+(2020 04)" href="https://pubmed.ncbi.nlm.nih.gov/31866098/" tooltip="Date: 2020 04
+Title: Defining challenge-proven coexistent nut and sesame seed allergy: A prospective multicenter European study.
+By: Brough, Caubet, Mazon, Haddad, Bergmann, Wassenberg, Panetta, Gourgey, Radulovic, Nieto, Santos, Nieto, Lack, Eigenmann
+~
+Abstract: Peanut, tree nut, and sesame allergies are responsible for most life-threatening food-induced allergic reactions. Rates of coexistent allergy between these foods have been from mostly retrospective studies that include only a limited number of tree nuts or were not based on oral food challenges.
+~
+PMID: 31866098
+Journal: The Journal of allergy and clinical immunology"]
+    32109005 [label="Fierro, Valluzzi,
+Banzato, Plaza,
+Bosque
+(2020 06)" href="https://pubmed.ncbi.nlm.nih.gov/32109005/" tooltip="Date: 2020 06
+Title: A well-tolerated new amino acid-based formula for cow's milk allergy.
+By: Fierro, Valluzzi, Banzato, Plaza, Bosque, Íbero, Echeverría, Mennini, Dahdah, de Castellar, Tort, Jiménez
+~
+Abstract: Infants with cow's milk allergy (CMA) are in need of a substitute formula up to 2 years. The are three requisites for a substitute of milk in CMA: tolerability, nutritional adequacy, and cost-effectiveness. We evaluate here the tolerability of a new amino acid-based infant formula for the management of CMA.
+~
+PMID: 32109005
+Journal: Immunity, inflammation and disease"]
+    32413203 [label="Abrams, Kim,
+Gerdts, Protudjer
+(2020 10)" href="https://pubmed.ncbi.nlm.nih.gov/32413203/" tooltip="Date: 2020 10
+Title: Milk allergy most burdensome in multi-food allergic children.
+By: Abrams, Kim, Gerdts, Protudjer
+~
+Abstract: Food allergy is a substantial health burden, which disproportionately affects children. Among children with food allergy, as many as 70% have multiple food allergies. Whereas the overall burden of food allergy on quality of life has been described, little is known about the burden of individual allergens. We aimed to examine the perception of burden among families with multiple food-allergic children.
+~
+PMID: 32413203
+Journal: Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology"]
+    32722378 [label="Di Costanzo,
+Carucci, Berni
+Canani, Biasucci
+(2020 Jul 25)" href="https://pubmed.ncbi.nlm.nih.gov/32722378/" tooltip="Date: 2020 Jul 25
+Title: Gut Microbiome Modulation for Preventing and Treating Pediatric Food Allergies.
+By: Di Costanzo, Carucci, Berni Canani, Biasucci
+~
+Abstract: The increasing prevalence and severity of pediatric food allergies (FA) demands innovative preventive and therapeutic strategies. Emerging evidence suggests a pivotal role for the gut microbiome in modulating susceptibility to FA. Studies have demonstrated that alteration of gut microbiome could precede FA, and that particular microbial community structures early in life could influence also the disease course. The identification of gut microbiome features in pediatric FA patients is driving new prevention and treatment approaches. This review is focused on the potential role of the gut microbiome as a target for FA prevention and treatment.
+~
+PMID: 32722378
+Journal: International journal of molecular sciences"]
+    32950685 [label="Protudjer, Golding,
+Salisbury, Abrams,
+Roos
+(2021 01)" href="https://pubmed.ncbi.nlm.nih.gov/32950685/" tooltip="Date: 2021 01
+Title: High anxiety and health-related quality of life in families with children with food allergy during coronavirus disease 2019.
+By: Protudjer, Golding, Salisbury, Abrams, Roos
+~
+Abstract: Food allergy has a known effect on quality of life (QoL), but this has not been extensively studied during the coronavirus disease 2019 pandemic.
+~
+PMID: 32950685
+Journal: Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology"]
+    33385591 [label="Santos, Bergmann,
+Brough, Couto-
+Francisco, Kwok
+(2021 05)" href="https://pubmed.ncbi.nlm.nih.gov/33385591/" tooltip="Date: 2021 05
+Title: Basophil Activation Test Reduces Oral Food Challenges to Nuts and Sesame.
+By: Santos, Bergmann, Brough, Couto-Francisco, Kwok, Panetta, Haddad, Lack, Eigenmann, Caubet
+~
+Abstract: Nut allergic patients are often IgE sensitized to other nuts/seeds and need multiple oral food challenges (OFCs) before the safe nuts can be introduced in the diet. However, OFCs are time-consuming and risky procedures.
+~
+PMID: 33385591
+Journal: The journal of allergy and clinical immunology. In practice"]
+    33415087 [label="Sestito, D'Auria,
+Baldassarre,
+Salvatore,
+Tallarico
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/33415087/" tooltip="Date: 2020
+Title: The Role of Prebiotics and Probiotics in Prevention of Allergic Diseases in Infants.
+By: Sestito, D'Auria, Baldassarre, Salvatore, Tallarico, Stefanelli, Tarsitano, Concolino, Pensabene
+~
+Abstract: Allergic diseases have been linked to genetic and/or environmental factors, such as antibiotic use, westernized high fat and low fiber diet, which lead to early intestinal dysbiosis, and account for the rise in allergy prevalence, especially in western countries. Allergic diseases have shown reduced microbial diversity, including fewer lactobacilli and bifidobacteria, within the neonatal microbiota, before the onset of atopic diseases. Raised interest in microbiota manipulating strategies to restore the microbial balance for atopic disease prevention, through prebiotics, probiotics, or synbiotics supplementation, has been reported. We reviewed and discussed the role of prebiotics and/or probiotics supplementation for allergy prevention in infants. We searched PubMed and the Cochrane Database using keywords relating to 'allergy' OR 'allergic disorders,' 'prevention' AND 'prebiotics' OR 'probiotics' OR 'synbiotics.' We limited our evaluation to papers of English language including children aged 0-2 years old. Different products or strains used, different period of intervention, duration of supplementation, has hampered the draw of definitive conclusions on the clinical impact of probiotics and/or prebiotics for prevention of allergic diseases in infants, except for atopic dermatitis in infants at high-risk. This preventive effect on eczema in high-risk infants is supported by clear evidence for probiotics but only moderate evidence for prebiotic supplementation. However, the optimal prebiotic or strain of probiotic, dose, duration, and timing of intervention remains uncertain. Particularly, a combined pre- and post-natal intervention appeared of stronger benefit, although the definition of the optimal intervention starting time during gestation, the timing, and duration in the post-natal period, as well as the best target population, are still an unmet need.
+~
+PMID: 33415087
+Journal: Frontiers in pediatrics"]
+    33494153 [label="Salvatore, Agosti,
+Baldassarre,
+D'Auria, Pensabene
+(2021 Jan 21)" href="https://pubmed.ncbi.nlm.nih.gov/33494153/" tooltip="Date: 2021 Jan 21
+Title: Cow's Milk Allergy or Gastroesophageal Reflux Disease-Can We Solve the Dilemma in Infants?
+By: Salvatore, Agosti, Baldassarre, D'Auria, Pensabene, Nosetti, Vandenplas
+~
+Abstract: Cow's milk allergy (CMA) and gastro-esophageal reflux disease (GERD) may manifest with similar symptoms in infants making the diagnosis challenging. While immediate reaction to cow's milk protein indicate CMA, regurgitation, vomiting, crying, fussiness, poor appetite, sleep disturbances have been reported in both CMA and GERD and in other conditions such as functional gastrointestinal disorders, eosinophilic esophagitis, anatomic abnormalities, metabolic and neurological diseases. Gastrointestinal manifestations of CMA are often non-IgE mediated and clinical response to cow's milk free diet is not a proof of immune system involvement. Neither for non-IgE CMA nor for GERD there is a specific symptom or diagnostic test. Oral food challenge, esophageal pH impedance and endoscopy are recommended investigations for a correct clinical classification but they are not always feasible in all infants. As a consequence of the diagnostic difficulty, both over- and under- diagnosis of CMA or GERD may occur. Quite frequently acid inhibitors are empirically started. The aim of this review is to critically update the current knowledge of both conditions during infancy. A practical stepwise approach is proposed to help health care providers to manage infants presenting with persistent regurgitation, vomiting, crying or distress and to solve the clinical dilemma between GERD or CMA.
+~
+PMID: 33494153
+Journal: Nutrients"]
+    33562104 [label="Mennini, Reddel,
+Del Chierico,
+Gardini,
+Quagliariello
+(2021 Feb 06)" href="https://pubmed.ncbi.nlm.nih.gov/33562104/" tooltip="Date: 2021 Feb 06
+Title: Gut Microbiota Profile in Children with IgE-Mediated Cow's Milk Allergy and Cow's Milk Sensitization and Probiotic Intestinal Persistence Evaluation.
+By: Mennini, Reddel, Del Chierico, Gardini, Quagliariello, Vernocchi, Valluzzi, Fierro, Riccardi, Napolitano, Fiocchi, Putignani
+~
+Abstract: Food allergy (FA) and, in particular, IgE-mediated cow's milk allergy is associated with compositional and functional changes of gut microbiota. In this study, we compared the gut microbiota of cow's milk allergic (CMA) infants with that of cow's milk sensitized (CMS) infants and Healthy controls. The effect of the intake of a mixture of Bifidobacterium longum subsp. longum BB536, Bifidobacterium breve M-16V and Bifidobacterium longum subsp. infantis M-63 on gut microbiota modulation of CMA infants and probiotic persistence was also investigated. Gut microbiota of CMA infants resulted to be characterized by a dysbiotic status with a prevalence of some bacteria as Haemophilus, Klebsiella, Prevotella, Actinobacillus and Streptococcus. Among the three strains administered, B.longum subsp. infantis colonized the gastrointestinal tract and persisted in the gut microbiota of infants with CMA for 60 days. This colonization was associated with perturbations of the gut microbiota, specifically with the increase of Akkermansia and Ruminococcus. Multi-strain probiotic formulations can be studied for their persistence in the intestine by monitoring specific bacterial probes persistence and exploiting microbiota profiling modulation before the evaluation of their therapeutic effects.
+~
+PMID: 33562104
+Journal: International journal of molecular sciences"]
+    33799379 [label="Sorensen, Cawood,
+Gibson, Cooke,
+Stratton
+(2021 Mar 14)" href="https://pubmed.ncbi.nlm.nih.gov/33799379/" tooltip="Date: 2021 Mar 14
+Title: Amino Acid Formula Containing Synbiotics in Infants with Cow's Milk Protein Allergy: A Systematic Review and Meta-Analysis.
+By: Sorensen, Cawood, Gibson, Cooke, Stratton
+~
+Abstract: Cow's milk protein allergy (CMPA) is associated with dysbiosis of the infant gut microbiome, with allergic and immune development implications. Studies show benefits of combining synbiotics with hypoallergenic formulae, although evidence has never been systematically examined. This review identified seven publications of four randomised controlled trials comparing an amino acid formula (AAF) with an AAF containing synbiotics (AAF-Syn) in infants with CMPA (mean age 8.6 months; 68% male, mean intervention 27.3 weeks, n = 410). AAF and AAF-Syn were equally effective in managing allergic symptoms and promoting normal growth. Compared to AAF, significantly fewer infants fed AAF-Syn had infections (OR 0.35 (95% CI 0.19-0.67), p = 0.001). Overall medication use, including antibacterials and antifectives, was lower among infants fed AAF-Syn. Significantly fewer infants had hospital admissions with AAF-Syn compared to AAF (8.8% vs. 20.2%, p = 0.036; 56% reduction), leading to potential cost savings per infant of £164.05-£338.77. AAF-Syn was associated with increased bifidobacteria (difference in means 31.75, 95% CI 26.04-37.45, p < 0.0001); reduced Eubacterium rectale and Clostridium coccoides (difference in means -19.06, 95% CI -23.15 to -14.97, p < 0.0001); and reduced microbial diversity (p < 0.05), similar to that described in healthy breastfed infants, and may be associated with the improved clinical outcomes described. This review provides evidence that suggests combining synbiotics with AAF produces clinical benefits with potential economic implications.
+~
+PMID: 33799379
+Journal: Nutrients"]
+    33922797 [label="Di Costanzo, De
+Paulis, Biasucci
+(2021 Apr 23)" href="https://pubmed.ncbi.nlm.nih.gov/33922797/" tooltip="Date: 2021 Apr 23
+Title: Butyrate: A Link between Early Life Nutrition and Gut Microbiome in the Development of Food Allergy.
+By: Di Costanzo, De Paulis, Biasucci
+~
+Abstract: Increased prevalence of food allergies in the last thirty years has been attributed to lifestyle changes in Westernized countries. Among the environmental factors, nutritional factors and their interaction with the gut microbiome in early life are thought to have an important role in the observed epidemiological change. The gut microbiome synthesizes bacterial metabolites, which represent a link among gut microbiome, nutrition, and immune system. The main metabolites produced by gut microbiome are short-chain fatty acids (SCFAs). SCFAs have multiple beneficial effects on human health including protective effects in autoimmune and inflammatory diseases. Among SCFAs, butyrate is essential for maintaining gut immune homeostasis and exerts a pivotal role in immune tolerance with strong anti-inflammatory effects in allergic diseases. Recent findings suggest that butyrate takes part in the development of immunological tolerance to food, especially in the first 1000 days of life. Herein, we provide a critical review of the scientific literature on the role of butyrate for prevention and treatment of food allergies with focus on the complex interplay among early life nutrition, gut microbiome, and immune system.
+~
+PMID: 33922797
+Journal: Life (Basel, Switzerland)"]
+    34177882 [label="Zepeda-Ortega,
+Goh, Xepapadaki,
+Sprikkelman,
+Nicolaou
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34177882/" tooltip="Date: 2021
+Title: Strategies and Future Opportunities for the Prevention, Diagnosis, and Management of Cow Milk Allergy.
+By: Zepeda-Ortega, Goh, Xepapadaki, Sprikkelman, Nicolaou, Hernandez, Latiff, Yat, Diab, Hussaini, Setiabudiawan, Kudla, van Neerven, Muhardi, Warner
+~
+Abstract: The prevalence of food allergy has increased over the last 20-30 years, including cow milk allergy (CMA) which is one of the most common causes of infant food allergy. International allergy experts met in 2019 to discuss broad topics in allergy prevention and management of CMA including current challenges and future opportunities. The highlights of the meeting combined with recently published developments are presented here. Primary prevention of CMA should start from pre-pregnancy with a focus on a healthy lifestyle and food diversity to ensure adequate transfer of inhibitory IgG- allergen immune complexes across the placenta especially in mothers with a history of allergic diseases and planned c-section delivery. For non-breastfed infants, there is controversy about the preventive role of partially hydrolyzed formulae (pHF) despite some evidence of health economic benefits among those with a family history of allergy. Clinical management of CMA consists of secondary prevention with a focus on the development of early oral tolerance. The use of extensive Hydrolysate Formulae (eHF) is the nutrition of choice for the majority of non-breastfed infants with CMA; potentially with pre-, probiotics and LCPUFA to support early oral tolerance induction. Future opportunities are, among others, pre- and probiotics supplementation for mothers and high-risk infants for the primary prevention of CMA. A controlled prospective study implementing a step-down milk formulae ladder with various degrees of hydrolysate is proposed for food challenges and early development of oral tolerance. This provides a more precise gradation of milk protein exposure than those currently recommended.
+~
+PMID: 34177882
+Journal: Frontiers in immunology"]
+    34199007 [label="Sorensen, Cawood,
+Cooke, Acosta-
+Mena, Stratton
+(2021 Jun 27)" href="https://pubmed.ncbi.nlm.nih.gov/34199007/" tooltip="Date: 2021 Jun 27
+Title: The Use of an Amino Acid Formula Containing Synbiotics in Infants with Cow's Milk Protein Allergy-Effect on Clinical Outcomes.
+By: Sorensen, Cawood, Cooke, Acosta-Mena, Stratton
+~
+Abstract: Cow's milk protein allergy (CMPA) is common and costly. Clinical trials of infants with CMPA have shown that the use of an amino acid formula containing pre- and probiotics (synbiotics) (AAF-Syn) may lead to significant reductions in infections, medication prescriptions and hospital admissions, compared to AAF without synbiotics. These effects have not yet been confirmed in real-world practice. This retrospective matched cohort study examined clinical and healthcare data from The Health Improvement Network database, from 148 infants with CMPA (54% male, mean age at diagnosis 4.69 months), prescribed either AAF-Syn (probiotic Bifidobacterium breve M16-V and prebiotics, including chicory-derived oligo-fructose and long-chain inulin) or AAF. AAF-Syn was associated with fewer symptoms (-37%, p < 0.001), infections (-35%, p < 0.001), medication prescriptions (-19%, p < 0.001) and healthcare contacts (-18%, p = 0.15) vs. AAF. Infants prescribed AAF-Syn had a significantly higher probability of achieving asymptomatic management without hypoallergenic formula (HAF) (adjusted HR 3.70, 95% CI 1.97-6.95, p < 0.001), with a shorter clinical course of symptoms (median time to asymptomatic management without HAF 1.35 years vs. 1.95 years). AAF-Syn was associated with potential cost-savings of £452.18 per infant over the clinical course of symptoms. These findings may be attributable to the effect of the specific synbiotic on the gut microbiome. Further research is warranted to explore this. This real-world study provides evidence consistent with clinical trials that AAF-Syn may produce clinical and healthcare benefits with potential economic impact.
+~
+PMID: 34199007
+Journal: Nutrients"]
+    34217356 [label="Nocerino, Di Scala,
+Coppola, Giglio,
+Carucci
+(2021 Jul 03)" href="https://pubmed.ncbi.nlm.nih.gov/34217356/" tooltip="Date: 2021 Jul 03
+Title: Tolerability of a new amino acid-based formula for children with IgE-mediated cow's milk allergy.
+By: Nocerino, Di Scala, Coppola, Giglio, Carucci, Cosenza, Voto, Iannicelli, Luzzetti, Berni Canani
+~
+Abstract: Amino acid-based formula (AAF) is a relevant dietary strategy for paediatric patients affected by cow's milk allergy (CMA). The present study was designed to evaluate the hypoallergenicity of a new AAF in children with immunoglobulin (Ig)E-mediated CMA.
+~
+PMID: 34217356
+Journal: Italian journal of pediatrics"]
+    34316474 [label="Vandenplas, Dupont,
+Eigenmann, Heine,
+Høst
+(2021 Jul)" href="https://pubmed.ncbi.nlm.nih.gov/34316474/" tooltip="Date: 2021 Jul
+Title: Growth in Infants with Cow's Milk Protein Allergy Fed an Amino Acid-Based Formula.
+By: Vandenplas, Dupont, Eigenmann, Heine, Høst, Järvi, Kuitunen, Mukherjee, Ribes-Koninckx, Szajewska, von Berg, Zhao, None
+~
+Abstract: The present study assessed the role of an amino acid-based formula (AAF) in the growth of infants with cow's milk protein allergy (CMPA).
+~
+PMID: 34316474
+Journal: Pediatric gastroenterology, hepatology & nutrition"]
+    34444922 [label="D'Auria, Salvatore,
+Acunzo, Peroni,
+Pendezza
+(2021 Aug 12)" href="https://pubmed.ncbi.nlm.nih.gov/34444922/" tooltip="Date: 2021 Aug 12
+Title: Hydrolysed Formulas in the Management of Cow's Milk Allergy: New Insights, Pitfalls and Tips.
+By: D'Auria, Salvatore, Acunzo, Peroni, Pendezza, Di Profio, Fiore, Zuccotti, Verduci
+~
+Abstract: An allergy to cow's milk requires the avoidance of cow's milk proteins and, in some infants, the use of a hypoallergenic formula. This review aims to summarize the current evidence concerning different types of hydrolysed formulas (HF), and recommendations for the treatment of IgE- and non-IgE-mediated cow's milk allergy and functional gastrointestinal disorders in infancy, for which some dietary intervention and HF may be of benefit to both immune and motor mechanisms. Current guidelines recommend cow's milk protein (i.e., whey or casein) extensively hydrolysed formula (eHF) as the first choice for cow's milk allergy treatment, and amino acid formulas for more severe cases or those with reactions to eHF. Rice hydrolysed formulas (rHF) have also become available in recent years. Both eHF and rHF are well tolerated by the majority of children allergic to cow's milk, with no concerns regarding body growth or adverse effects. Some hydrolysates may have a pro-active effect in modulating the immune system due to the presence of small peptides and additional components, like biotics. Despite encouraging results on tolerance acquisition, evidence is still not conclusive, thus hampering our ability to draw firm conclusions. In clinical practice, the choice of hypoallergenic formula should be based on the infant's age, the severity, frequency and persistence of symptoms, immune phenotype, growth pattern, formula cost, and in vivo proof of tolerance and efficacy.
+~
+PMID: 34444922
+Journal: Nutrients"]
+    34484158 [label="Yang, Li, Yang,
+Shoaie, Zhang
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34484158/" tooltip="Date: 2021
+Title: Advances in the Relationships Between Cow's Milk Protein Allergy and Gut Microbiota in Infants.
+By: Yang, Li, Yang, Shoaie, Zhang, Ji, Wei
+~
+Abstract: Cow's milk protein allergy (CMPA) is an immune response to cow's milk proteins, which is one of the most common food allergies in infants and young children. It is estimated that 2-3% of infants and young children have CMPA. The diet, gut microbiota, and their interactions are believed to be involved in the alterations of mucosal immune tolerance, which might lead to the development of CMPA and other food allergies. In this review, the potential molecular mechanisms of CMPA, including omics technologies used for analyzing microbiota, impacts of early microbial exposures on CMPA development, and microbiota-host interactions, are summarized. The probiotics, prebiotics, synbiotics, fecal microbiota transplantation, and other modulation strategies for gut microbiota and the potential application of microbiota-based design of diets for the CMPA treatment are also discussed. This review not only summarizes the current studies about the interactions of CMPA with gut microbiota but also gives insights into the possible CMPA treatment strategies by modulating gut microbiota, which might help in improving the life quality of CMPA patients in the future.
+~
+PMID: 34484158
+Journal: Frontiers in microbiology"]
+    34684278 [label="Ogata, Kido,
+Nakamura
+(2021 Oct 15)" href="https://pubmed.ncbi.nlm.nih.gov/34684278/" tooltip="Date: 2021 Oct 15
+Title: Oral Immunotherapy for Children with Cow's Milk Allergy.
+By: Ogata, Kido, Nakamura
+~
+Abstract: Cow's milk allergy (CMA) is one of the most common IgE-dependent food allergies in children. Some children develop severe and persistent CMA, with near-fatal reactions after exposure to trace amounts of cow's milk (CM). Because milk and dairy products are included in various processed food products, it is difficult to completely remove milk, which negatively affects the quality of life of children with CMA. Oral immunotherapy (OIT) can alleviate food allergen-induced anaphylaxis under continuous ingestion of a little of the causative food. Children with severe CMA may benefit from OIT, but the treatment requires a long time and poses a risk of anaphylaxis. Moreover, in recent years, new therapies, including omalizumab, sublingual immunotherapy, and epicutaneous immunotherapy, have played the role of optional OIT. In this review, we present the current methods of and other attempts at OIT, and discuss OIT for safely treating CMA.
+~
+PMID: 34684278
+Journal: Pathogens (Basel, Switzerland)"]
+    34712052 [label="Vandenplas, Brough,
+Fiocchi, Miqdady,
+Munasir
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34712052/" tooltip="Date: 2021
+Title: Current Guidelines and Future Strategies for the Management of Cow's Milk Allergy.
+By: Vandenplas, Brough, Fiocchi, Miqdady, Munasir, Salvatore, Thapar, Venter, Vieira, Meyer
+~
+Abstract: Exclusive breast feeding is recommended in all guidelines as the first choice feeding. Cow milk allergy (CMA) can be diagnosed by a diagnostic elimination diet for 2 to 4 weeks with a hypo-allergenic formula, followed by a challenge test with intact cow milk protein. The most often used hypo-allergenic formula for the diagnostic elimination diet and the therapeutic diet is a CM based extensive hydrolysate. CM-based partial hydrolysates cannot be recommended in the management of CMA because of insufficient efficacy and possible reactions, but about half of the infants with CMA may tolerate a partial hydrolysate. The pros and cons of other dietary options are discussed in this paper. The use of an amino acid-based formula and/or rice based hydrolysate formula during the diagnostic elimination and therapeutic diet is debated. When available, there is sufficient evidence to consider rice hydrolysates as an adequate alternative to CM-based hydrolysates, since some infants will still react to the CM hydrolysate. The pros and cons of dietary options such as soy formula, buckwheat, almond, pea or other plant based dietary products are discussed. Although the majority of the plant-based beverages are nutritionally inadequate, some are nutritionally adapted for toddlers. However, accessibility and content vary by country and, thus far there is insufficient evidence on the efficacy and tolerance of these plant-based drinks (except for soy formula and rice hydrolysates) to provide an opinion on them.
+~
+PMID: 34712052
+Journal: Journal of asthma and allergy"]
+
+    15125698:n->28698533:s
+    15125698:n->34177882:s
+    16901348:n->32950685:s
+    18167160:n->23268426:s
+    18167160:n->27933160:s
+    18167160:n->34217356:s
+    18167160:n->34444922:s
+    18436293:n->27292825:s
+    18436293:n->28657607:s
+    18436293:n->28698533:s
+    18436293:n->29155807:s
+    18436293:n->30651972:s
+    18436293:n->30828329:s
+    18436293:n->31230196:s
+    18436293:n->31234330:s
+    18436293:n->31812181:s
+    18436293:n->33415087:s
+    18436293:n->34444922:s
+    18436293:n->34484158:s
+    19889194:n->24532064:s
+    19889194:n->27292825:s
+    19889194:n->27933160:s
+    19889194:n->28657607:s
+    19889194:n->29318631:s
+    19889194:n->30314304:s
+    19889194:n->30828329:s
+    19889194:n->31164972:s
+    19889194:n->31230196:s
+    19889194:n->31428100:s
+    19889194:n->31812181:s
+    19889194:n->32722378:s
+    19889194:n->33799379:s
+    20184604:n->27933160:s
+    20184604:n->29155807:s
+    20184604:n->30651972:s
+    20184604:n->31194186:s
+    20184604:n->33415087:s
+    20184604:n->33799379:s
+    20184604:n->34199007:s
+    21134569:n->28852472:s
+    21134569:n->29308116:s
+    21134569:n->32109005:s
+    21134569:n->33562104:s
+    21134569:n->34177882:s
+    21782228:n->24532064:s
+    21782228:n->27933160:s
+    21782228:n->29155807:s
+    21782228:n->30651972:s
+    21782228:n->31230196:s
+    21782228:n->33415087:s
+    21782228:n->33562104:s
+    21782228:n->33799379:s
+    22078573:n->26394008:s
+    22078573:n->27292825:s
+    22078573:n->28657607:s
+    22078573:n->28698533:s
+    22078573:n->29155807:s
+    22078573:n->29318631:s
+    22078573:n->30131575:s
+    22078573:n->30314304:s
+    22078573:n->30651972:s
+    22078573:n->30828329:s
+    22078573:n->31194186:s
+    22078573:n->31230196:s
+    22078573:n->31234330:s
+    22078573:n->31428100:s
+    22078573:n->31812181:s
+    22078573:n->32722378:s
+    22078573:n->33415087:s
+    22078573:n->33922797:s
+    22078573:n->34444922:s
+    22078573:n->34484158:s
+    22569527:n->27895813:s
+    22569527:n->28698533:s
+    22569527:n->28852472:s
+    22569527:n->29155807:s
+    22569527:n->29308116:s
+    22569527:n->30314304:s
+    22569527:n->30651972:s
+    22569527:n->31194186:s
+    22569527:n->31234330:s
+    22569527:n->31428100:s
+    22569527:n->32109005:s
+    22569527:n->33494153:s
+    22569527:n->33799379:s
+    22569527:n->33922797:s
+    22569527:n->34177882:s
+    22569527:n->34199007:s
+    22569527:n->34217356:s
+    22569527:n->34316474:s
+    22569527:n->34444922:s
+    22569527:n->34712052:s
+    23268426:n->27895813:s
+    23268426:n->28698533:s
+    23268426:n->29308116:s
+    23268426:n->30131575:s
+    23268426:n->31194186:s
+    23268426:n->31230196:s
+    23268426:n->32109005:s
+    23268426:n->32722378:s
+    23268426:n->33799379:s
+    23268426:n->34177882:s
+    23268426:n->34199007:s
+    23268426:n->34316474:s
+    23268426:n->34684278:s
+    23268426:n->34712052:s
+    23582142:n->26394008:s
+    23582142:n->27895813:s
+    23582142:n->28657607:s
+    23582142:n->30131575:s
+    23582142:n->30314304:s
+    23582142:n->30651972:s
+    23582142:n->30828329:s
+    23582142:n->31194186:s
+    23582142:n->31230196:s
+    23582142:n->31234330:s
+    23582142:n->31428100:s
+    23582142:n->32722378:s
+    23582142:n->33922797:s
+    23582142:n->34444922:s
+    23582142:n->34484158:s
+    23582142:n->34712052:s
+    24216543:n->27933160:s
+    24216543:n->28698533:s
+    24216543:n->29155807:s
+    24216543:n->30651972:s
+    24216543:n->31164972:s
+    24216543:n->33799379:s
+    24216543:n->34316474:s
+    24532064:n->27292825:s
+    24532064:n->28657607:s
+    24532064:n->30131575:s
+    24532064:n->30314304:s
+    24532064:n->30828329:s
+    24532064:n->32722378:s
+    24532064:n->33415087:s
+    24532064:n->33562104:s
+    24532064:n->33922797:s
+    24588904:n->28852472:s
+    24588904:n->29155807:s
+    24588904:n->29308116:s
+    24588904:n->32109005:s
+    24588904:n->33494153:s
+    24588904:n->33799379:s
+    24588904:n->34199007:s
+    24588904:n->34217356:s
+    24588904:n->34444922:s
+    24588904:n->34712052:s
+    24950845:n->32950685:s
+    25492096:n->32950685:s
+    25845680:n->27933160:s
+    25845680:n->29155807:s
+    25845680:n->30651972:s
+    25845680:n->31164972:s
+    25845680:n->31230196:s
+    25845680:n->31812181:s
+    25845680:n->32109005:s
+    25845680:n->33799379:s
+    25845680:n->34199007:s
+    25845680:n->34316474:s
+    25845680:n->34712052:s
+    25864712:n->27895813:s
+    25864712:n->28852472:s
+    25864712:n->29155807:s
+    25864712:n->30651972:s
+    25864712:n->31194186:s
+    25864712:n->32109005:s
+    25864712:n->33494153:s
+    25864712:n->33562104:s
+    25864712:n->33799379:s
+    25864712:n->34177882:s
+    25864712:n->34199007:s
+    25864712:n->34217356:s
+    25864712:n->34316474:s
+    25864712:n->34684278:s
+    25864712:n->34712052:s
+    26394008:n->28657607:s
+    26394008:n->28698533:s
+    26394008:n->29155807:s
+    26394008:n->29318631:s
+    26394008:n->30131575:s
+    26394008:n->30828329:s
+    26394008:n->31164972:s
+    26394008:n->31194186:s
+    26394008:n->31812181:s
+    26394008:n->32722378:s
+    26394008:n->33562104:s
+    26394008:n->33922797:s
+    26394008:n->34177882:s
+    26394008:n->34444922:s
+    26394008:n->34484158:s
+    27292825:n->27895813:s
+    27292825:n->28657607:s
+    27292825:n->28698533:s
+    27292825:n->29155807:s
+    27292825:n->29318631:s
+    27292825:n->30131575:s
+    27292825:n->30314304:s
+    27292825:n->30651972:s
+    27292825:n->30828329:s
+    27292825:n->31164972:s
+    27292825:n->31230196:s
+    27292825:n->31428100:s
+    27292825:n->31812181:s
+    27292825:n->32722378:s
+    27292825:n->33922797:s
+    27292825:n->34484158:s
+    27895813:n->30314304:s
+    27895813:n->31164972:s
+    27895813:n->31428100:s
+    27895813:n->32109005:s
+    27895813:n->33494153:s
+    27895813:n->34177882:s
+    27895813:n->34712052:s
+    27933160:n->28698533:s
+    27933160:n->29155807:s
+    27933160:n->30651972:s
+    28043872:n->28657607:s
+    28043872:n->30828329:s
+    28043872:n->31194186:s
+    28043872:n->31230196:s
+    28043872:n->31234330:s
+    28043872:n->31812181:s
+    28043872:n->32722378:s
+    28043872:n->33415087:s
+    28043872:n->33922797:s
+    28043872:n->34177882:s
+    28043872:n->34444922:s
+    28043872:n->34484158:s
+    28657607:n->30828329:s
+    28657607:n->32722378:s
+    28698533:n->31234330:s
+    28698533:n->33415087:s
+    28698533:n->33494153:s
+    28698533:n->34177882:s
+    28698533:n->34444922:s
+    28852472:n->30651972:s
+    28852472:n->31164972:s
+    28852472:n->34217356:s
+    28852472:n->34712052:s
+    29109046:n->31194186:s
+    29109046:n->32109005:s
+    29109046:n->33799379:s
+    29109046:n->34177882:s
+    29109046:n->34199007:s
+    29109046:n->34217356:s
+    29109046:n->34316474:s
+    29109046:n->34712052:s
+    29155807:n->30314304:s
+    29155807:n->30651972:s
+    29155807:n->31164972:s
+    29155807:n->31194186:s
+    29155807:n->31230196:s
+    29155807:n->31234330:s
+    29155807:n->31428100:s
+    29155807:n->32722378:s
+    29155807:n->33415087:s
+    29155807:n->33799379:s
+    29155807:n->34177882:s
+    29155807:n->34199007:s
+    29155807:n->34712052:s
+    29308116:n->32109005:s
+    29318631:n->30131575:s
+    29318631:n->30828329:s
+    29318631:n->31812181:s
+    29318631:n->32722378:s
+    29318631:n->33562104:s
+    29318631:n->33922797:s
+    30131575:n->30828329:s
+    30131575:n->31428100:s
+    30131575:n->32722378:s
+    30131575:n->33562104:s
+    30131575:n->33922797:s
+    30131575:n->34484158:s
+    30314304:n->30828329:s
+    30314304:n->31428100:s
+    30314304:n->32722378:s
+    30314304:n->33922797:s
+    30651972:n->31164972:s
+    30651972:n->31234330:s
+    30651972:n->33415087:s
+    30651972:n->33799379:s
+    30651972:n->34199007:s
+    30651972:n->34712052:s
+    30828329:n->32722378:s
+    30828329:n->33415087:s
+    30828329:n->34484158:s
+    31164972:n->33799379:s
+    31164972:n->34199007:s
+    31194186:n->31812181:s
+    31194186:n->32722378:s
+    31194186:n->33562104:s
+    31194186:n->34712052:s
+    31230196:n->33562104:s
+    31230196:n->33799379:s
+    31230196:n->34199007:s
+    31230196:n->34484158:s
+    31234330:n->33415087:s
+    31234330:n->33494153:s
+    31234330:n->33562104:s
+    31234330:n->34177882:s
+    31234330:n->34444922:s
+    31234330:n->34484158:s
+    31234330:n->34712052:s
+    31812181:n->32722378:s
+    31812181:n->34484158:s
+    31866098:n->33385591:s
+    32109005:n->32109005:s
+    32413203:n->32950685:s
+    32413203:n->33799379:s
+    32413203:n->34684278:s
+    32722378:n->33922797:s
+    33415087:n->34484158:s
+    33494153:n->34444922:s
+    33494153:n->34712052:s
+    33799379:n->34199007:s
+    33799379:n->34444922:s
+    33922797:n->34712052:s
+    34316474:n->34712052:s
+
+    }
+    

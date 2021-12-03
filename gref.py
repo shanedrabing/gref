@@ -209,7 +209,7 @@ def article_summary_wide(dct):
         "Date: " + dct["date"],
         "Title: " + dct["title"],
         "By: " + lnames, "~",
-        "Abstract: " + dct["abstract"].replace('"', "'"), "~",
+        "Abstract: " + str(dct["abstract"]).replace('"', "'"), "~",
         "PMID: " + dct["pmid"],
         "Journal: " + dct["journal"]
     ))
