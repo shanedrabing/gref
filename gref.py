@@ -203,6 +203,18 @@ def article_summary(dct):
     ))
 
 
+def article_summary_wide(dct):
+    lnames = ", ".join(x[-1].split(",")[0] for x in dct["authors"])
+    return "\n".join((
+        "Date: " + dct["date"],
+        "Title: " + dct["title"],
+        "By: " + lnames, "~",
+        "Abstract: " + dct["abstract"].replace('"', "'"), "~",
+        "PMID: " + dct["pmid"],
+        "Journal: " + dct["journal"]
+    ))
+
+
 def article_link(dct):
     resp = elink_pubmed(dct["pmid"])
 
@@ -228,7 +240,7 @@ def article_link(dct):
 # FUNCTIONS (REPL)
 
 
-def printtab(*args, shift=4, **kwargs):
+def printt(*args, shift=4, **kwargs):
     pad = " " * shift
     args = (
         pad + str(x).replace("\n", "\n" + pad)
@@ -237,8 +249,8 @@ def printtab(*args, shift=4, **kwargs):
     print(*args, **kwargs)
 
 
-def printerr(*args, **kwargs):
-    printtab(*args, file=sys.stderr, **kwargs)
+def printe(*args, **kwargs):
+    printt(*args, file=sys.stderr, **kwargs)
 
 
 def tuplefy(dct):
@@ -257,13 +269,14 @@ def repl_par():
         "fpath": None,
     }
 
+
 def repl_load(par):
-    with open(par["fpath"], "r", encoding="utf8") as fh:
+    with open(par["fpath"] + ".json", "r", encoding="utf8") as fh:
         par["data"] = tuplefy(json.load(fh))
 
 
 def repl_save(par):
-    with open(par["fpath"], "w", encoding="utf8") as fh:
+    with open(par["fpath"] + ".json", "w", encoding="utf8") as fh:
         json.dump(par["data"], fh)
 
 
@@ -271,15 +284,15 @@ def repl_search(term):
     pmids = esearch_pubmed_pmids(term)
     lst = efetch_pubmed_articles(pmids)
     if not lst:
-        printerr("No results!")
+        printe("No results!")
     else:
-        printtab("\n\n".join(map(article_summary, lst)))
+        printt("\n\n".join(map(article_summary, lst)))
 
 
 def repl_add(par, pmids):
     lst = efetch_pubmed_articles(pmids)
     for dct in map(article_link, lst):
-        printtab("Found {}...".format(dct["pmid"]))
+        printt("Found {}...".format(dct["pmid"]))
         par["data"][dct["pmid"]] = dct
 
 
@@ -301,12 +314,91 @@ def repl_grow(par):
     repl_add(par, pmids)
 
 
+def repl_graph(par, args, echo=True):
+    dct = par["data"]
+
+    if echo is True:
+        printt(wrap(" ".join(dct.keys()), 76))
+
+    edges = set()
+    for _ in range(3):
+        for k, v in dct.items():
+            if "references" in v:
+                for x in v["references"]:
+                    if x in dct:
+                        edges.add((x, k))
+            if "citedin" in v:
+                for x in v["citedin"]:
+                    if x in dct:
+                        edges.add((k, x))
+
+    nodes = set()
+    for x in map(set, edges):
+        nodes |= x
+    nodes = tuple(map(dct.get, sorted(nodes)))
+
+    graph = """
+    digraph {{
+
+    pad=0.7
+    layout=dot
+    rankdir=BT
+    ranksep=2.1
+    nodesep=0.04
+    splines=true
+    outputorder=edgesfirst
+
+    node [shape=note style=filled fillcolor=none target="_blank"]
+    edge [arrowhead=none]
+
+    {}
+
+    {}
+
+    }}
+    """.lstrip().format(
+        "\n    ".join(map(lambda x: "{} [label=\"{}\" href=\"{}\" tooltip=\"{}\"]".format(
+            x["pmid"],
+            "{}\n({})".format(wrap(", ".join([xx[-1].split(",")[0] for xx in x["authors"]][:5]), 20), x["date"]),
+            "https://pubmed.ncbi.nlm.nih.gov/{}/".format(x["pmid"]),
+            article_summary_wide(x).replace('"', "'")
+        ), nodes)),
+        "\n    ".join(map(lambda x: "{}:n->{}:s".format(*x), sorted(edges)))
+    )
+
+    dir_out = "gref/gv/"
+    if not os.path.exists(dir_out):
+        os.makedirs(dir_out)
+
+    fpath = dir_out + par["fpath"].split("/")[-1] + ".gv"
+    print(graph, file=open(fpath, "w", encoding="utf8"))
+
+    return fpath
+
+
+def repl_render(par, args, cmd):
+    cmd = cmd.lower()
+
+    dir_out = f"gref/{cmd}/"
+    if not os.path.exists(dir_out):
+        os.makedirs(dir_out)
+
+    fpath = "gref/gv/" + par["fpath"].split("/")[-1] + ".gv"
+    repl_graph(par, args, echo=False)
+
+    name = fpath.split("/")[-1].replace(".gv", "")
+    expression = f"dot -T{cmd}{' -Gdpi={}'.format(args[0]) if args else ''} {fpath} -o gref/{cmd}/{name}.{cmd}"
+
+    printt(expression)
+    os.system(expression)
+
+
 def repl_main():
     # parameters
     par = repl_par()
 
     # user shell
-    printtab("Welcome :-)")
+    printt("\nWelcome :-)")
 
     # main loop
     while par["state"] != State.EXIT:
@@ -319,14 +411,14 @@ def repl_main():
         try:
             user_raw = input("\n{} > ".format("αδ"[par["state"]]))
         except KeyboardInterrupt:
-            printerr("\n\nPrompt killed!")
+            printe("\n\nPrompt killed!")
             user_raw = "exit"
         user = user_raw.split()
-        printtab()
+        printt()
 
         # user inputs nothing
         if not user:
-            printerr("No command provided! (try `HELP`)")
+            printe("No command provided! (try `HELP`)")
             continue
 
         # user inputs a command, but maybe not arguments
@@ -338,11 +430,11 @@ def repl_main():
             par["state"] = State.EXIT
 
         elif cmd == "HELP":
-            printtab("Helping...")
+            printt("Helping...")
 
         elif cmd == "SEARCH":
             if not args:
-                printerr("No query provided!")
+                printe("No query provided!")
                 continue
 
             term = " ".join(args)
@@ -350,66 +442,84 @@ def repl_main():
 
         elif par["state"] == State.INIT:
             # overlapping checks and operations
-            if cmd in ("NEW", "LOAD"):
+            if cmd in ("ADD", "LOAD"):
                 if not args:
-                    printerr("No filename provided!")
+                    printe("No filename provided!")
                     continue
                 else:
-                    par["fpath"] = args[0]
-                    fpath_exists = os.path.exists(par["fpath"])
+                    dir_out = "gref/json/"
+                    if not os.path.exists(dir_out):
+                        os.makedirs(dir_out)
+
+                    par["fpath"] = dir_out + args[0]
+                    fpath_exists = os.path.exists(par["fpath"] + ".json")
 
             # otherwise
-            if cmd == "NEW":
+            if cmd == "ADD":
                 if fpath_exists:
-                    printerr("Filepath already exists!")
+                    printe("Filepath already exists!")
                 else:
-                    printtab("Making...")
+                    printt("Making...")
                     par["data"] = dict()
                     par["state"] = State.LOOP
             elif cmd == "LOAD":
                 if not fpath_exists:
-                    printerr("Filepath does not exist!")
+                    printe("Filepath does not exist!")
                 else:
-                    printtab("Loading...")
+                    printt("Loading...")
                     repl_load(par)
                     if par["data"] is None:
-                        printerr("Incompatible format!")
+                        printe("Incompatible format!")
                     else:
                         par["state"] = State.LOOP
+            elif cmd == "RM":
+                dirs = os.listdir("gref")
+                for x in dirs:
+                    fpath = f"gref/{x}/{args[0]}.{x}"
+                    if os.path.exists(fpath):
+                        os.remove(fpath)
+                        printt("Removed {}...".format(fpath))
             else:
-                printerr("Unknown command!")
+                printe("Unknown command!")
 
         elif par["state"] == State.LOOP:
             if cmd == "UNLOAD":
-                printtab("Unloading...")
+                printt("Unloading...")
                 par = repl_par()
             elif cmd == "PEEK":
-                printtab("Peeking...")
-                printtab(len(par["data"]))
+                printt("Peeking...")
+                printt(len(par["data"]))
             elif cmd == "ADD":
                 if not args:
-                    printerr("No PMIDs provided!")
+                    printe("No PMIDs provided!")
                     continue
 
-                printtab("Adding...")
+                printt("Adding...")
                 repl_add(par, args)
             elif cmd == "GROW":
                 if not args:
                     cycles = 1
                 elif not args[0].isnumeric():
-                    printerr("Non-numeric argument!")
+                    printe("Non-numeric argument!")
                     continue
                 else:
                     cycles = int(args[0])
 
-                printtab("Growing...")
+                printt("Growing...")
                 try:
                     for i in range(cycles):
                         repl_grow(par)
                 except KeyboardInterrupt:
-                    printerr("Aborted!")
+                    printe("Aborted!")
+            elif cmd == "GRAPH":
+                repl_graph(par, args)
+            elif cmd in ("PNG", "SVG", "PDF"):
+                repl_render(par, args, cmd)
+            elif cmd == "RENDER":
+                for typ in ("PNG", "SVG", "PDF"):
+                    repl_render(par, args, typ)
             else:
-                printerr("Unknown command!")
+                printe("Unknown command!")
 
 
 # SCRIPT
