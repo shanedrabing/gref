@@ -8,6 +8,7 @@ __email__ = "shane.drabing@gmail.com"
 
 import functools
 import json
+import math
 import os
 import random
 import re
@@ -22,9 +23,35 @@ import requests
 # CONSTANTS
 
 
+PATTERN_WORD = re.compile(r"[A-z]+")
+
 FORM_NCBI = "https://{}.ncbi.nlm.nih.gov/{}".format
 FORM_EUTILS = FORM_NCBI("eutils", "entrez/eutils/{}.cgi").format
+
 TUP_LINKNAME = ("pubmed_pubmed_citedin", "pubmed_pubmed_five")
+
+FORM_NODE = '{} [label="{}" href="{}" tooltip="{}" fillcolor="{}" margin={}]'.format
+FORM_EDGE = "{}:n->{}:s [penwidth={}]".format
+FORM_GRAPH = """
+digraph {{
+
+pad=0.7
+layout=dot
+rankdir=BT
+ranksep=0.5
+nodesep=0.0
+splines=true
+outputorder=edgesfirst
+
+node [shape=note style=filled fontsize=9 fillcolor=none target="_blank"]
+edge [arrowhead=none]
+
+{}
+
+{}
+
+}}
+""".lstrip().format
 
 
 # ENUMS
@@ -34,24 +61,7 @@ class State:
     INIT, LOOP, EXIT = range(3)
 
 
-# FUNCTIONS (GENENRAL)
-
-
-def table(itr):
-    lst = sorted(set(itr))
-    return dict(zip(lst, map(itr.count, lst)))
-
-
-def scale(itr):
-    mu = statistics.mean(itr)
-    sd = statistics.stdev(itr)
-    return tuple((x - mu) / sd for x in itr)
-
-
-def minmax(itr):
-    low = min(itr)
-    rng = max(itr) - low
-    return tuple((x - low) / rng for x in itr)
+# FUNCTIONS (GENERAL)
 
 
 def adjust(text, target=":", shift=2):
@@ -77,6 +87,71 @@ def wrap(text, length=80):
         lines.append(line.replace("- ", "-"))
 
     return "\n".join(lines)
+
+
+def tokenize(x):
+    return PATTERN_WORD.findall(x)
+
+
+def jaccard(x, y, use_counts=True):
+    wx = tuple(map(str.upper, tokenize(x)))
+    wy = tuple(map(str.upper, tokenize(y)))
+    tx = table(wx)
+    ty = table(wy)
+
+    union = set(tx) | set(ty)
+    intersection = set(tx) & set(ty)
+    if not use_counts:
+        return len(intersection) / len(union)
+
+    total = sum((*tx.values(), *ty.values()))
+    shared = sum(tx[k] + ty[k] for k in intersection)
+    return shared / total
+
+
+# FUNCTIONS (MATH)
+
+
+def table(itr):
+    lst = sorted(set(itr))
+    return dict(zip(lst, map(itr.count, lst)))
+
+
+def scale(itr):
+    mu = statistics.mean(itr)
+    sd = statistics.stdev(itr)
+    return tuple((x - mu) / sd for x in itr)
+
+
+def minmax(itr):
+    low = min(itr)
+    rng = max(itr) - low
+    return tuple((x - low) / rng for x in itr)
+
+
+def to_base(n, base):
+    if n < base:
+        return [n]
+    return to_base(n // base, base) + [n % base]
+
+
+def from_base(lst, base):
+    return sum(n * (base ** i) for i, n in enumerate(lst[::-1]))
+
+
+def hex(n):
+    if not 0 <= n < 256:
+        raise ValueError("number out of range")
+    lst = ([0] + to_base(n, 16))[-2:]
+    return "".join("0123456789ABCDEF"[i] for i in lst)
+
+
+def lerp(x, y, i):
+    return type(x)(x + (y - x) * i)
+
+
+def lerp_vec(x, y, i):
+    return tuple(lerp(xx, yy, i) for xx, yy in zip(x, y))
 
 
 # FUNCTIONS (TIME)
@@ -215,6 +290,19 @@ def article_summary_wide(dct):
     ))
 
 
+def article_reference(dct):
+    authors = tuple(x[-1].split(",")[0] for x in dct["authors"])
+    n = len(authors)
+    if n == 2:
+        authors_str = " & ".join(authors)
+    elif n <= 3:
+        authors_str = ", & ".join(authors).replace(", &", ", ", n - 2)
+    else:
+        authors_str = authors[0] + ", et al."
+    date_str = dct["date"].split()[0]
+    return wrap("{} ({})".format(authors_str, date_str), 20)
+
+
 def article_link(dct):
     resp = elink_pubmed(dct["pmid"])
 
@@ -331,45 +419,40 @@ def repl_graph(par, args, echo=True):
                 for x in v["citedin"]:
                     if x in dct:
                         edges.add((k, x))
+    inbound, outbound = zip(*edges)
 
     nodes = set()
     for x in map(set, edges):
         nodes |= x
     nodes = tuple(map(dct.get, sorted(nodes)))
 
-    graph = """
-    digraph {{
+    nodes_lst = list()
+    for x in nodes:
+        pmid = x["pmid"]
+        label = article_reference(x)
+        href = "https://pubmed.ncbi.nlm.nih.gov/{}/".format(x["pmid"])
+        tooltip = article_summary_wide(x).replace('"', "'")
+        i1 = inbound.count(pmid)
+        i2 = outbound.count(pmid)
+        rgb = lerp_vec([255, 220, 140], [150, 230, 255], i1 / (i1 + i2))
+        color = "#" + "".join(map(hex, rgb))
+        size = 0.05 + math.log10(1 + len(x["citedin"])) / 10
+        node_str = FORM_NODE(pmid, label, href, tooltip, color, size)
+        nodes_lst.append(node_str)
+    nodes_str = "\n    ".join(nodes_lst)
 
-    pad=0.7
-    layout=dot
-    rankdir=BT
-    ranksep=2.1
-    nodesep=0.04
-    splines=true
-    outputorder=edgesfirst
-
-    node [shape=note style=filled fillcolor=none target="_blank"]
-    edge [arrowhead=none]
-
-    {}
-
-    {}
-
-    }}
-    """.lstrip().format(
-        "\n    ".join(map(lambda x: "{} [label=\"{}\" href=\"{}\" tooltip=\"{}\"]".format(
-            x["pmid"],
-            "{}\n({})".format(wrap(", ".join([xx[-1].split(",")[0] for xx in x["authors"]][:5]), 20), x["date"]),
-            "https://pubmed.ncbi.nlm.nih.gov/{}/".format(x["pmid"]),
-            article_summary_wide(x).replace('"', "'")
-        ), nodes)),
-        "\n    ".join(map(lambda x: "{}:n->{}:s".format(*x), sorted(edges)))
-    )
+    edges_lst = list()
+    for x, y in sorted(edges):
+        size = 50 * jaccard(dct[x]["abstract"], dct[y]["abstract"]) ** 6
+        edge_str = FORM_EDGE(x, y, f"{size:.6f}")
+        edges_lst.append(edge_str)
+    edges_str = "\n    ".join(edges_lst)
 
     dir_out = "gref/gv/"
     if not os.path.exists(dir_out):
         os.makedirs(dir_out)
 
+    graph = FORM_GRAPH(nodes_str, edges_str)
     fpath = dir_out + par["fpath"].split("/")[-1] + ".gv"
     print(graph, file=open(fpath, "w", encoding="utf8"))
 
@@ -462,6 +545,7 @@ def repl_main():
                     printt("Making...")
                     par["data"] = dict()
                     par["state"] = State.LOOP
+
             elif cmd == "LOAD":
                 if not fpath_exists:
                     printe("Filepath does not exist!")
@@ -472,6 +556,7 @@ def repl_main():
                         printe("Incompatible format!")
                     else:
                         par["state"] = State.LOOP
+
             elif cmd == "RM":
                 dirs = os.listdir("gref")
                 for x in dirs:
@@ -479,6 +564,22 @@ def repl_main():
                     if os.path.exists(fpath):
                         os.remove(fpath)
                         printt("Removed {}...".format(fpath))
+                    else:
+                        printe("File does not exist!")
+
+            elif cmd == "PEEK":
+                dpath = "gref/json"
+                if not os.path.exists(dpath):
+                    printe("No database found!")
+                    continue
+
+                files = os.listdir(dpath)
+                if not files:
+                    printe("No files found!")
+                    continue
+
+                files = sorted(x.replace(".json", "") for x in files)
+                printt("\n  - ".join(("Files found:", *files)))
             else:
                 printe("Unknown command!")
 
@@ -511,7 +612,7 @@ def repl_main():
                         repl_grow(par)
                 except KeyboardInterrupt:
                     printe("Aborted!")
-            elif cmd == "GRAPH":
+            elif cmd == "GV":
                 repl_graph(par, args)
             elif cmd in ("PNG", "SVG", "PDF"):
                 repl_render(par, args, cmd)
