@@ -557,27 +557,61 @@ def repl_ngram(par, args):
     print(text, file=open(fpath, "w", encoding="utf8"))
     printt("Wrote {}...".format(repr(fpath)))
 
-    # dct = dict()
-    # for k, v in data.items():
-    #     w1, w2 = k.split()
-    #     try:
-    #         dct[w1][w2] = v
-    #     except KeyError:
-    #         dct[w1] = {w2: v}
+    return fpath
 
-    # word = next(iter(dct))
-    # lst = [word]
-    # for i in range(int(args[0]) if args else 100):
-    #     new = None
-    #     while new is None:
-    #         while new not in dct:
-    #             new, *_ = random.choices(tuple(dct[word].keys()), weights=tuple(dct[word].values()))
-    #         if not any((x in dct) for x in dct[new]):
-    #             word = next(iter(dct))
-    #             new = None
-    #     word = new
-    #     lst.append(word)
-    # printt(wrap(" ".join(lst), 76))
+
+def repl_essay(par, args):
+    dct = par["data"]
+    if not args:
+        args += [500]
+    n = int(args[0])
+
+    data = dict()
+    for x in dct.values():
+        words = tokenize(x["abstract"])
+        ngram = map("{} {}".format, words, words[1:])
+        for k, v in table(ngram).items():
+            try:
+                data[k] += v
+            except KeyError:
+                data[k] = v
+
+    dct = dict()
+    for k, v in data.items():
+        w1, w2 = k.split()
+        try:
+            dct[w1][w2] = v
+        except KeyError:
+            dct[w1] = {w2: v}
+
+    word = next(iter(dct))
+    lst = [word]
+    for i in range(n):
+        new = None
+        stale = False
+        while new is None:
+            while new not in dct:
+                x = dct[word]
+                new, *_ = random.choices(tuple(x), weights=tuple(x.values()))
+            if not any((x in dct) for x in dct[new]):
+                if stale:
+                    word = next(iter(dct))
+                    stale = False
+                else:
+                    stale = True
+                new = None
+        word = new
+        lst.append(word)
+
+    dir_out = "gref/txt/"
+    fpath = dir_out + par["fpath"].split("/")[-1] + ".txt"
+
+    if not os.path.exists(dir_out):
+        os.makedirs(dir_out)
+
+    text = wrap(" ".join(lst), 76)
+    print(text, file=open(fpath, "w", encoding="utf8"))
+    printt("Wrote {}...".format(repr(fpath)))
 
     return fpath
 
@@ -767,6 +801,9 @@ def repl_main():
                     elif (args[0].upper() == "NGRAM"):
                         _, *args = args
                         repl_ngram(par, args)
+                    elif (args[0].upper() == "ESSAY"):
+                        _, *args = args
+                        repl_essay(par, args)
                 except KeyboardInterrupt:
                     printe("Aborted!")
             else:
