@@ -6,6 +6,7 @@ __email__ = "shane.drabing@gmail.com"
 # IMPORTS
 
 
+import csv
 import functools
 import json
 import math
@@ -23,7 +24,7 @@ import requests
 # CONSTANTS
 
 
-PATTERN_WORD = re.compile(r"[A-z]+")
+PATTERN_WORD = re.compile(r"[\w.]+")
 
 FORM_NCBI = "https://{}.ncbi.nlm.nih.gov/{}".format
 FORM_EUTILS = FORM_NCBI("eutils", "entrez/eutils/{}.cgi").format
@@ -58,7 +59,7 @@ edge [arrowhead=none]
 
 
 class State:
-    INIT, LOOP, EXIT = range(3)
+    FILEIO, MAIN, EXIT = range(3)
 
 
 # FUNCTIONS (GENERAL)
@@ -118,6 +119,7 @@ def jaccard(x, y, use_counts=True):
 
 
 def table(itr):
+    itr = tuple(itr)
     lst = sorted(set(itr))
     return dict(zip(lst, map(itr.count, lst)))
 
@@ -362,7 +364,7 @@ def tuplefy(dct):
 
 def repl_par():
     return {
-        "state": State.INIT,
+        "state": State.FILEIO,
         "data": None,
         "fpath": None,
     }
@@ -486,6 +488,91 @@ def repl_render(par, args, cmd):
     os.system(expression)
 
 
+def repl_table(par, args, echo=True):
+    dct = par["data"]
+
+    if echo is True:
+        printt(wrap(" ".join(dct.keys()), 76))
+
+    data = list()
+    for x in dct.values():
+        row = {
+            "pmid": str(x["pmid"]),
+            "title": str(x["title"]),
+            "authors": "|".join(y[-1] for y in x["authors"]),
+            "journal": str(x["journal"]),
+            "date": str(x["date"]),
+            "abstract": str(x["abstract"]),
+            "references": "|".join(map(str, x["references"])),
+            "citedin": "|".join(map(str, x["citedin"])),
+            "five": "|".join(map(str, x["five"])),
+        }
+        data.append(row)
+
+
+    dir_out = "gref/csv/"
+    fpath = dir_out + par["fpath"].split("/")[-1] + ".csv"
+
+    if not os.path.exists(dir_out):
+        os.makedirs(dir_out)
+
+    with open(fpath, "w", encoding="utf8", newline="") as fh:
+        writer = csv.DictWriter(fh, data[0].keys())
+        writer.writeheader()
+        writer.writerows(data)
+
+    return fpath
+
+
+def repl_diwords(par, args):
+    dct = par["data"]
+
+    data = dict()
+    for x in dct.values():
+        words = tokenize(x["abstract"])
+        diwords = map("{} {}".format, words, words[1:])
+        for k, v in table(diwords).items():
+            try:
+                data[k] += v
+            except KeyError:
+                data[k] = v
+
+    keys = sorted(data, key=data.get, reverse=True)
+
+    dir_out = "gref/txt/"
+    fpath = dir_out + par["fpath"].split("/")[-1] + ".txt"
+
+    if not os.path.exists(dir_out):
+        os.makedirs(dir_out)
+
+    print("\n".join(map("{},{}".format, keys, map(data.get, keys))), file=open(fpath, "w", encoding="utf8"))
+    printt("Wrote {}...".format(repr(fpath)))
+
+    dct = dict()
+    for k, v in data.items():
+        w1, w2 = k.split()
+        try:
+            dct[w1][w2] = v
+        except KeyError:
+            dct[w1] = {w2: v}
+
+    word = next(iter(dct))
+    lst = [word]
+    for i in range(int(args[0]) if args else 100):
+        new = None
+        while new is None:
+            while new not in dct:
+                new, *_ = random.choices(tuple(dct[word].keys()), weights=tuple(dct[word].values()))
+            if not any((x in dct) for x in dct[new]):
+                word = next(iter(dct))
+                new = None
+        word = new
+        lst.append(word)
+    printt(wrap(" ".join(lst), 76))
+
+    return fpath
+
+
 def repl_main():
     # parameters
     par = repl_par()
@@ -497,7 +584,7 @@ def repl_main():
     while par["state"] != State.EXIT:
 
         # save database (if applicable)
-        if par["state"] == State.LOOP:
+        if par["state"] == State.MAIN:
             repl_save(par)
 
         # prompt for input
@@ -533,7 +620,7 @@ def repl_main():
             term = " ".join(args)
             repl_search(term)
 
-        elif par["state"] == State.INIT:
+        elif par["state"] == State.FILEIO:
             # overlapping checks and operations
             if cmd in ("ADD", "LOAD"):
                 if not args:
@@ -554,7 +641,7 @@ def repl_main():
                 else:
                     printt("Making...")
                     par["data"] = dict()
-                    par["state"] = State.LOOP
+                    par["state"] = State.MAIN
 
             elif cmd == "LOAD":
                 if not fpath_exists:
@@ -565,17 +652,19 @@ def repl_main():
                     if par["data"] is None:
                         printe("Incompatible format!")
                     else:
-                        par["state"] = State.LOOP
+                        par["state"] = State.MAIN
 
             elif cmd == "RM":
                 dirs = os.listdir("gref")
+                echo = True
                 for x in dirs:
                     fpath = f"gref/{x}/{args[0]}.{x}"
                     if os.path.exists(fpath):
                         os.remove(fpath)
                         printt("Removed {}...".format(fpath))
-                    else:
-                        printe("File does not exist!")
+                        echo = False
+                if echo:
+                    printe("File does not exist!")
 
             elif cmd == "PEEK":
                 dpath = "gref/json"
@@ -593,7 +682,7 @@ def repl_main():
             else:
                 printe("Unknown command!")
 
-        elif par["state"] == State.LOOP:
+        elif par["state"] == State.MAIN:
             if cmd == "UNLOAD":
                 printt("Unloading...")
                 par = repl_par()
@@ -629,6 +718,17 @@ def repl_main():
             elif cmd == "RENDER":
                 for typ in ("PNG", "SVG", "PDF"):
                     repl_render(par, args, typ)
+            elif cmd == "CSV":
+                repl_table(par, args)
+            elif cmd == "TXT":
+                try:
+                    if not args:
+                        pass
+                    elif (args[0].upper() == "DIWORDS"):
+                        _, *args = args
+                        repl_diwords(par, args)
+                except KeyboardInterrupt:
+                    printe("Aborted!")
             else:
                 printe("Unknown command!")
 

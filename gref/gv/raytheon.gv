@@ -1,0 +1,1110 @@
+digraph {
+
+pad=0.7
+layout=dot
+rankdir=BT
+ranksep=0.5
+nodesep=0.0
+splines=true
+outputorder=edgesfirst
+
+node [shape=note style=filled fontsize=9 fillcolor=none target="_blank" ordering="in"]
+edge [arrowhead=none]
+
+12371544 [label="Yoon & Gibson
+(2002)" href="https://pubmed.ncbi.nlm.nih.gov/12371544/" tooltip="Title: Long-term temporal stability of the National Institute of Standards and Technology spectral irradiance scale determined with absolute filter radiometers.
+~
+By: Yoon, Gibson
+Date: 2002 Oct 01
+~
+Abstract: The temporal stability of the National Institute of Standards and Technology (NIST) spectral irradiance scale as measured with broadband filter radiometers calibrated for absolute spectral irradiance responsivity is described. The working standard free-electron laser (FEL) lamps and the check standard FEL lamps have been monitored with radiometers in the ultraviolet and the visible wavelength regions. The measurements made with these two radiometers reveal that the NIST spectral irradiance scale as compared with an absolute thermodynamic scale has not changed by more than 1.5% in the visible from 1993 to 1999. Similar measurements in the ultraviolet reveal that the corresponding change is less than 1.5% from 1995 to 1999. Furthermore, a check of the spectral irradiance scale by six different filter radiometers calibrated for absolute spectral irradiance responsivity based on the high-accuracy cryogenic radiometer shows that the agreement between the present scale and the detector-based scale is better than 1.3% throughout the visible to the near-infrared wavelength region. These results validate the assigned spectral irradiance of the widely disseminated NIST or NIST-traceable standard sources.
+~
+PMID: 12371544
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.08010299956639813]
+    12371545 [label="Yoon, Gibson, &
+Barnes (2002)" href="https://pubmed.ncbi.nlm.nih.gov/12371545/" tooltip="Title: Realization of the National Institute of Standards and Technology detector-based spectral irradiance scale.
+~
+By: Yoon, Gibson, Barnes
+Date: 2002 Oct 01
+~
+Abstract: A detector-based spectral irradiance scale has been realized at the National Institute of Standards and Technology (NIST). Unlike the previous NIST spectral irradiance scales, the new scale is generated with filter radiometers calibrated for absolute spectral power responsivity traceable to the NIST high-accuracy cryogenic radiometer instead of with the gold freezing-point blackbody. The calibrated filter radiometers are then used to establish the radiance temperature of a high-temperature blackbody (HTBB) operating near 3,000 K The spectral irradiance of the HTBB is then determined with knowledge of the geometric factors and is used to assign the spectral irradiances of a group of 1,000-W free-electron laser lamps. The detector-based spectral irradiance scale results in the reduction of the uncertainties from the previous source-based spectral irradiance scale by at least a factor of 2 in the ultraviolet and visible wavelength regions. The new detector-based spectral irradiance scale also leads to a reduction in the uncertainties in the shortwave infrared wavelength region by at least a factor of 2-10, depending on the wavelength. Following the establishment of the spectral irradiance scale in the early 1960s, the detector-based spectral irradiance scale represents a fundamental change in the way that the NIST spectral irradiance scale is realized.
+~
+PMID: 12371545
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.09771212547196625]
+    15540442 [label="Barnes, et al.
+(2004)" href="https://pubmed.ncbi.nlm.nih.gov/15540442/" tooltip="Title: Comparison of SeaWiFS measurements of the Moon with the U.S. Geological Survey lunar model.
+~
+By: Barnes, Eplee, Patt, Kieffer, Stone, Meister, Butler, McClain
+Date: 2004 Nov 01
+~
+Abstract: The Sea-Viewing Wide-Field-of-View Sensor (SeaWiFS) has made monthly observations of the Moon since 1997. Using 66 monthly measurements, the SeaWiFS calibration team has developed a correction for the instrument's on-orbit response changes. Concurrently, a lunar irradiance model has been developed by the U.S. Geological Survey (USGS) from extensive Earth-based observations of the Moon. The lunar irradiances measured by SeaWiFS are compared with the USGS model. The comparison shows essentially identical response histories for SeaWiFS, with differences from the model of less than 0.05% per thousand days in the long-term trends. From the SeaWiFS experience we have learned that it is important to view the entire lunar image at a constant phase angle from measurement to measurement and to understand, as best as possible, the size of each lunar image. However, a constant phase angle is not required for using the USGS model. With a long-term satellite lunar data set it is possible to determine instrument changes at a quality level approximating that from the USGS lunar model. However, early in a mission, when the dependence on factors such as phase and libration cannot be adequately determined from satellite measurements alone, the USGS model is critical to an understanding of trends in instruments that use the Moon for calibration. This is the case for SeaWiFS.
+~
+PMID: 15540442
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.1198970004336019]
+    16252654 [label="Brown, et al.
+(2005)" href="https://pubmed.ncbi.nlm.nih.gov/16252654/" tooltip="Title: Radiometric validation of NASA's Ames Research Center's Sensor Calibration Laboratory.
+~
+By: Brown, Johnson, Biggar, Zalewski, Cooper, Hajek, Hildum, Grant, Barnes, Butler
+Date: 2005 Oct 20
+~
+Abstract: The National Aeronautics and Space Administration's (NASA's) Ames Research Center's Airborne Sensor Facility (ASF) is responsible for the calibration of several airborne Earth-viewing sensor systems in support of NASA Earth Observing System (EOS) investigations. The primary artifact used to calibrate these sensors in the reflective solar region from 400 to 2500 nm is a lamp-illuminated integrating sphere source. In September 1999, a measurement comparison was made at the Ames ASF Sensor Calibration Facility to validate the radiometric scale, establish the uncertainties assigned to the radiance of this source, and examine its day-to-day repeatability. The comparison was one of a series of validation activities overseen by the EOS Calibration Program to ensure the radiometric calibration accuracy of sensors used in long-term, global, remote-sensing studies. Results of the comparison, including an evaluation of the Ames Sensor Calibration Laboratory (SCL) measurement procedures and assigned radiometric uncertainties, provide a validation of their radiometric scale at the time of the comparison. Additionally, the maintenance of the radiance scale was evaluated by use of independent, long-term, multiyear radiance validation measurements of the Ames sphere source. This series of measurements provided an independent assessment of the radiance values assigned to integrating sphere sources by the Ames SCF. Together, the measurements validate the SCF radiometric scale and assigned uncertainties over the time period from September 1999 through July 2003.
+~
+PMID: 16252654
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.08010299956639813]
+    16295846 [label="Mamane-Gravetz, et
+al. (2005)" href="https://pubmed.ncbi.nlm.nih.gov/16295846/" tooltip="Title: Spectral sensitivity of Bacillus subtilis spores and MS2 coliphage for validation testing of ultraviolet reactors for water disinfection.
+~
+By: Mamane-Gravetz, Linden, Cabaj, Sommer
+Date: 2005 Oct 15
+~
+Abstract: The microbicidal UV fluence under polychromatic radiation from UV lamps is typically measured using the DNA absorbance spectrum as a weighting factor for the relative wavelength effectiveness. However, this DNA-based weighting does not necessarily match the spectral sensitivity of the microorganism being tested. Bacillus subtilis spores are often used for UV reactor validation in Europe, while MS2 coliphage is typically used for validation testing in the United States. These organisms were exposed to quasi-monochromatic UV irradiation across the microbicidal spectrum at wavelengths of 214, 230, 240, 254, 265, 280, and 293 nm. MS2 was three times more sensitive to wavelengths near 214 nm compared to the 254 nm output of low-pressure lamps, while B. subtilis spores were most sensitive to wavelengths around 265 nm. Use of these action spectra, compared to the DNA-based weighting, resulted in differences in the calculated polychromatic UV fluence. Consequently, the action spectrum, which is specific for each microorganism, has implications on the uncertainty of UV fluence determination during validation of reactors with polychromatic UV lamps.
+~
+PMID: 16295846
+Journal: Environmental science & technology" fillcolor="#96E6FF" margin=0.15413926851582252]
+    16386286 [label="Hijnen, Beerendonk,
+& Medema (2006)" href="https://pubmed.ncbi.nlm.nih.gov/16386286/" tooltip="Title: Inactivation credit of UV radiation for viruses, bacteria and protozoan (oo)cysts in water: a review.
+~
+By: Hijnen, Beerendonk, Medema
+Date: 2006 Jan
+~
+Abstract: UV disinfection technology is of growing interest in the water industry since it was demonstrated that UV radiation is very effective against (oo)cysts of Cryptosporidium and Giardia, two pathogenic micro-organisms of major importance for the safety of drinking water. Quantitative Microbial Risk Assessment, the new concept for microbial safety of drinking water and wastewater, requires quantitative data of the inactivation or removal of pathogenic micro-organisms by water treatment processes. The objective of this study was to review the literature on UV disinfection and extract quantitative information about the relation between the inactivation of micro-organisms and the applied UV fluence. The quality of the available studies was evaluated and only high-quality studies were incorporated in the analysis of the inactivation kinetics. The results show that UV is effective against all waterborne pathogens. The inactivation of micro-organisms by UV could be described with first-order kinetics using fluence-inactivation data from laboratory studies in collimated beam tests. No inactivation at low fluences (offset) and/or no further increase of inactivation at higher fluences (tailing) was observed for some micro-organisms. Where observed, these were included in the description of the inactivation kinetics, even though the cause of tailing is still a matter of debate. The parameters that were used to describe inactivation are the inactivation rate constant k (cm(2)/mJ), the maximum inactivation demonstrated and (only for bacterial spores and Acanthamoeba) the offset value. These parameters were the basis for the calculation of the microbial inactivation credit (MIC='log-credits') that can be assigned to a certain UV fluence. The most UV-resistant organisms are viruses, specifically Adenoviruses, and bacterial spores. The protozoon Acanthamoeba is also highly UV resistant. Bacteria and (oo)cysts of Cryptosporidium and Giardia are more susceptible with a fluence requirement of <20 mJ/cm(2) for an MIC of 3 log. Several studies have reported an increased UV resistance of environmental bacteria and bacterial spores, compared to lab-grown strains. This means that higher UV fluences are required to obtain the same level of inactivation. Hence, for bacteria and spores, a correction factor of 2 and 4 was included in the MIC calculation, respectively, whereas some wastewater studies suggest that a correction of a factor of 7 is needed under these conditions. For phages and viruses this phenomenon appears to be of little significance and for protozoan (oo)cysts this aspect needs further investigation. Correction of the required fluence for DNA repair is considered unnecessary under the conditions of drinking water practice (no photo-repair, dark repair insignificant, esp. at higher (60 mJ/cm(2)) fluences) and probably also wastewater practice (photo-repair limited by light absorption). To enable accurate assessment of the effective fluence in continuous flow UV systems in water treatment practice, biodosimetry is still essential, although the use of computational fluid dynamics (CFD) improves the description of reactor hydraulics and fluence distribution. For UV systems that are primarily dedicated to inactivate the more sensitive pathogens (Cryptosporidium, Giardia, pathogenic bacteria), additional model organisms are needed to serve as biodosimeter.
+~
+PMID: 16386286
+Journal: Water research" fillcolor="#96E6FF" margin=0.2687520720836463]
+    17068565 [label="Brown, Eppeldauer,
+& Lykke (2006)" href="https://pubmed.ncbi.nlm.nih.gov/17068565/" tooltip="Title: Facility for spectral irradiance and radiance responsivity calibrations using uniform sources.
+~
+By: Brown, Eppeldauer, Lykke
+Date: 2006 Nov 10
+~
+Abstract: Detectors have historically been calibrated for spectral power responsivity at the National Institute of Standards and Technology by using a lamp-monochromator system to tune the wavelength of the excitation source. Silicon detectors can be calibrated in the visible spectral region with combined standard uncertainties at the 0.1% level. However, uncertainties increase dramatically when measuring an instrument's spectral irradiance or radiance responsivity. We describe what we believe to be a new laser-based facility for spectral irradiance and radiance responsivity calibrations using uniform sources (SIRCUS) that was developed to calibrate instruments directly in irradiance or radiance mode with uncertainties approaching or exceeding those available for spectral power responsivity calibrations. In SIRCUS, the emission from high-power, tunable lasers is introduced into an integrating sphere using optical fibers, producing uniform, quasi-Lambertian, high-radiant-flux sources. Reference standard irradiance detectors, calibrated directly against national primary standards for spectral power responsivity and aperture area measurement, are used to determine the irradiance at a reference plane. Knowing the measurement geometry, the source radiance can be readily determined as well. The radiometric properties of the SIRCUS source coupled with state-of-the-art transfer standard radiometers whose responses are directly traceable to primary national radiometric scales result in typical combined standard uncertainties in irradiance and radiance responsivity calibrations of less than 0.1%. The details of the facility and its effect on primary national radiometric scales are discussed.
+~
+PMID: 17068565
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.16760912590556815]
+    17933932 [label="Linden, et al.
+(2007)" href="https://pubmed.ncbi.nlm.nih.gov/17933932/" tooltip="Title: Enhanced UV inactivation of adenoviruses under polychromatic UV lamps.
+~
+By: Linden, Thurston, Schaefer, Malley
+Date: 2007 Dec
+~
+Abstract: Adenovirus is recognized as the most UV-resistant waterborne pathogen of concern to public health microbiologists. The U.S. EPA has stipulated that a UV fluence (dose) of 186 mJ cm(-2) is required for 4-log inactivation credit in water treatment. However, all adenovirus inactivation data to date published in the peer-reviewed literature have been based on UV disinfection experiments using UV irradiation at 253.7 nm produced from a conventional low-pressure UV source. The work reported here presents inactivation data for adenovirus based on polychromatic UV sources and details the significant enhancement in inactivation achieved using these polychromatic sources. When full-spectrum, medium-pressure UV lamps were used, 4-log inactivation of adenovirus type 40 is achieved at a UV fluence of less than 60 mJ cm(-2) and a surface discharge pulsed UV source required a UV fluence of less than 40 mJ cm(-2). The action spectrum for adenovirus type 2 was also developed and partially explains the improved inactivation based on enhancements at wavelengths below 230 nm. Implications for water treatment, public health, and the future of UV regulations for virus disinfection are discussed.
+~
+PMID: 17933932
+Journal: Applied and environmental microbiology" fillcolor="#96E6FF" margin=0.1704119982655925]
+    18216962 [label="Hovis, Knoll, &
+Smith (1985)" href="https://pubmed.ncbi.nlm.nih.gov/18216962/" tooltip="Title: Aircraft measurements for calibration of an orbiting spacecraft sensor.
+~
+By: Hovis, Knoll, Smith
+Date: 1985 Feb 01
+~
+Abstract: None
+~
+PMID: 18216962
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.09771212547196625]
+    18354559 [label="Barnes, et al.
+(2000)" href="https://pubmed.ncbi.nlm.nih.gov/18354559/" tooltip="Title: SeaWiFS transfer-to-orbit experiment.
+~
+By: Barnes, Eplee, Biggar, Thome, Zalewski, Slater, Holmes
+Date: 2000 Oct 20
+~
+Abstract: We present the results of an experiment designed to measure the changes in the radiometric calibration of the Sea-viewing Wide Field-of-view Sensor (SeaWiFS) from the time of its manufacture to the time of the start of on-orbit operations. The experiment uses measurements of the Sun at the manufacturer's facility to predict the instrument outputs during solar measurements immediately after launch. Because an onboard diffuser plate is required for these measurements, the experiment measures changes in the instrument-diffuser system. There is no mechanism in this experiment to separate changes in the diffuser from changes in the instrument. For the eight SeaWiFS bands, the initial instrument outputs on orbit averaged 0.8% higher than predicted with a standard deviation of 0.9%. The greatest difference was 2.1% (actual output higher than predicted) for band 3. The estimated uncertainty for the experiment is 3%. Thus the transfer-to-orbit experiment shows no changes in the radiometric sensitivities of the SeaWiFS bands--at the 3% level--from the completion of the instrument's manufacture to its insertion into orbit.
+~
+PMID: 18354559
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.09771212547196625]
+    18354566 [label="Spyak, et al.
+(2000)" href="https://pubmed.ncbi.nlm.nih.gov/18354566/" tooltip="Title: Short-wave infrared transfer radiometer for the calibration of the moderate-resolution imaging spectrometer and the advanced spaceborne thermal emission and reflection radiometer.
+~
+By: Spyak, Smith, Thiry, Burkhart
+Date: 2000 Nov 01
+~
+Abstract: A short-wave infrared (700-2500-nm) radiometer has been designed and built to calibrate and cross calibrate spherical-integrating sources used in the calibration of satellite sensors residing on NASA's Earth Observing System platforms. We describe the design, predicted and measured performance, and calibration of the transfer radiometer.
+~
+PMID: 18354566
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.11020599913279625]
+    18978087 [label="Eischeid, Meyer, &
+Linden (2009)" href="https://pubmed.ncbi.nlm.nih.gov/18978087/" tooltip="Title: UV disinfection of adenoviruses: molecular indications of DNA damage efficiency.
+~
+By: Eischeid, Meyer, Linden
+Date: 2009 Jan
+~
+Abstract: Adenovirus is a focus of the water treatment community because of its resistance to standard, monochromatic low-pressure (LP) UV irradiation. Recent research has shown that polychromatic, medium-pressure (MP) UV sources are more effective than LP UV for disinfection of adenovirus when viral inactivation is measured using cell culture infectivity assays; however, UV-induced DNA damage may be repaired during cell culture infectivity assays, and this confounds interpretation of these results. Objectives of this work were to study adenoviral response to both LP and MP UV using (i) standard cell culture infectivity assays and (ii) a PCR assay to directly assess damage to the adenoviral genome without introducing the virus into cell culture. LP and MP UV dose response curves were determined for (i) log inactivation of the virus in cell culture and (ii) UV-induced lesions per kilobase of viral DNA as measured by the PCR assay. Results show that LP and MP UV are equally effective at damaging the genome; MP UV is more effective at inactivating adenovirus in cell culture. This work suggests that the higher disinfection efficacy of MP UV cannot be attributed to a difference in DNA damage induction. These results enhance our understanding of the fundamental mechanisms of UV disinfection of viruses-especially double-stranded DNA viruses that infect humans--and improve the ability of the water treatment community to protect public health.
+~
+PMID: 18978087
+Journal: Applied and environmental microbiology" fillcolor="#B0E3E2" margin=0.19471580313422193]
+    19762061 [label="Chen, Craik, &
+Bolton (2009)" href="https://pubmed.ncbi.nlm.nih.gov/19762061/" tooltip="Title: Comparison of the action spectra and relative DNA absorbance spectra of microorganisms: information important for the determination of germicidal fluence (UV dose) in an ultraviolet disinfection of water.
+~
+By: Chen, Craik, Bolton
+Date: 2009 Dec
+~
+Abstract: The action spectra of Bacillus subtilis spores (ATCC6633) and Salmonella typhimurium LT2 were characterized using physical radiometry for irradiance measurements and a multiple target model to interpret the inactivation kinetics. The observed action spectrum of B. subtilis spores deviated significantly from the relative absorbance spectrum of the DNA purified from the spores, but matched quite well with the relative absorbance spectrum of decoated spores. The action spectrum of B. subtilis spores determined in this study was statistically different from those reported in previous studies. On the other hand, the action spectrum of S. typhimurium bacteria matched quite well with the relative absorbance spectrum of DNA extracted from vegetative cells, except in the region below 240nm. It is concluded that the common use of the relative DNA absorbance spectrum as a surrogate for the germicidal action spectrum can result in systematic errors when evaluating the performance of a polychromatic UV light reactors using bioassays. For example, if the weighted germicidal fluence (UV dose) calculated using the relative DNA absorbance spectrum as the germicidal weighting factor is found to be 40mJcm(-2) for a medium pressure lamp UV reactor, that calculated using the relative action spectrum of B. subtilis spores, as determined in this study, would be 66mJcm(-2).
+~
+PMID: 19762061
+Journal: Water research" fillcolor="#96E6FF" margin=0.15000000000000002]
+    19872573 [label="Gates (1930)" href="https://pubmed.ncbi.nlm.nih.gov/19872573/" tooltip="Title: A STUDY OF THE BACTERICIDAL ACTION OF ULTRA VIOLET LIGHT : III. THE ABSORPTION OF ULTRA VIOLET LIGHT BY BACTERIA.
+~
+By: Gates
+Date: 1930 Sep 20
+~
+Abstract: The simple conclusion of former investigators that the shorter the wave length of ultra violet light the greater the bactericidal action is in error. A study with measured monochromatic energy reveals a characteristic curve of bactericidal effectiveness with a striking maximum between 260 and 270 m.micro. The reciprocal of this abiotic energy curve suggests its close relation to specific light absorption by some single essential substance in the cell. Methods are described for determining the absorption curve, or absorption coefficients, of intact bacteria. These curves for S. aureus and B. coli have important points of similarity and of difference with the reciprocals of the curves of bactericidal incident energy, and point the way in a further search for the specific substance, or substances, involved in the lethal reaction.
+~
+PMID: 19872573
+Journal: The Journal of general physiology" fillcolor="#96E6FF" margin=0.1454242509439325]
+    19912558 [label="Wang, et al. (2010)" href="https://pubmed.ncbi.nlm.nih.gov/19912558/" tooltip="Title: Comparison of the disinfection effects of vacuum-UV (VUV) and UV light on Bacillus subtilis spores in aqueous suspensions at 172, 222 and 254 nm.
+~
+By: Wang, Oppenländer, El-Din, Bolton
+Date: 2010 Jan-Feb
+~
+Abstract: The efficacy of UV and vacuum-UV (VUV) disinfection of Bacillus subtilis spores in aqueous suspensions at wavelengths of 172, 222 and 254 nm was evaluated. A Xe(2)* excilamp, a KrCl* excilamp and a low-pressure mercury lamp were used as almost monochromatic light sources at these three wavelengths. The first-order inactivation rate constants at 172, 222 and 254 nm were 0.0023, 0.122 and 0.069 cm(2) mJ(-1), respectively. Therefore, a 2 log reduction of B. subtilis spores was reached with fluences (UV doses) of 870, 21.6 and 40.4 mJ cm(-2) at these individual wavelengths. Consequently, for the inactivation of B. subtilis spores, VUV exposure at 172 nm is much less efficient than exposure at the other two wavelengths, while exposure at 222 nm is more efficient than that at 254 nm, which is probably because triplet energy transfer from DPA to thymine bases at 222 nm is higher than that at 254 nm. This research indicated quantitatively that VUV light is not practicable for microorganism disinfection in water and wastewater treatment. However, in comparison with other advanced oxidation processes (e.g. UV/TiO(2), UV/H(2)O(2) or O(3)/H(2)O(2)) the VUV-initiated photolysis of water is likely more efficient in generating hydroxyl radicals and more effective for the inactivation of microorganisms.
+~
+PMID: 19912558
+Journal: Photochemistry and photobiology" fillcolor="#96E6FF" margin=0.17787536009528288]
+    21131511 [label="Eischeid & Linden
+(2011)" href="https://pubmed.ncbi.nlm.nih.gov/21131511/" tooltip="Title: Molecular indications of protein damage in adenoviruses after UV disinfection.
+~
+By: Eischeid, Linden
+Date: 2011 Feb
+~
+Abstract: Adenoviruses are resistant to monochromatic, low-pressure (LP) UV disinfection--but have been shown to be susceptible to inactivation by polychromatic, medium-pressure (MP) UV--when assayed using cell culture infectivity. One possible explanation for the difference between UV lamp types is that the additional UV wavelengths emitted by MP UV enable it to cause greater damage to viral proteins than LP UV. The objective of this study was to examine protein damage in adenoviruses treated with LP and MP UV. Results show that MP UV is more effective at damaging viral proteins at high UV doses, though LP UV caused some damage as well. To our knowledge, this study is the first to investigate protein damage in UV-treated adenovirus, and the overview presented here is expected to provide a basis for further, more detailed work.
+~
+PMID: 21131511
+Journal: Applied and environmental microbiology" fillcolor="#B9E2D8" margin=0.18222192947339194]
+    21804977 [label="Pfeifer &
+Besaratinia (2012)" href="https://pubmed.ncbi.nlm.nih.gov/21804977/" tooltip="Title: UV wavelength-dependent DNA damage and human non-melanoma and melanoma skin cancer.
+~
+By: Pfeifer, Besaratinia
+Date: 2012 Jan
+~
+Abstract: Ultraviolet (UV) irradiation from the sun has been epidemiologically and mechanistically linked to skin cancer, a spectrum of diseases of rising incidence in many human populations. Both non-melanoma and melanoma skin cancers are associated with sunlight exposure. In this review, we discuss the UV wavelength-dependent formation of the major UV-induced DNA damage products, their repair and mutagenicity and their potential involvement in sunlight-associated skin cancers. We emphasize the major role played by the cyclobutane pyrimidine dimers (CPDs) in skin cancer mutations relative to that of (6-4) photoproducts and oxidative DNA damage. Collectively, the data implicate the CPD as the DNA lesion most strongly involved in human cancers induced by sunlight.
+~
+PMID: 21804977
+Journal: Photochemical & photobiological sciences : Official journal of the European Photochemistry Association and the European Society for Photobiology" fillcolor="#96E6FF" margin=0.25253058652647703]
+    22695603 [label="Feinholz, et al.
+(2012)" href="https://pubmed.ncbi.nlm.nih.gov/22695603/" tooltip="Title: Stray light correction algorithm for multichannel hyperspectral spectrographs.
+~
+By: Feinholz, Flora, Brown, Zong, Lykke, Yarbrough, Johnson, Clark
+Date: 2012 Jun 01
+~
+Abstract: An algorithm is presented that corrects a multichannel fiber-coupled spectrograph for stray or scattered light within the system. The efficacy of the algorithm is evaluated based on a series of validation measurements of sources with different spectral distributions. This is the first application of a scattered-light correction algorithm to a multichannel hyperspectral spectrograph. The algorithm, based on characterization measurements using a tunable laser system, can be extended to correct for finite point-spread response in imaging systems.
+~
+PMID: 22695603
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.09771212547196625]
+    23262612 [label="Eplee, et al.
+(2012)" href="https://pubmed.ncbi.nlm.nih.gov/23262612/" tooltip="Title: On-orbit calibration of SeaWiFS.
+~
+By: Eplee, Meister, Patt, Barnes, Bailey, Franz, McClain
+Date: 2012 Dec 20
+~
+Abstract: Ocean color climate data records (CDRs) require water-leaving radiances with 5% absolute and 1% relative accuracies as input. Because of the amplification of any sensor calibration errors by the atmospheric correction, the 1% relative accuracy requirement translates into a 0.1% long-term radiometric stability requirement for top-of-the-atmosphere (TOA) radiances. The rigorous prelaunch and on-orbit calibration program developed and implemented for Sea-viewing Wide Field-of-view Sensor (SeaWiFS) by the NASA Ocean Biology Processing Group (OBPG) has led to the incorporation of significant changes into the on-orbit calibration methodology over the 13-year lifetime of the instrument. Evolving instrument performance and ongoing algorithm refinement have resulted in updates to approaches for the lunar, solar, and vicarious calibration of SeaWiFS. The uncertainties in the calibrated TOA radiances are addressed in terms of accuracy (biases in the measurements), precision (scatter in the measurements), and stability (repeatability of the measurements). The biases are 2%-3% from lunar calibration and 1%-2% from vicarious calibration. The precision is 0.16% from solar signal-to-noise ratios, 0.13% from lunar residuals, and 0.10% from vicarious gains. The long-term stability of the TOA radiances, derived from the lunar time series, is 0.13%. The stability of the vicariously calibrated TOA radiances, incorporating the uncertainties of the in situ measurements and the atmospheric correction, is 0.30%. This stability of the radiometric calibration of SeaWiFS over its 13-year on-orbit lifetime has allowed the OBPG to produce CDRs from the ocean color data set.
+~
+PMID: 23262612
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.11020599913279625]
+    24146947 [label="Buonanno, et al.
+(2013)" href="https://pubmed.ncbi.nlm.nih.gov/24146947/" tooltip="Title: 207-nm UV light - a promising tool for safe low-cost reduction of surgical site infections. I: in vitro studies.
+~
+By: Buonanno, Randers-Pehrson, Bigelow, Trivedi, Lowy, Spotnitz, Hammer, Brenner
+Date: 2013
+~
+Abstract: 0.5% to 10% of clean surgeries result in surgical-site infections, and attempts to reduce this rate have had limited success. Germicidal UV lamps, with a broad wavelength spectrum from 200 to 400 nm are an effective bactericidal option against drug-resistant and drug-sensitive bacteria, but represent a health hazard to patient and staff. By contrast, because of its limited penetration, ~200 nm far-UVC light is predicted to be effective in killing bacteria, but without the human health hazards to skin and eyes associated with conventional germicidal UV exposure.
+~
+PMID: 24146947
+Journal: PloS one" fillcolor="#A0E5F4" margin=0.20185139398778873]
+    24266597 [label="Beck, et al. (2014)" href="https://pubmed.ncbi.nlm.nih.gov/24266597/" tooltip="Title: Wavelength dependent UV inactivation and DNA damage of adenovirus as measured by cell culture infectivity and long range quantitative PCR.
+~
+By: Beck, Rodriguez, Linden, Hargy, Larason, Wright
+Date: 2014
+~
+Abstract: Adenovirus is regarded as the most resistant pathogen to ultraviolet (UV) disinfection due to its demonstrated resistance to monochromatic, low-pressure (LP) UV irradiation at 254 nm. This resistance has resulted in high UV dose requirements for all viruses in regulations set by the United States Environmental Protection Agency. Polychromatic, medium-pressure (MP) UV irradiation has been shown to be much more effective than 254 nm, although the mechanisms of polychromatic UV inactivation are not completely understood. This research analyzes the wavelength-specific effects of UV light on adenovirus type 2 by analyzing in parallel the reduction in viral infectivity and damage to the viral genome. A tunable laser from the National Institute of Standards and Technology was used to isolate single UV wavelengths. Cell culture infectivity and PCR were employed to quantify the adenoviral inactivation rates using narrow bands of irradiation (<1 nm) at 10 nm intervals between 210 and 290 nm. The inactivation rate corresponding to adenoviral genome damage matched the inactivation rate of adenovirus infectivity at 253.7 nm, 270 nm, 280 nm, and 290 nm, suggesting that damage to the viral DNA was primarily responsible for loss of infectivity at those wavelengths. At 260 nm, more damage to the nucleic acid was observed than reduction in viral infectivity. At 240 nm and below, the reduction of viral infectivity was significantly greater than the reduction of DNA amplification, suggesting that UV damage to a viral component other than DNA contributed to the loss of infectivity at those wavelengths. Inactivation rates were used to develop a detailed spectral sensitivity or action spectrum of adenovirus 2. This research has significant implications for the water treatment industry with regard to polychromatic inactivation of viruses and the development of novel wavelength-specific UV disinfection technologies.
+~
+PMID: 24266597
+Journal: Environmental science & technology" fillcolor="#96E6FF" margin=0.16760912590556815]
+    24922428 [label="Levick, et al.
+(2014)" href="https://pubmed.ncbi.nlm.nih.gov/24922428/" tooltip="Title: Spectral radiance source based on supercontinuum laser and wavelength tunable bandpass filter: the spectrally tunable absolute irradiance and radiance source.
+~
+By: Levick, Greenwell, Ireland, Woolliams, Goodman, Bialek, Fox
+Date: 2014 Jun 01
+~
+Abstract: A new spectrally tunable source for calibration of radiometric detectors in radiance, irradiance, or power mode has been developed and characterized. It is termed the spectrally tunable absolute irradiance and radiance source (STAIRS). It consists of a supercontinuum laser, wavelength tunable bandpass filter, power stabilization feedback control scheme, and output coupling optics. It has the advantages of relative portability and a collimated beam (low Ã©tendue), and is an alternative to conventional sources such as tungsten lamps, blackbodies, or tunable lasers. The supercontinuum laser is a commercial Fianium SC400-6-02, which has a wavelength range between 400 and 2500 nm and a total power of 6 W. The wavelength tunable bandpass filter, a PhotonEtc laser line tunable filter (LLTF), is tunable between 400 and 1000 nm and has a bandwidth of 1 or 2 nm depending on the wavelength selected. The collimated laser beam from the LLTF filter is converted to an appropriate spatial and angular distribution for the application considered (i.e., for radiance, irradiance, or power mode calibration of a radiometric sensor) with the output coupling optics, for example, an integrating sphere, and the spectral radiance/irradiance/power of the source is measured using a calibration optical sensor. A power stabilization feedback control scheme has been incorporated that stabilizes the source to better than 0.01% for averaging times longer than 100 s. The out-of-band transmission of the LLTF filter is estimated to be < -65 dB (0.00003%), and is sufficiently low for many end-user applications, for example the spectral radiance calibration of earth observation imaging radiometers and the stray light characterization of array spectrometers (the end-user optical sensor). We have made initial measurements of two end-user instruments with the STAIRS source, an array spectrometer and ocean color radiometer.
+~
+PMID: 24922428
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.08010299956639813]
+    25506761 [label="Beck, et al. (2015)" href="https://pubmed.ncbi.nlm.nih.gov/25506761/" tooltip="Title: Action spectra for validation of pathogen disinfection in medium-pressure ultraviolet (UV) systems.
+~
+By: Beck, Wright, Hargy, Larason, Linden
+Date: 2015 Mar 01
+~
+Abstract: Ultraviolet (UV) reactors used for disinfecting water and wastewater must be validated and monitored over time. The validation process requires understanding the photochemical properties of the pathogens of concern and the challenge microorganisms used to represent them. Specifically for polychromatic UV systems, the organisms' dose responses to UV light and their sensitivity across the UV spectrum must be known. This research measured the UV spectral sensitivity, called action spectra, of Cryptosporidium parvum, and MS2, T1UV, Q Beta, T7, and T7m Coliphages, as well as Bacillus pumilus spores. A tunable laser from the National Institute of Standards and Technology was used to isolate single UV wavelengths at 10 nm intervals between 210 and 290 nm. Above 240 nm, all bacteria and viruses tested exhibited a relative peak sensitivity between 260 and 270 nm. Of the coliphage, MS2 exhibited the highest relative sensitivity below 240 nm, relative to its sensitivity at 254 nm, followed by Q Beta, T1UV, T7m and T7 coliphage. B. pumilus spores were more sensitive to UV light at 220 nm than any of the coliphage. These spectra are required for calculating action spectra correction factors for medium pressure UV system validation, for matching appropriate challenge microorganisms to pathogens, and for improving UV dose monitoring. Additionally, understanding the dose response of these organisms at multiple wavelengths can improve polychromatic UV dose calculations and enable prediction of pathogen inactivation from wavelength-specific disinfection technologies such as UV light emitting diodes (LEDs).
+~
+PMID: 25506761
+Journal: Water research" fillcolor="#96E6FF" margin=0.1613943352306837]
+    26401440 [label="Cramer, et al.
+(2013)" href="https://pubmed.ncbi.nlm.nih.gov/26401440/" tooltip="Title: Precise Measurement of Lunar Spectral Irradiance at Visible Wavelengths.
+~
+By: Cramer, Lykke, Woodward, Smith
+Date: 2013
+~
+Abstract: We report a measurement of lunar spectral irradiance with an uncertainty below 1 % from 420 nm to 1000 nm. This measurement uncertainty meets the stability requirement for many climate data records derived from satellite images, including those for vegetation, aerosols, and snow and ice albedo. It therefore opens the possibility of using the Moon as a calibration standard to bridge gaps in satellite coverage and validate atmospheric retrieval algorithms. Our measurement technique also yields detailed information about the atmosphere at the measurement site, suggesting that lunar observations are a possible solution for aerosol monitoring during the polar winter and can provide nighttime measurements to complement aerosol data collected with sun photometers. Our measurement, made with a novel apparatus, is an order of magnitude more accurate than the previous state-of-the-art and has continuous spectral coverage, removing the need to interpolate between filter passbands.
+~
+PMID: 26401440
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#DCDFB2" margin=0.11020599913279625]
+    26601030 [label="Datla, et al.
+(2014)" href="https://pubmed.ncbi.nlm.nih.gov/26601030/" tooltip="Title: Optical Passive Sensor Calibration for Satellite Remote Sensing and the Legacy of NOAA and NIST Cooperation.
+~
+By: Datla, Weinreb, Rice, Johnson, Shirley, Cao
+Date: 2014
+~
+Abstract: This paper traces the cooperative efforts of scientists at the National Oceanic and Atmospheric Administration (NOAA) and the National Institute of Standards and Technology (NIST) to improve the calibration of operational satellite sensors for remote sensing of the Earth's land, atmosphere and oceans. It gives a chronological perspective of the NOAA satellite program and the interactions between the two agencies' scientists to address pre-launch calibration and issues of sensor performance on orbit. The drive to improve accuracy of measurements has had a new impetus in recent years because of the need for improved weather prediction and climate monitoring. The highlights of this cooperation and strategies to achieve SI-traceability and improve accuracy for optical satellite sensor data are summarized.
+~
+PMID: 26601030
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#FFDC8C" margin=0.05]
+    26712541 [label="Beck, et al. (2015)" href="https://pubmed.ncbi.nlm.nih.gov/26712541/" tooltip="Title: Comparison of UV-Induced Inactivation and RNA Damage in MS2 Phage across the Germicidal UV Spectrum.
+~
+By: Beck, Rodriguez, Hawkins, Hargy, Larason, Linden
+Date: 2015 Dec 28
+~
+Abstract: Polychromatic UV irradiation is a common method of pathogen inactivation in the water treatment industry. To improve its disinfection efficacy, more information on the mechanisms of UV inactivation on microorganisms at wavelengths throughout the germicidal UV spectrum, particularly at below 240 nm, is necessary. This work examined UV inactivation of bacteriophage MS2, a common surrogate for enteric pathogens, as a function of wavelength. The bacteriophage was exposed to monochromatic UV irradiation from a tunable laser at wavelengths of between 210 nm and 290 nm. To evaluate the mechanisms of UV inactivation throughout this wavelength range, RT-qPCR (reverse transcription-quantitative PCR) was performed to measure genomic damage for comparison with genomic damage at 253.7 nm. The results indicate that the rates of RNA damage closely mirror the loss of viral infectivity across the germicidal UV spectrum. This demonstrates that genomic damage is the dominant cause of MS2 inactivation from exposure to germicidal UV irradiation. These findings contrast those for adenovirus, for which MS2 is used as a viral surrogate for validating polychromatic UV reactors.
+~
+PMID: 26712541
+Journal: Applied and environmental microbiology" fillcolor="#C1E1CF" margin=0.20185139398778873]
+    26836861 [label="Barnes, et al.
+(2015)" href="https://pubmed.ncbi.nlm.nih.gov/26836861/" tooltip="Title: Comparison of two methodologies for calibrating satellite instruments in the visible and near-infrared.
+~
+By: Barnes, Brown, Lykke, Guenther, Butler, Schwarting, Turpie, Moyer, DeLuccia, Moeller
+Date: 2015 Dec 10
+~
+Abstract: Traditionally, satellite instruments that measure Earth-reflected solar radiation in the visible and near infrared wavelength regions have been calibrated for radiance responsivity in a two-step method. In the first step, the relative spectral response (RSR) of the instrument is determined using a nearly monochromatic light source such as a lamp-illuminated monochromator. These sources do not typically fill the field of view of the instrument nor act as calibrated sources of light. Consequently, they only provide a relative (not absolute) spectral response for the instrument. In the second step, the instrument views a calibrated source of broadband light, such as a lamp-illuminated integrating sphere. The RSR and the sphere's absolute spectral radiance are combined to determine the absolute spectral radiance responsivity (ASR) of the instrument. More recently, a full-aperture absolute calibration approach using widely tunable monochromatic lasers has been developed. Using these sources, the ASR of an instrument can be determined in a single step on a wavelength-by-wavelength basis. From these monochromatic ASRs, the responses of the instrument bands to broadband radiance sources can be calculated directly, eliminating the need for calibrated broadband light sources such as lamp-illuminated integrating spheres. In this work, the traditional broadband source-based calibration of the Suomi National Preparatory Project Visible Infrared Imaging Radiometer Suite sensor is compared with the laser-based calibration of the sensor. Finally, the impact of the new full-aperture laser-based calibration approach on the on-orbit performance of the sensor is considered.
+~
+PMID: 26836861
+Journal: Applied optics" fillcolor="#CAE1C5" margin=0.12781512503836437]
+    26900523 [label="Smith, et al.
+(2012)" href="https://pubmed.ncbi.nlm.nih.gov/26900523/" tooltip="Title: Lunar Spectral Irradiance and Radiance (LUSI): New Instrumentation to Characterize the Moon as a Space-Based Radiometric Standard.
+~
+By: Smith, Lorentz, Stone, Datla
+Date: 2012
+~
+Abstract: The need to understand and monitor climate change has led to proposed radiometric accuracy requirements for space-based remote sensing instruments that are very stringent and currently outside the capabilities of many Earth orbiting instruments. A major problem is quantifying changes in sensor performance that occur from launch and during the mission. To address this problem on-orbit calibrators and monitors have been developed, but they too can suffer changes from launch and the harsh space environment. One solution is to use the Moon as a calibration reference source. Already the Moon has been used to remove post-launch drift and to cross-calibrate different instruments, but further work is needed to develop a new model with low absolute uncertainties capable of climate-quality absolute calibration of Earth observing instruments on orbit. To this end, we are proposing an Earth-based instrument suite to measure the absolute lunar spectral irradiance to an uncertainty(1) of 0.5 % (k=1) over the spectral range from 320 nm to 2500 nm with a spectral resolution of approximately 0.3 %. Absolute measurements of lunar radiance will also be acquired to facilitate calibration of high spatial resolution sensors. The instruments will be deployed at high elevation astronomical observatories and flown on high-altitude balloons in order to mitigate the effects of the Earth's atmosphere on the lunar observations. Periodic calibrations using instrumentation and techniques available from NIST will ensure traceability to the International System of Units (SI) and low absolute radiometric uncertainties.
+~
+PMID: 26900523
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#DCDFB2" margin=0.08010299956639813]
+    26989581 [label="Cooksey & Datla
+(2011)" href="https://pubmed.ncbi.nlm.nih.gov/26989581/" tooltip="Title: Workshop on Bridging Satellite Climate Data Gaps.
+~
+By: Cooksey, Datla
+Date: 2011 Jan-Feb
+~
+Abstract: Detecting the small signals of climate change for the most essential climate variables requires that satellite sensors make highly accurate and consistent measurements. Data gaps in the time series (such as gaps resulting from launch delay or failure) and inconsistencies in radiometric scales between satellites undermine the credibility of fundamental climate data records, and can lead to erroneous analysis in climate change detection. To address these issues, leading experts in Earth observations from National Aeronautics and Space Administration (NASA), National Oceanic and Atmospheric Adminstration (NOAA), United States Geological Survey (USGS), and academia assembled at the National Institute of Standards and Technology on December 10, 2009 for a workshop to prioritize strategies for bridging and mitigating data gaps in the climate record. This paper summarizes the priorities for ensuring data continuity of variables relevant to climate change in the areas of atmosphere, land, and ocean measurements and the recommendations made at the workshop for overcoming planned and unplanned gaps in the climate record.
+~
+PMID: 26989581
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#CAE1C5" margin=0.09771212547196625]
+    26989588 [label="Datla, et al.
+(2011)" href="https://pubmed.ncbi.nlm.nih.gov/26989588/" tooltip="Title: Best Practice Guidelines for Pre-Launch Characterization and Calibration of Instruments for Passive Optical Remote Sensing.
+~
+By: Datla, Rice, Lykke, Johnson, Butler, Xiong
+Date: 2011 Mar-Apr
+~
+Abstract: The pre-launch characterization and calibration of remote sensing instruments should be planned and carried out in conjunction with their design and development to meet the mission requirements. The onboard calibrators such as blackbodies and the sensors such as spectral radiometers should be characterized and calibrated using SI traceable standards. In the case of earth remote sensing, this allows inter-comparison and intercalibration of different sensors in space to create global time series of climate records of high accuracy where some inevitable data gaps can be easily bridged. The recommended best practice guidelines for this pre-launch effort is presented based on experience gained at National Institute of Standards and Technology (NIST), National Aeronautics and Space Administration (NASA) and National Oceanic and Atmospheric Administration (NOAA) programs over the past two decades. The currently available radiometric standards and calibration facilities at NIST serving the remote sensing community are described. Examples of best practice calibrations and intercomparisons to build SI (international System of Units) traceable uncertainty budget in the instrumentation used for preflight satellite sensor calibration and validation are presented.
+~
+PMID: 26989588
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#C0E2D1" margin=0.11020599913279625]
+    27275949 [label="Buonanno, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27275949/" tooltip="Title: 207-nm UV Light-A Promising Tool for Safe Low-Cost Reduction of Surgical Site Infections. II: In-Vivo Safety Studies.
+~
+By: Buonanno, Stanislauskas, Ponnaiya, Bigelow, Randers-Pehrson, Xu, Shuryak, Smilenov, Owens, Brenner
+Date: 2016
+~
+Abstract: UVC light generated by conventional germicidal lamps is a well-established anti-microbial modality, effective against both bacteria and viruses. However, it is a human health hazard, being both carcinogenic and cataractogenic. Earlier studies showed that single-wavelength far-UVC light (207 nm) generated by excimer lamps kills bacteria without apparent harm to human skin tissue in vitro. The biophysical explanation is that, due to its extremely short range in biological material, 207 nm UV light cannot penetrate the human stratum corneum (the outer dead-cell skin layer, thickness 5-20 μm) nor even the cytoplasm of individual human cells. By contrast, 207 nm UV light can penetrate bacteria and viruses because these cells are physically much smaller.
+~
+PMID: 27275949
+Journal: PloS one" fillcolor="#A1E4F2" margin=0.20051499783199062]
+    27366615 [label="Gardner (2004)" href="https://pubmed.ncbi.nlm.nih.gov/27366615/" tooltip="Title: Uncertainty Propagation for NIST Visible Spectral Standards.
+~
+By: Gardner
+Date: 2004 May-Jun
+~
+Abstract: Uncertainties in the NIST spectral standards for detectors and sources in the visible wavelength range are propagated from the high accuracy cryogenic radiometer measurements, taking correlations into account at every stage. Partial correlations between spectral values at different wavelengths, important for subsequent radiometric calculations, are estimated. Uncertainty propagation through fitting and through transfer spectral measurements is described in detail. Detector uncertainties are propagated through the spectral comparator facility for external calibrations and for internal photometric quantities. Uncertainties in spectral irradiance are derived for the detector-based temperature determination, then propagated through working standards to calibrated artifacts. Spectral irradiance calibrations are generally provided at a limited number of wavelengths. Interpolation, rather than fitting, is recommended for the interpolation of NIST-provided spectral irradiance values.
+~
+PMID: 27366615
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#E4DEA8" margin=0.08010299956639813]
+    27413606 [label="Butler, et al.
+(2003)" href="https://pubmed.ncbi.nlm.nih.gov/27413606/" tooltip="Title: Radiometric Measurement Comparison on the Integrating Sphere Source Used to Calibrate the Moderate Resolution Imaging Spectroradiometer (MODIS) and the Landsat 7 Enhanced Thematic Mapper Plus (ETM+).
+~
+By: Butler, Brown, Saunders, Johnson, Biggar, Zalewski, Markham, Gracey, Young, Barnes
+Date: 2003 May-Jun
+~
+Abstract: As part of a continuing effort to validate the radiometric scales assigned to integrating sphere sources used in the calibration of Earth Observing System (EOS) instruments, a radiometric measurement comparison was held in May 1998 at Raytheon/Santa Barbara Remote Sensing (SBRS). This comparison was conducted in support of the calibration of the Moderate Resolution Imaging Spectroradiometer (MODIS) and the Landsat 7 Enhanced Thematic Mapper Plus (ETM+) instruments. The radiometric scale assigned to the Spherical Integrating Source (SIS100) by SBRS was validated through a comparison with radiometric measurements made by a number of stable, well-characterized transfer radiometers from the National Institute of Standards and Technology (NIST), the National Aeronautics and Space Administration's Goddard Space Flight Center (NASA's GSFC), and the University of Arizona Optical Sciences Center (UA). The measured radiances from the radiometers differed by ±3 % in the visible to near infrared when compared to the SBRS calibration of the sphere, and the overall agreement was within the combined uncertainties of the individual measurements. In general, the transfer radiometers gave higher values than the SBRS calibration in the near infrared and lower values in the blue. The measurements of the radiometers differed by ±4 % from 800 nm to 1800 nm compared to the SBRS calibration of the sphere, and the overall agreement was within the combined uncertainties of the individual measurements for wavelengths less than 2200 nm. The results of the radiometric measurement comparison presented here supplement the results of previous measurement comparisons on the integrating sphere sources used to calibrate the Multi-angle Imaging SpectroRadiometer (MISR) at NASA's Jet Propulsion Laboratory (JPL), Pasadena, CA and the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) at NEC Corporation, Yokohama, Japan.
+~
+PMID: 27413606
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#DCDFB2" margin=0.08010299956639813]
+    27661568 [label="McIntire, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27661568/" tooltip="Title: Monochromatic measurements of the JPSS-1 VIIRS polarization sensitivity.
+~
+By: McIntire, Moyer, Brown, Lykke, Waluschka, Oudrari, Xiong
+Date: 2016 Sep 20
+~
+Abstract: Polarization sensitivity is a critical property that must be characterized for spaceborne remote sensing instruments designed to measure reflected solar radiation. Broadband testing of the first Joint Polar-orbiting Satellite System (JPSS-1) Visible Infrared Imaging Radiometer Suite (VIIRS) showed unexpectedly large polarization sensitivities for the bluest bands on VIIRS (centered between 400 and 600 nm). Subsequent ray trace modeling indicated that large diattenuation on the edges of the bandpass for these spectral bands was the driver behind these large sensitivities. Additional testing using the National Institute of Standards and Technology's Traveling Spectral Irradiance and Radiance Responsivity Calibrations Using Uniform Sources was added to the test program to verify and enhance the model. The testing was limited in scope to two spectral bands at two scan angles; nonetheless, this additional testing provided valuable insight into the polarization sensitivity. Analysis has shown that the derived diattenuation agreed with the broadband measurements to within an absolute difference of about 0.4% and that the ray trace model reproduced the general features of the measured data. Additionally, by deriving the spectral responsivity, the linear diattenuation is shown to be explicitly dependent on the changes in bandwidth with polarization state.
+~
+PMID: 27661568
+Journal: Applied optics" fillcolor="#FFDC8C" margin=0.05]
+    27805113 [label="Johnson, et al.
+(1997)" href="https://pubmed.ncbi.nlm.nih.gov/27805113/" tooltip="Title: Radiometric Measurement Comparison Using the Ocean Color Temperature Scanner (OCTS) Visible and Near Infrared Integrating Sphere.
+~
+By: Johnson, Sakuma, Butler, Biggar, Cooper, Ishida, Suzuki
+Date: 1997 Nov-Dec
+~
+Abstract: As a part of the pre-flight calibration and validation activities for the Ocean Color and Temperature Scanner (OCTS) and the Sea-viewing Wide Field-of-view Sensor (SeaWiFS) ocean color satellite instruments, a radiometric measurement comparison was held in February 1995 at the NEC Corporation in Yokohama, Japan. Researchers from the National Institute of Standards and Technology (NIST), the National Aeronautics and Space Administration/Goddard Space Flight Center (NASA/GSFC), the University of Arizona Optical Sciences Center (UA), and the National Research Laboratory of Metrology (NRLM) in Tsukuba, Japan used their portable radiometers to measure the spectral radiance of the OCTS visible and near-infrared integrating sphere at four radiance levels. These four levels corresponded to the configuration of the OCTS integrating sphere when the calibration coefficients for five of the eight spectral channels, or bands, of the OCTS instrument were determined. The measurements of the four radiometers differed by -2.7 % to 3.9 % when compared to the NEC calibration of the sphere and the overall agreement was within the combined measurement uncertainties. A comparison of the measurements from the participating radiometers also resulted in agreement within the combined measurement uncertainties. These results are encouraging and demonstrate the utility of comparisons using laboratory calibration integrating sphere sources. Other comparisons will focus on instruments that are scheduled for spacecraft in the NASA study of climate change, the Earth Observing System (EOS).
+~
+PMID: 27805113
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#96E6FF" margin=0.08010299956639813]
+    27879830 [label="Miura, et al.
+(2008)" href="https://pubmed.ncbi.nlm.nih.gov/27879830/" tooltip="Title: Inter-Comparison of ASTER and MODIS Surface Reflectance and Vegetation Index Products for Synergistic Applications to Natural Resource Monitoring.
+~
+By: Miura, Yoshioka, Fujiwara, Yamamoto
+Date: 2008 Apr 08
+~
+Abstract: Synergistic applications of multi-resolution satellite data have been of a great interest among user communities for the development of an improved and more effective operational monitoring system of natural resources, including vegetation and soil. In this study, we conducted an inter-comparison of two remote sensing products, namely, visible/near-infrared surface reflectances and spectral vegetation indices (VIs), from the high resolution Advanced Thermal Emission and Reflection Radiometer (ASTER) (15 m) and lower resolution Moderate Resolution Imaging Spectroradiometer (MODIS) (250 m - 500 m) sensors onboard the Terra platform. Our analysis was aimed at understanding the degree of radiometric compatibility between the two sensors' products due to sensor spectral bandpasses and product generation algorithms. Multiple pairs of ASTER and MODIS standard surface reflectance products were obtained at randomly-selected, globally-distributed locations, from which two types of VIs were computed: the normalized difference vegetation index and the enhanced vegetation indices with and without a blue band. Our results showed that these surface reflectance products and the derived VIs compared well between the two sensors at a global scale, but subject to systematic differences, of which magnitudes varied among scene pairs. An independent assessment of the accuracy of ASTER and MODIS standard products, in which 'in-house' surface reflectances were obtained using in situ Aeronet atmospheric data for comparison, suggested that the performance of the ASTER atmospheric correction algorithm may be variable, reducing overall quality of its standard reflectance product. Atmospheric aerosols, which were not corrected for in the ASTER algorithm, were found not to impact the quality of the derived reflectances. Further investigation is needed to identify the sources of inconsistent atmospheric correction results associated with the ASTER algorithm, including additional quality assessments of the ASTER and MODIS products with other atmospheric radiative transfer codes.
+~
+PMID: 27879830
+Journal: Sensors (Basel, Switzerland)" fillcolor="#96E6FF" margin=0.09771212547196625]
+    27889622 [label="Beck, et al. (2017)" href="https://pubmed.ncbi.nlm.nih.gov/27889622/" tooltip="Title: Evaluating UV-C LED disinfection performance and investigating potential dual-wavelength synergy.
+~
+By: Beck, Ryu, Boczek, Cashdollar, Jeanis, Rosenblum, Lawal, Linden
+Date: 2017 Feb 01
+~
+Abstract: A dual-wavelength UV-C LED unit, emitting at peaks of 260 nm, 280 nm, and the combination of 260|280 nm together was evaluated for its inactivation efficacy and energy efficiency at disinfecting Escherichia coli, MS2 coliphage, human adenovirus type 2 (HAdV2), and Bacillus pumilus spores, compared to conventional low-pressure and medium-pressure UV mercury vapor lamps. The dual-wavelength unit was also used to measure potential synergistic effects of multiple wavelengths on bacterial and viral inactivation and DNA and RNA damage. All five UV sources demonstrated similar inactivation of E. coli. For MS2, the 260 nm LED was most effective. For HAdV2 and B. pumilus, the MP UV lamp was most effective. When measuring electrical energy per order of reduction, the LP UV lamp was most efficient for inactivating E. coli and MS2; the LP UV and MP UV mercury lamps were equally efficient for HAdV2 and B. pumilus spores. Among the UV-C LEDs, there was no statistical difference in electrical efficiency for inactivating MS2, HAdV2, and B. pumilus spores. The 260 nm and 260|280 nm LEDs had a statistical energy advantage for E. coli inactivation. For UV-C LEDs to match the electrical efficiency per order of log reduction of conventional LP UV sources, they must reach efficiencies of 25-39% or be improved on by smart reactor design. No dual wavelength synergies were detected for bacterial and viral inactivation nor for DNA and RNA damage.
+~
+PMID: 27889622
+Journal: Water research" fillcolor="#D2E0BD" margin=0.18222192947339194]
+    28117745 [label="Yang, et al. (2017)" href="https://pubmed.ncbi.nlm.nih.gov/28117745/" tooltip="Title: Evaluation on Radiometric Capability of Chinese Optical Satellite Sensors.
+~
+By: Yang, Zhong, Wu, Liu
+Date: 2017 Jan 22
+~
+Abstract: The radiometric capability of on-orbit sensors should be updated on time due to changes induced by space environmental factors and instrument aging. Some sensors, such as Moderate Resolution Imaging Spectroradiometer (MODIS), have onboard calibrators, which enable real-time calibration. However, most Chinese remote sensing satellite sensors lack onboard calibrators. Their radiometric calibrations have been updated once a year based on a vicarious calibration procedure, which has affected the applications of the data. Therefore, a full evaluation of the sensors' radiometric capabilities is essential before quantitative applications can be made. In this study, a comprehensive procedure for evaluating the radiometric capability of several Chinese optical satellite sensors is proposed. In this procedure, long-term radiometric stability and radiometric accuracy are the two major indicators for radiometric evaluation. The radiometric temporal stability is analyzed by the tendency of long-term top-of-atmosphere (TOA) reflectance variation; the radiometric accuracy is determined by comparison with the TOA reflectance from MODIS after spectrally matching. Three Chinese sensors including the Charge-Coupled Device (CCD) camera onboard Huan Jing 1 satellite (HJ-1), as well as the Visible and Infrared Radiometer (VIRR) and Medium-Resolution Spectral Imager (MERSI) onboard the Feng Yun 3 satellite (FY-3) are evaluated in reflective bands based on this procedure. The results are reasonable, and thus can provide reliable reference for the sensors' application, and as such will promote the development of Chinese satellite data.
+~
+PMID: 28117745
+Journal: Sensors (Basel, Switzerland)" fillcolor="#96E6FF" margin=0.09771212547196625]
+    28225654 [label="Buonanno, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28225654/" tooltip="Title: Germicidal Efficacy and Mammalian Skin Safety of 222-nm UV Light.
+~
+By: Buonanno, Ponnaiya, Welch, Stanislauskas, Randers-Pehrson, Smilenov, Lowy, Owens, Brenner
+Date: 2017 04
+~
+Abstract: We have previously shown that 207-nm ultraviolet (UV) light has similar antimicrobial properties as typical germicidal UV light (254 nm), but without inducing mammalian skin damage. The biophysical rationale is based on the limited penetration distance of 207-nm light in biological samples (e.g. stratum corneum) compared with that of 254-nm light. Here we extended our previous studies to 222-nm light and tested the hypothesis that there exists a narrow wavelength window in the far-UVC region, from around 200-222 nm, which is significantly harmful to bacteria, but without damaging cells in tissues. We used a krypton-chlorine (Kr-Cl) excimer lamp that produces 222-nm UV light with a bandpass filter to remove the lower- and higher-wavelength components. Relative to respective controls, we measured: 1. in vitro killing of methicillin-resistant Staphylococcus aureus (MRSA) as a function of UV fluence; 2. yields of the main UV-associated premutagenic DNA lesions (cyclobutane pyrimidine dimers and 6-4 photoproducts) in a 3D human skin tissue model in vitro; 3. eight cellular and molecular skin damage endpoints in exposed hairless mice in vivo. Comparisons were made with results from a conventional 254-nm UV germicidal lamp used as positive control. We found that 222-nm light kills MRSA efficiently but, unlike conventional germicidal UV lamps (254 nm), it produces almost no premutagenic UV-associated DNA lesions in a 3D human skin model and it is not cytotoxic to exposed mammalian skin. As predicted by biophysical considerations and in agreement with our previous findings, far-UVC light in the range of 200-222 nm kills bacteria efficiently regardless of their drug-resistant proficiency, but without the skin damaging effects associated with conventional germicidal UV exposure.
+~
+PMID: 28225654
+Journal: Radiation research" fillcolor="#A3E4F0" margin=0.207978359661681]
+    28777329 [label="Obata, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28777329/" tooltip="Title: Cross-Calibration between ASTER and MODIS Visible to Near-Infrared Bands for Improvement of ASTER Radiometric Calibration.
+~
+By: Obata, Tsuchida, Yamamoto, Thome
+Date: 2017 Aug 04
+~
+Abstract: Radiometric cross-calibration between the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) and the Terra-Moderate Resolution Imaging Spectroradiometer (MODIS) has been partially used to derive the ASTER radiometric calibration coefficient (RCC) curve as a function of date on visible to near-infrared bands. However, cross-calibration is not sufficiently accurate, since the effects of the differences in the sensor's spectral and spatial responses are not fully mitigated. The present study attempts to evaluate radiometric consistency across two sensors using an improved cross-calibration algorithm to address the spectral and spatial effects and derive cross-calibration-based RCCs, which increases the ASTER calibration accuracy. Overall, radiances measured with ASTER bands 1 and 2 are on averages 3.9% and 3.6% greater than the ones measured on the same scene with their MODIS counterparts and ASTER band 3N (nadir) is 0.6% smaller than its MODIS counterpart in current radiance/reflectance products. The percentage root mean squared errors (%RMSEs) between the radiances of two sensors are 3.7, 4.2, and 2.3 for ASTER band 1, 2, and 3N, respectively, which are slightly greater or smaller than the required ASTER radiometric calibration accuracy (4%). The uncertainty of the cross-calibration is analyzed by elaborating the error budget table to evaluate the International System of Units (SI)-traceability of the results. The use of the derived RCCs will allow further reduction of errors in ASTER radiometric calibration and subsequently improve interoperability across sensors for synergistic applications.
+~
+PMID: 28777329
+Journal: Sensors (Basel, Switzerland)" fillcolor="#DCDFB2" margin=0.08010299956639813]
+    29101868 [label="Narita, et al.
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/29101868/" tooltip="Title: Disinfection and healing effects of 222-nm UVC light on methicillin-resistant Staphylococcus aureus infection in mouse wounds.
+~
+By: Narita, Asano, Morimoto, Igarashi, Hamblin, Dai, Nakane
+Date: 2018 Jan
+~
+Abstract: UVC radiation is known to be highly germicidal. However, exposure to 254-nm-UVC light causes DNA lesions such as cyclobutane pyrimidine dimers (CPD) in human cells, and can induce skin cancer after long-term repeated exposures. It has been reported that short wavelength UVC is absorbed by proteins in the membrane and cytosol, and fails to reach the nucleus of human cells. Hence, irradiation with 222-nm UVC might be an optimum combination of effective disinfection and biological safety to human cells. In this study, the biological effectiveness of 222-nm UVC was investigated using a mouse model of a skin wound infected with methicillin-resistant Staphylococcus aureus (MRSA). Irradiation with 222-nm UVC significantly reduced bacterial numbers on the skin surface compared with non-irradiated skin. Bacterial counts in wounds evaluated on days 3, 5, 8 and 12 after irradiation demonstrated that the bactericidal effect of 222-nm UVC was equal to or more effective than 254-nm UVC. Histological analysis revealed that migration of keratinocytes which is essential for the wound healing process was impaired in wounds irradiated with 254-nm UVC, but was unaffected in 222-nm UVC irradiated wounds. No CPD-expressing cells were detected in either epidermis or dermis of wounds irradiated with 222-nm UVC, whereas CPD-expressing cells were found in both epidermis and dermis irradiation with 254-nm UVC. These results suggest that 222-nm UVC light may be a safe and effective way to reduce the rate of surgical site and other wound infections.
+~
+PMID: 29101868
+Journal: Journal of photochemistry and photobiology. B, Biology" fillcolor="#AEE3E4" margin=0.1704119982655925]
+    29426899 [label="Welch, et al.
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/29426899/" tooltip="Title: Far-UVC light: A new tool to control the spread of airborne-mediated microbial diseases.
+~
+By: Welch, Buonanno, Grilj, Shuryak, Crickmore, Bigelow, Randers-Pehrson, Johnson, Brenner
+Date: 2018 02 09
+~
+Abstract: Airborne-mediated microbial diseases such as influenza and tuberculosis represent major public health challenges. A direct approach to prevent airborne transmission is inactivation of airborne pathogens, and the airborne antimicrobial potential of UVC ultraviolet light has long been established; however, its widespread use in public settings is limited because conventional UVC light sources are both carcinogenic and cataractogenic. By contrast, we have previously shown that far-UVC light (207-222 nm) efficiently inactivates bacteria without harm to exposed mammalian skin. This is because, due to its strong absorbance in biological materials, far-UVC light cannot penetrate even the outer (non living) layers of human skin or eye; however, because bacteria and viruses are of micrometer or smaller dimensions, far-UVC can penetrate and inactivate them. We show for the first time that far-UVC efficiently inactivates airborne aerosolized viruses, with a very low dose of 2 mJ/cm2 of 222-nm light inactivating >95% of aerosolized H1N1 influenza virus. Continuous very low dose-rate far-UVC light in indoor public locations is a promising, safe and inexpensive tool to reduce the spread of airborne-mediated microbial diseases.
+~
+PMID: 29426899
+Journal: Scientific reports" fillcolor="#AFE3E3" margin=0.22708520116421443]
+    29466457 [label="Ponnaiya, et al.
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/29466457/" tooltip="Title: Far-UVC light prevents MRSA infection of superficial wounds in vivo.
+~
+By: Ponnaiya, Buonanno, Welch, Shuryak, Randers-Pehrson, Brenner
+Date: 2018
+~
+Abstract: Prevention of superficial surgical wound infections from drug-resistant bacteria such as methicillin resistant Staphylococcus aureus (MRSA) currently present major health care challenges. The majority of surgical site infections (SSI) are believed to be caused by airborne transmission of bacteria alighting onto the wound during surgical procedures. We have previously shown that far-ultraviolet C light in the wavelength range of 207-222 nm is significantly harmful to bacteria, but without damaging mammalian cells and tissues. It is important that the lamp be fitted with a filter to remove light emitted at wavelengths longer than 230 nm which are harmful.
+~
+PMID: 29466457
+Journal: PloS one" fillcolor="#B9E2D8" margin=0.16461280356782382]
+    30044862 [label="Narita, et al.
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/30044862/" tooltip="Title: Chronic irradiation with 222-nm UVC light induces neither DNA damage nor epidermal lesions in mouse skin, even at high doses.
+~
+By: Narita, Asano, Morimoto, Igarashi, Nakane
+Date: 2018
+~
+Abstract: Surgical site infections (SSIs) represent an important clinical problem associated with increased levels of surgical morbidity and mortality. UVC irradiation during surgery has been considered to represent a possible strategy to prevent the development of SSI. 254-nm UVC induces marked levels of DNA damage by generating cyclobutyl pyrimidine dimers (CPD) in microorganisms. However, this effect is elicited not only in microorganisms, but also in human cells, and chronic exposure to 254-nm UVC has been established to represent a human health hazard. In contrast, despite short wavelength-UVC light, especially 222-nm UVC, having been demonstrated to elicit a bactericidal effect, single irradiation with a high dose of 222-nm UVC energy has been reported to not induce mutagenic or cytotoxic DNA lesions in mammalian cells. However, the effect of chronic irradiation with a high dose of 222-nm UVC to mammalian cells has not been determined. In this study, it was demonstrated that large numbers of CPD-expressing cells were induced in the epidermis of mice following treatment with a small amount of single exposure 254-nm UVC, and then less than half of these cells reduced within 24 h. Chronic 254-nm UVC irradiation was revealed to induce sunburn and desquamation in mouse skin. Histological analysis demonstrated that small numbers of CPD-expressing cells were detected only in hyperkeratotic stratum corneum after chronic irradiation with a high dose of 254-nm UVC, and that significant hyperplasia and intercellular edema were also induced in the epidermis of mice. In contrast, chronic irradiation with 222-nm UVC light was revealed not to induce mutagenic or cytotoxic effects in the epidermis of mice. These results indicated that 222-nm UVC light emitted from the lamp apparatus (or device), which was designed to attenuate harmful light present in wavelengths of more than 230 nm, represents a promising tool for the reduction of SSI incidence in patients and hospital staff.
+~
+PMID: 30044862
+Journal: PloS one" fillcolor="#B4E3DD" margin=0.19313637641589876]
+    30096188 [label="Welch, et al.
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/30096188/" tooltip="Title: Effect of far ultraviolet light emitted from an optical diffuser on methicillin-resistant Staphylococcus aureus in vitro.
+~
+By: Welch, Buonanno, Shuryak, Randers-Pehrson, Spotnitz, Brenner
+Date: 2018
+~
+Abstract: Drug-resistant bacteria such as methicillin-resistant Staphylococcus aureus (MRSA) are a target for new antimicrobial technologies. Far-UVC technology is an emerging disinfection method that directly kills microorganisms using light. In contrast with conventional UV sterilization, far-UVC light has antimicrobial capabilities without apparent harm to mammalian cells. This study examines the application of 224 nm far-UVC light delivered from a laser using an optical diffuser towards the goal of protecting against bacterial invasion around skin penetrating devices. Delivery of far-UVC using a laser and optical fibers enables exposure to unique geometries that would otherwise be shielded when using a lamp. Testing of the bactericidal potential of diffusing the far-UVC laser output over a large area was tested and yielded qualitative area killing results. The killing of MRSA using this method was also examined using an in vitro survival assay. Results followed a classic log-linear disinfection model with a rate constant of k = 0.51 cm2/mJ, which corresponds to an inactivation cross section of D90 = 4.5 mJ/cm2. This study establishes far-UVC delivered from a laser through an optical diffuser as a viable solution for disinfection of susceptible regions such as around catheters, drivelines, or other skin penetrating medical devices.
+~
+PMID: 30096188
+Journal: PloS one" fillcolor="#CAE1C5" margin=0.1198970004336019]
+    30278699 [label="Woodward, et al.
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/30278699/" tooltip="Title: Invited Article: Advances in tunable laser-based radiometric calibration applications at the National Institute of Standards and Technology, USA.
+~
+By: Woodward, Shaw, Yoon, Zong, Brown, Lykke
+Date: 2018 Sep
+~
+Abstract: Recent developments at the National Institute of Standards and Technology's facility for Spectral Irradiance and Radiance responsivity Calibrations using Uniform Sources (SIRCUS) are presented. The facility is predicated on the use of broadly tunable narrow-band lasers as light sources in two key radiometric calibration applications. In the first application, the tunable lasers are used to calibrate the spectral power responsivities of primary standard detectors against an absolute cryogenic radiometer (ACR). The second function is to calibrate the absolute radiance and irradiance responsivities of detectors with uniform light sources, typically generated by coupling the laser light into integrating spheres. The radiant flux from the uniform sources is determined by the ACR-calibrated primary standard detectors. Together these sources and detectors are used to transfer radiometric scales to a variety of optical instruments with low uncertainties. We describe methods for obtaining the stable, uniform light sources required for low uncertainty measurements along with advances in laser sources that facilitate tuning over broader wavelength ranges. Example applications include the development of a detector-based thermodynamic temperature scale, the calibration and characterization of spectrographs, and the use of a traveling version of SIRCUS (T-SIRCUS) to calibrate large aperture Earth observing instruments and astronomical telescopes.
+~
+PMID: 30278699
+Journal: The Review of scientific instruments" fillcolor="#EDDD9F" margin=0.08010299956639813]
+    30461732 [label="Choi, Shao, & Cao
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/30461732/" tooltip="Title: On-orbit radiometric calibration of Suomi NPP VIIRS reflective solar bands using the Moon and solar diffuser.
+~
+By: Choi, Shao, Cao
+Date: 2018 Nov 10
+~
+Abstract: Radiometric calibration of the Suomi National Polar-orbiting Partnership Visible Infrared Imaging Radiometer Suite (VIIRS) reflective solar bands relies mainly on the onboard solar diffuser (SD) observations. The SD reflectance degrades over time due to the exposure to solar ultraviolet radiation. The uncertainties embedded in characterizing the SD bidirectional reflectance distribution function (BRDF) directly affect the accuracy of sensor radiometric calibration coefficients, such as F-factors, which are proxies of detector gain. The Moon-based radiometric calibration provides an independent way of validating and correcting the SD-based calibration. This study focuses on the comparison of the long-term SD F-factors with lunar F-factors by using two independent lunar irradiance models, i.e., Miller and Turner (MT) model and the Global Space-based Inter-Calibration System Implementation of ROLO (GIRO) model. To monitor the long-term detector response changes, the lunar F-factor differences are matched to the SD F-factors by applying the best fit scaling factors. Overall, the two lunar F-factors agree well, within 2% of one sigma standard deviation in the reflective solar bands compared to the SD F-factors. The lifetime standard deviations of difference between the GIRO-based lunar and SD F-factors show better long-term match than that of MT-based lunar F-factors. The GIRO-based lunar F-factors show increasing differences over time in comparison with the SD F-factors especially for bands M1 to M4, which indicates the underestimation of the VIIRS detector degradation by SD F-factors for these bands. Using standard SD calibration method and the GIRO-based lunar model, long-term difference between the lunar and SD F-factors shows there are 1.6%, 1.3%, 1.0%, and 0.9% increases in lunar F-factor trend for bands M1 to M4 at the end of year 2015. To mitigate these time-dependent biases, NOAA Ocean Color (OC) group and NASA VIIRS characterization support team (VCST) developed lunar correction methods and applied them to their specific products. However, the amounts of band-dependent lunar corrections are not consistent between these two teams, especially in the short-wavelength bands from M1 to M4, depending on the versions of lunar models and SD F-factor calculation algorithms. Using the standard SD F-factor algorithm and the multi-agency endorsed GIRO model, we derived lunar correction factors based on the quadratic fits between the SD and lunar F-factors. The differences with the NOAA OC group and NASA VCST team are compared and described in this study.
+~
+PMID: 30461732
+Journal: Applied optics" fillcolor="#96E6FF" margin=0.09771212547196625]
+    30610077 [label="Kang & Kang (2019)" href="https://pubmed.ncbi.nlm.nih.gov/30610077/" tooltip="Title: Increased Resistance of Salmonella enterica Serovar Typhimurium and Escherichia coli O157:H7 to 222-Nanometer Krypton-Chlorine Excilamp Treatment by Acid Adaptation.
+~
+By: Kang, Kang
+Date: 2019 03 15
+~
+Abstract: In this study, we examined the change in resistance of Salmonella enterica serovar Typhimurium and Escherichia coli O157:H7 to 222-nm krypton-chlorine (KrCl) excilamp treatment as influenced by acid adaptation and identified a mechanism of resistance change. In addition, we measured changes in apple juice quality indicators, such as color, total phenols, and 2,2-diphenyl-1-picrylhydrazyl (DPPH) free radical scavenging activity, during treatment. Non-acid-adapted and acid-adapted pathogens were induced by growing the cells in tryptic soy broth without dextrose (TSB w/o D) at pH 7.3 and in TSB w/o D at pH 5.0 (adjusted with HCl), respectively. For the KrCl excilamp treatment, acid-adapted pathogens exhibited significantly (P < 0.05) higher D5d values, which indicate dosages required to achieve a 5-log reduction, than those for non-acid-adapted pathogens in both commercially clarified apple juice and phosphate-buffered saline (PBS), and the pathogens in the juice showed significantly (P < 0.05) higher D5d values than those for pathogens in PBS because of the UV-absorbing characteristics of apple juice. Through mechanism identification, it was found that the generation of lipid peroxidation in the cell membrane, inducing cell membrane destruction, was significantly (P < 0.05) lower in acid-adapted cells than in non-acid-adapted cells for the same amount of reactive oxygen species (ROS) generated at the same dose because the ratio of unsaturated to saturated fatty acids (USFA/SFA) in the cell membrane was significantly (P < 0.05) decreased as a result of acid adaptation. Treated apple juice showed no significant (P > 0.05) difference in quality indicators compared to those of untreated controls during treatment at 1,773 mJ/cm2 IMPORTANCE There is a need for novel, mercury-free UV lamp technology to replace germicidal lamps containing harmful mercury, which are routinely utilized for UV pasteurization of apple juice. In addition, consideration of the changes in response to antimicrobial treatments that may occur when pathogens are adapted to the acid in an apple juice matrix is critical to the practical application of this technology. Based on this, an investigation using 222-nm KrCl excilamp technology, an attractive alternative to mercury lamps, was conducted. Our study demonstrated increased resistance to 222-nm KrCl excilamp treatment as pathogens adapted to acids, and this was due to changes in reactivity to ROS with changes in the fatty acid composition of the cell membrane. Despite increased resistance, the 222-nm KrCl excilamp achieved pathogen reductions of 5 log or more at laboratory scale without affecting apple juice quality. These results provide valuable baseline data for application of 222-nm KrCl excilamps in the apple juice industry.
+~
+PMID: 30610077
+Journal: Applied and environmental microbiology" fillcolor="#E1DEAC" margin=0.12781512503836437]
+    31275622 [label="Woo, et al. (2019)" href="https://pubmed.ncbi.nlm.nih.gov/31275622/" tooltip="Title: Efficacy of inactivation of human enteroviruses by dual-wavelength germicidal ultraviolet (UV-C) light emitting diodes (LEDs).
+~
+By: Woo, Beck, Boczek, Carlson, Brinkman, Linden, Lawal, Hayes, Ryu
+Date: 2019
+~
+Abstract: The efficacy of germicidal ultraviolet (UV-C) light emitting diodes (LEDs) was evaluated for inactivating human enteroviruses included on the United States Environmental Protection Agency (EPA)'s Contaminant Candidate List (CCL). A UV-C LED device, emitting at peaks of 260 nm and 280 nm and the combination of 260∣280 nm together, was used to measure and compare potential synergistic effects of dual wavelengths for disinfecting viral organisms. The 260 nm LED proved to be the most effective at inactivating the CCL enteroviruses tested. To obtain 2-log10 inactivation credit for the 260 nm LED, the fluences (UV doses) required are approximately 8 mJ/cm2 for coxsackievirus A10 and poliovirus 1, 10 mJ/cm2 for enterovirus 70, and 13 mJ/cm2 for echovirus 30. No synergistic effect was detected when evaluating the log inactivation of enteroviruses irradiated by the dual-wavelength UV-C LEDs.
+~
+PMID: 31275622
+Journal: Water" fillcolor="#EBDDA0" margin=0.1198970004336019]
+    31918454 [label="Anderson, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/31918454/" tooltip="Title: Vegetation expansion in the subnival Hindu Kush Himalaya.
+~
+By: Anderson, Fawcett, Cugulliere, Benford, Jones, Leng
+Date: 2020 03
+~
+Abstract: The mountain systems of the Hindu Kush Himalaya (HKH) are changing rapidly due to climatic change, but an overlooked component is the subnival ecosystem (between the treeline and snow line), characterized by short-stature plants and seasonal snow. Basic information about subnival vegetation distribution and rates of ecosystem change are not known, yet such information is needed to understand relationships between subnival ecology and water/carbon cycles. We show that HKH subnival ecosystems cover five to 15 times the area of permanent glaciers and snow, highlighting their eco-hydrological importance. Using satellite data from the Landsat 5, 7 and 8 missions, we measured change in the spatial extent of subnival vegetation from 1993 to 2018. The Landsat surface reflectance-derived Normalized Difference Vegetation Index product was thresholded at 0.1 to indicate the presence/absence of vegetation. Using this product, the strength and direction of time-series trends in the green pixel fraction were measured within three regions of interest. We controlled for cloud cover, snow cover and evaluated the impact of sensor radiometric differences between Landsat 7 and Landsat 8. Using Google Earth Engine to expedite data processing tasks, we show that there has been a weakly positive increase in the extent of subnival vegetation since 1993. Strongest and most significant trends were found in the height region of 5,000-5,500 m a.s.l. across the HKH extent: R2  = .302, Kendall's τ = 0.424, p < .05, but this varied regionally, with height, and according to the sensors included in the time series. Positive trends at lower elevations occurred on steeper slopes whilst at higher elevations, flatter areas exhibited stronger trends. We validated our findings using online photographs. Subnival ecological changes have likely impacted HKH carbon and water cycles with impacts on millions of people living downstream, but the strength and direction of impacts of vegetation expansion remain unknown.
+~
+PMID: 31918454
+Journal: Global change biology" fillcolor="#FFDC8C" margin=0.09771212547196625]
+    32020954 [label="Roy, et al. (2016)" href="https://pubmed.ncbi.nlm.nih.gov/32020954/" tooltip="Title: Characterization of Landsat-7 to Landsat-8 reflective wavelength and normalized difference vegetation index continuity.
+~
+By: Roy, Kovalskyy, Zhang, Vermote, Yan, Kumar, Egorov
+Date: 2016 Jan 12
+~
+Abstract: At over 40 years, the Landsat satellites provide the longest temporal record of space-based land surface observations, and the successful 2013 launch of the Landsat-8 is continuing this legacy. Ideally, the Landsat data record should be consistent over the Landsat sensor series. The Landsat-8 Operational Land Imager (OLI) has improved calibration, signal to noise characteristics, higher 12-bit radiometric resolution, and spectrally narrower wavebands than the previous Landsat-7 Enhanced Thematic Mapper (ETM+). Reflective wavelength differences between the two Landsat sensors depend also on the surface reflectance and atmospheric state which are difficult to model comprehensively. The orbit and sensing geometries of the Landsat-8 OLI and Landsat-7 ETM+ provide swath edge overlapping paths sensed only one day apart. The overlap regions are sensed in alternating backscatter and forward scattering orientations so Landsat bi-directional reflectance effects are evident but approximately balanced between the two sensors when large amounts of time series data are considered. Taking advantage of this configuration a total of 59 million 30m corresponding sensor observations extracted from 6,317 Landsat-7 ETM+ and Landsat-8 OLI images acquired over three winter and three summer months for all the conterminous United States (CONUS) are compared. Results considering different stages of cloud and saturation filtering, and filtering to reduce one day surface state differences, demonstrate the importance of appropriate per-pixel data screening. Top of atmosphere (TOA) and atmospherically corrected surface reflectance for the spectrally corresponding visible, near infrared and shortwave infrared bands, and derived normalized difference vegetation index (NDVI), are compared and their differences quantified. On average the OLI TOA reflectance is greater than the ETM+ TOA reflectance for all bands, with greatest differences in the near-infrared (NIR) and the shortwave infrared bands due to the quite different spectral response functions between the sensors. The atmospheric correction reduces the mean difference in the NIR and shortwave infrared but increases the mean difference in the visible bands. Regardless of whether TOA or surface reflectance are used to generate NDVI, on average, for vegetated soil and vegetation surfaces (0 ≤ NDVI ≤ 1), the OLI NDVI is greater than the ETM+ NDVI. Statistical functions to transform between the comparable sensor bands and sensor NDVI values are presented so that the user community may apply them in their own research to improve temporal continuity between the Landsat-7 ETM+ and Landsat-8 OLI sensor data. The transformation functions were developed using ordinary least squares (OLS) regression and were fit quite reliably (r 2 values >0.7 for the reflectance data and >0.9 for the NDVI data, p-values <0.0001).
+~
+PMID: 32020954
+Journal: Remote sensing of environment" fillcolor="#96E6FF" margin=0.15000000000000002]
+    32020955 [label="Vermote, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/32020955/" tooltip="Title: Preliminary analysis of the performance of the Landsat 8/OLI land surface reflectance product.
+~
+By: Vermote, Justice, Claverie, Franch
+Date: 2016 Apr 28
+~
+Abstract: The surface reflectance, i.e., satellite derived top of atmosphere (TOA) reflectance corrected for the temporally, spatially and spectrally varying scattering and absorbing effects of atmospheric gases and aerosols, is needed to monitor the land surface reliably. For this reason, the surface reflectance, and not TOA reflectance, is used to generate the greater majority of global land products, for example, from the Moderate Resolution Imaging Spectroradiometer (MODIS) and Visible Infrared Imaging Radiometer Suite (VIIRS) sensors. Even if atmospheric effects are minimized by sensor design, atmospheric effects are still challenging to correct. In particular, the strong impact of aerosols in the Visible and Near Infrared spectral range can be difficult to correct, because they can be highly discrete in space and time (e.g., smoke plumes) and because of the complex scattering and absorbing properties of aerosols that vary spectrally and with aerosol size, shape, chemistry and density. This paper presents the Landsat 8 Operational Land Imager (OLI) atmospheric correction algorithm that has been developed using the Second Simulation of the Satellite Signal in the Solar Spectrum Vectorial (6SV) model, refined to take advantage of the narrow OLI spectral bands (compared to Thematic Mapper/Enhanced Thematic Mapper (TM/ETM+)), improved radiometric resolution and signal-to-noise. In addition, the algorithm uses the new OLI Coastal aerosol band (0.433-0.450μm), which is particularly helpful for retrieving aerosol properties, as it covers shorter wavelengths than the conventional Landsat, TM and ETM+ blue bands. A cloud and cloud shadow mask has also been developed using the 'cirrus' band (1.360-1.390 μm) available on OLI, and the thermal infrared bands from the Thermal Infrared Sensor (TIRS) instrument. The performance of the surface reflectance product from OLI is analyzed over the Aerosol Robotic Network (AERONET) sites using accurate atmospheric correction (based on in situ measurements of the atmospheric properties), by comparison with the MODIS Bidirectional Reflectance Distribution Function (BRDF) adjusted surface reflectance product and by comparison of OLI derived broadband albedo from United States Surface Radiation Budget Network (US SURFRAD) measurements.
+~
+PMID: 32020955
+Journal: Remote sensing of environment" fillcolor="#96E6FF" margin=0.19913616938342726]
+    32033948 [label="Taylor, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32033948/" tooltip="Title: DNA Damage Kills Bacterial Spores and Cells Exposed to 222-Nanometer UV Radiation.
+~
+By: Taylor, Camilleri, Craft, Korza, Granados, Peterson, Szczpaniak, Weller, Moeller, Douki, Mok, Setlow
+Date: 2020 04 01
+~
+Abstract: This study examined the microbicidal activity of 222-nm UV radiation (UV222), which is potentially a safer alternative to the 254-nm UV radiation (UV254) that is often used for surface decontamination. Spores and/or growing and stationary-phase cells of Bacillus cereus, Bacillus subtilis, Bacillus thuringiensis, Staphylococcus aureus, and Clostridioides difficile and a herpesvirus were all killed or inactivated by UV222 and at lower fluences than with UV254 B. subtilis spores and cells lacking the major DNA repair protein RecA were more sensitive to UV222, as were spores lacking their DNA-protective proteins, the α/β-type small, acid-soluble spore proteins. The spore cores' large amount of Ca2+-dipicolinic acid (∼25% of the core dry weight) also protected B. subtilis and C. difficile spores against UV222, while spores' proteinaceous coat may have given some slight protection against UV222 Survivors among B. subtilis spores treated with UV222 acquired a large number of mutations, and this radiation generated known mutagenic photoproducts in spore and cell DNA, primarily cyclobutane-type pyrimidine dimers in growing cells and an α-thyminyl-thymine adduct termed the spore photoproduct (SP) in spores. Notably, the loss of a key SP repair protein markedly decreased spore UV222 resistance. UV222-treated B. subtilis spores germinated relatively normally, and the generation of colonies from these germinated spores was not salt sensitive. The latter two findings suggest that UV222 does not kill spores by general protein damage, and thus, the new results are consistent with the notion that DNA damage is responsible for the killing of spores and cells by UV222 IMPORTANCE Spores of a variety of bacteria are resistant to common decontamination agents, and many of them are major causes of food spoilage and some serious human diseases, including anthrax caused by spores of Bacillus anthracis Consequently, there is an ongoing need for efficient methods for spore eradication, in particular methods that have minimal deleterious effects on people or the environment. UV radiation at 254 nm (UV254) is sporicidal and commonly used for surface decontamination but can cause deleterious effects in humans. Recent work, however, suggests that 222-nm UV (UV222) may be less harmful to people than UV254 yet may still kill bacteria and at lower fluences than UV254 The present work has identified the damage by UV222 that leads to the killing of growing cells and spores of some bacteria, many of which are human pathogens, and UV222 also inactivates a herpesvirus.
+~
+PMID: 32033948
+Journal: Applied and environmental microbiology" fillcolor="#DEDFAF" margin=0.1345098040014257]
+    32182409 [label="van Doremalen, et
+al. (2020)" href="https://pubmed.ncbi.nlm.nih.gov/32182409/" tooltip="Title: Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1.
+~
+By: van Doremalen, Bushmaker, Morris, Holbrook, Gamble, Williamson, Tamin, Harcourt, Thornburg, Gerber, Lloyd-Smith, de Wit, Munster
+Date: 2020 04 16
+~
+Abstract: None
+~
+PMID: 32182409
+Journal: The New England journal of medicine" fillcolor="#96E6FF" margin=0.3988409688903198]
+    32222977 [label="Yamano, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32222977/" tooltip="Title: Long-term Effects of 222-nm ultraviolet radiation C Sterilizing Lamps on Mice Susceptible to Ultraviolet Radiation.
+~
+By: Yamano, Kunisada, Kaidzu, Sugihara, Nishiaki-Sawada, Ohashi, Yoshioka, Igarashi, Ohira, Tanito, Nishigori
+Date: 2020 07
+~
+Abstract: Germicidal lamps that emit primarily 254 nm ultraviolet radiation (UV) are routinely utilized for surface sterilization but cannot be used for human skin because they cause genotoxicity. As an alternative, 222-nm UVC has been reported to exert sterilizing ability comparable to that of 254-nm UVC without producing cyclobutane pyrimidine dimers (CPDs), the major DNA lesions caused by UV. However, there has been no clear evidence for safety in chronic exposure to skin, particularly with respect to carcinogenesis. We therefore investigated the long-term effects of 222-nm UVC on skin using a highly photocarcinogenic phenotype mice that lack xeroderma pigmentosum complementation group A (Xpa-) gene, which is involved in repairing of CPDs. CPDs formation was recognized only uppermost layer of epidermis even with high dose of 222-nm UVC exposure. No tumors were observed in Xpa-knockout mice and wild-type mice by repetitive irradiation with 222-nm UVC, using a protocol which had shown to produce tumor in Xpa-knockout mice irradiated with broad-band UVB. Furthermore, erythema and ear swelling were not observed in both genotype mice following 222-nm UVC exposure. Our data suggest that 222-nm UVC lamps can be safely used for sterilizing human skin as far as the perspective of skin cancer development.
+~
+PMID: 32222977
+Journal: Photochemistry and photobiology" fillcolor="#C3E1CC" margin=0.1730448921378274]
+    32243946 [label="Narita, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32243946/" tooltip="Title: 222-nm UVC inactivates a wide spectrum of microbial pathogens.
+~
+By: Narita, Asano, Naito, Ohashi, Sasaki, Morimoto, Igarashi, Nakane
+Date: 2020 Mar 31
+~
+Abstract: UVC has been used to inactivate several pathogens. Unlike the conventional 254-nm UVC, 222-nm UVC is harmless to mammalian cells.
+~
+PMID: 32243946
+Journal: The Journal of hospital infection" fillcolor="#96E6FF" margin=0.17787536009528288]
+    32581288 [label="Buonanno, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32581288/" tooltip="Title: Far-UVC light (222 nm) efficiently and safely inactivates airborne human coronaviruses.
+~
+By: Buonanno, Welch, Shuryak, Brenner
+Date: 2020 06 24
+~
+Abstract: A direct approach to limit airborne viral transmissions is to inactivate them within a short time of their production. Germicidal ultraviolet light, typically at 254 nm, is effective in this context but, used directly, can be a health hazard to skin and eyes. By contrast, far-UVC light (207-222 nm) efficiently kills pathogens potentially without harm to exposed human tissues. We previously demonstrated that 222-nm far-UVC light efficiently kills airborne influenza virus and we extend those studies to explore far-UVC efficacy against airborne human coronaviruses alpha HCoV-229E and beta HCoV-OC43. Low doses of 1.7 and 1.2 mJ/cm2 inactivated 99.9% of aerosolized coronavirus 229E and OC43, respectively. As all human coronaviruses have similar genomic sizes, far-UVC light would be expected to show similar inactivation efficiency against other human coronaviruses including SARS-CoV-2. Based on the beta-HCoV-OC43 results, continuous far-UVC exposure in occupied public locations at the current regulatory exposure limit (~3 mJ/cm2/hour) would result in ~90% viral inactivation in ~8 minutes, 95% in ~11 minutes, 99% in ~16 minutes and 99.9% inactivation in ~25 minutes. Thus while staying within current regulatory dose limits, low-dose-rate far-UVC exposure can potentially safely provide a major reduction in the ambient level of airborne coronaviruses in occupied public locations.
+~
+PMID: 32581288
+Journal: Scientific reports" fillcolor="#CAE1C5" margin=0.23512583487190752]
+    32601509 [label="Thome, et al.
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/32601509/" tooltip="Title: Ultra-portable field transfer radiometer for vicarious calibration of earth imaging sensors.
+~
+By: Thome, Wenny, Anderson, McCorkel, Czapla-Myers, Biggar
+Date: 2018 Jun
+~
+Abstract: A small portable transfer radiometer has been developed as part of an effort to ensure the quality of upwelling radiance from test sites used for vicarious calibration in the solar reflective. The test sites are used to predict top-of-atmosphere reflectance relying on ground-based measurements of the atmosphere and surface. The portable transfer radiometer is designed for one-person operation for on-site field calibration of instrumentation used to determine ground-leaving radiance. The current work describes the detector- and source-based radiometric calibration of the transfer radiometer highlighting the expected accuracy and SI-traceability. The results indicate differences between the detector-based and source-based results greater than the combined uncertainties of the approaches. Results from recent field deployments of the transfer radiometer using a solar radiation based calibration agree with the source-based laboratory calibration within the combined uncertainties of the methods. The detector-based results show a significant difference to the solar-based calibration. The source-based calibration is used as the basis for a radiance-based calibration of the Landsat-8 Operational Land Imager that agrees with the OLI calibration to within the uncertainties of the methods.
+~
+PMID: 32601509
+Journal: Metrologia" fillcolor="#FFDC8C" margin=0.05]
+    32708337 [label="Obata, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32708337/" tooltip="Title: Correction: Obata, K., et al. Cross-Calibration between ASTER and MODIS Visible to Near-Infrared Bands for Improvement of ASTER Radiometric Calibration. Sensors 2017, 17, 1793.
+~
+By: Obata, Tsuchida, Yamamoto, Thome
+Date: 2020 Jul 21
+~
+Abstract: The authors wish to make the following corrections to this paper [...].
+~
+PMID: 32708337
+Journal: Sensors (Basel, Switzerland)" fillcolor="#FFDC8C" margin=0.05]
+    32752793 [label="Larason (2020)" href="https://pubmed.ncbi.nlm.nih.gov/32752793/" tooltip="Title: National Institute of Standards and Technology transportable tunable ultraviolet laser irradiance facility for water pathogen inactivation.
+~
+By: Larason
+Date: 2020 Jul 01
+~
+Abstract: A method of ultraviolet germicidal irradiation (UVGI) for water pathogen inactivation effectiveness using tunable, narrowband laser light is described. A transportable tunable UV (TTUV) laser system for providing a known irradiance (Î¼W/cm2) or dose (mJ/cm2) suitable for irradiating water samples in Petri dishes over the wavelength range of 210 nm-300 nm was developed by the National Institute of Standards and Technology. The TTUV facility, consisting of a 1 kHz pulsed UV laser and light-tight enclosure containing the optics necessary to uniformly irradiate a water sample, was used in a microbiology laboratory to dose drinking water pathogens and surrogates as part of a Water Research Foundation study in the summer and fall of 2012. The approach demonstrated improved accuracy and simplified spectral analysis over conventional pathogen inactivation sources consisting of broadband UV sources and bandpass filters. In this work, the TTUV facility design and key components are described, including modifications in the field to provide the required irradiance levels. The irradiance and dose levels produced by the tunable UV laser during the project are also presented. The transportability of the TTUV system enabled it to be brought to a microbiology facility allowing the water samples (microbial suspensions) to be irradiated in a location with experienced staff and facilities for preparing, handling, analyzing, storing, and shipping the many samples studied. These results, published elsewhere, established that the tunable UV laser system provides unique UVGI capabilities for use with water pathogens and has applications for other pathogen experiments, for example, air-purification studies.
+~
+PMID: 32752793
+Journal: The Review of scientific instruments" fillcolor="#FFDC8C" margin=0.05]
+    32785216 [label="Fukui, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32785216/" tooltip="Title: Exploratory clinical trial on the safety and bactericidal effect of 222-nm ultraviolet C irradiation in healthy humans.
+~
+By: Fukui, Niikura, Oda, Kumabe, Ohashi, Sasaki, Igarashi, Kunisada, Yamano, Oe, Matsumoto, Matsushita, Hayashi, Nishigori, Kuroda
+Date: 2020
+~
+Abstract: Surgical site infection is one of the most severe complications of surgical treatments. However, the optimal procedure to prevent such infections remains uninvestigated. Ultraviolet radiation C (UVC) with a short wavelength has a high bactericidal effect; however, it is cytotoxic. Nonetheless, given that UVC with a wavelength of 222 nm reaches only the stratum corneum, it does not affect the skin cells. This study aimed to investigate the safety of 222-nm UVC irradiation and to examine its skin sterilization effect in healthy volunteers.
+~
+PMID: 32785216
+Journal: PloS one" fillcolor="#DCDFB2" margin=0.1454242509439325]
+    32812619 [label="Horton, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32812619/" tooltip="Title: Spectrum of virucidal activity from ultraviolet to infrared radiation.
+~
+By: Horton, Torres, Narla, Lyons, Kohli, Gelfand, Ozog, Hamzavi, Lim
+Date: 2020 Oct 14
+~
+Abstract: The COVID-19 pandemic has sparked a demand for safe and highly effective decontamination techniques for both personal protective equipment (PPE) and hospital and operating rooms. The gradual lifting of lockdown restrictions warrants the expansion of these measures into the outpatient arena. Ultraviolet C (UVC) radiation has well-known germicidal properties and is among the most frequently reported decontamination techniques used today. However, there is evidence that wavelengths beyond the traditional 254 nm UVC - namely far UVC (222 nm), ultraviolet B, ultraviolet A, visible light, and infrared radiation - have germicidal properties as well. This review will cover current literature regarding the germicidal effects of wavelengths ranging from UVC through the infrared waveband with an emphasis on their activity against viruses, and their potential applicability in the healthcare setting for general decontamination during an infectious outbreak.
+~
+PMID: 32812619
+Journal: Photochemical & photobiological sciences : Official journal of the European Photochemistry Association and the European Society for Photobiology" fillcolor="#F6DC95" margin=0.12781512503836437]
+    32825075 [label="Paynter, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32825075/" tooltip="Title: Characterization of FIREFLY, an Imaging Spectrometer Designed for Remote Sensing of Solar Induced Fluorescence.
+~
+By: Paynter, Cook, Corp, Nagol, McCorkel
+Date: 2020 Aug 19
+~
+Abstract: Solar induced fluorescence (SIF) is an ecological variable of interest to remote sensing retrievals, as it is directly related to vegetation composition and condition. FIREFLY (fluorescence imaging of red and far-red light yield) is a high performance spectrometer for estimating SIF. FIREFLY was flown in conjunction with NASA Goddard's lidar, hyperspectral, and thermal (G-LiHT) instrument package in 2017, as a technology demonstration for airborne retrievals of SIF. Attributes of FIREFLY relevant to SIF retrieval, including detector response and linearity; full-width at half maximum (FWHM); stray light; dark current; and shot noise were characterized with a combination of observations from Goddard's laser for absolute measurement of radiance calibration facility; an integrating sphere; controlled acquisitions of known targets; in-flight acquisitions; and forward modelling. FWHM, stray light, and dark current were found to be of acceptable magnitude, and characterized to within acceptable limits for SIF retrieval. FIREFLY observations were found to represent oxygen absorption features, along with a large number of solar absorption features. Shot noise was acceptable for direct SIF retrievals at native resolution, but indirect SIF retrievals from absorption features would require spatial aggregation, or repeated observations of targets.
+~
+PMID: 32825075
+Journal: Sensors (Basel, Switzerland)" fillcolor="#FFDC8C" margin=0.05]
+    32825258 [label="Wu, et al. (2020)" href="https://pubmed.ncbi.nlm.nih.gov/32825258/" tooltip="Title: FY-3D MERSI On-Orbit Radiometric Calibration from the Lunar View.
+~
+By: Wu, Zhang, Xu, Hu, Chen, Zhang, Yang
+Date: 2020 Aug 20
+~
+Abstract: Limited by the on-orbital calibration capability, scaling the measured radiance in accuracy and stability is challenging for the Earth observation satellites in the reflective solar bands (RSBs). Although the lunar calibration is a well-developed technique in the RSBs, limited work has been done for Chinese Earth observation satellites. To improve the on-orbital calibration performance, the advanced MEdium Resolution Spectral Imager (MERSI II), which is the primary payload of the fourth satellite of the Fengyun 3 Series (FY-3D), expands the space view angle of the imager in order to capture better lunar images. In this study, we propose an absolute radiometric calibration method based on the FY-3D/MERSI lunar observation data. A lunar irradiance model named ROLO/GIRO has been used together with the necessary data procedures, including dark current count estimation, single pixel irradiance calculation, and full disk lunar irradiance calculation. The calibration coefficients obtained by the lunar calibration are compared with the pre-launch laboratory calibration. The results show that the deviations between the two calibration procedures are in a reasonable range in general. However, a relatively high non-linear response was found in the low energy incidence for some detectors, which leads to the large deviation in the corresponding bands. This study explored an ideal and independent method to validate MERSI on-orbit radiometric performance. The lunar calibration practiced for MERSI also gave a valuable example that can be recommended to the other Chinese Earth observation satellites.
+~
+PMID: 32825258
+Journal: Sensors (Basel, Switzerland)" fillcolor="#FFDC8C" margin=0.08010299956639813]
+    32896604 [label="Kitagawa, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/32896604/" tooltip="Title: Effectiveness of 222-nm ultraviolet light on disinfecting SARS-CoV-2 surface contamination.
+~
+By: Kitagawa, Nomura, Nazmul, Omori, Shigemoto, Sakaguchi, Ohge
+Date: 2021 03
+~
+Abstract: Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which causes coronavirus disease 2019 (COVID-19), has emerged as a serious threat to human health worldwide. Efficient disinfection of surfaces contaminated with SARS-CoV-2 may help prevent its spread. This study aimed to investigate the in vitro efficacy of 222-nm far-ultraviolet light (UVC) on the disinfection of SARS-CoV-2 surface contamination.
+~
+PMID: 32896604
+Journal: American journal of infection control" fillcolor="#D2E0BD" margin=0.19623979978989559]
+    32911671 [label="Hadi, et al. (2020)" href="https://pubmed.ncbi.nlm.nih.gov/32911671/" tooltip="Title: Control Measures for SARS-CoV-2: A Review on Light-Based Inactivation of Single-Stranded RNA Viruses.
+~
+By: Hadi, Dunowska, Wu, Brightwell
+Date: 2020 Sep 08
+~
+Abstract: SARS-CoV-2 is a single-stranded RNA virus classified in the family Coronaviridae. In this review, we summarize the literature on light-based (UV, blue, and red lights) sanitization methods for the inactivation of ssRNA viruses in different matrixes (air, liquid, and solid). The rate of inactivation of ssRNA viruses in liquid was higher than in air, whereas inactivation on solid surfaces varied with the type of surface. The efficacy of light-based inactivation was reduced by the presence of absorptive materials. Several technologies can be used to deliver light, including mercury lamp (conventional UV), excimer lamp (UV), pulsed-light, and light-emitting diode (LED). Pulsed-light technologies could inactivate viruses more quickly than conventional UV-C lamps. Large-scale use of germicidal LED is dependent on future improvements in their energy efficiency. Blue light possesses virucidal potential in the presence of exogenous photosensitizers, although femtosecond laser (ultrashort pulses) can be used to circumvent the need for photosensitizers. Red light can be combined with methylene blue for application in medical settings, especially for sanitization of blood products. Future modelling studies are required to establish clearer parameters for assessing susceptibility of viruses to light-based inactivation. There is considerable scope for improvement in the current germicidal light-based technologies and practices.
+~
+PMID: 32911671
+Journal: Pathogens (Basel, Switzerland)" fillcolor="#E4DEA8" margin=0.17787536009528288]
+    33022467 [label="Gerchman, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/33022467/" tooltip="Title: UV-LED disinfection of Coronavirus: Wavelength effect.
+~
+By: Gerchman, Mamane, Friedman, Mandelboim
+Date: 2020 Nov
+~
+Abstract: UV light-emitting diodes (UV LEDs) are an emerging technology and a UV source for pathogen inactivation, however low UV-LED wavelengths are costly and have low fluence rate. Our results suggest that the sensitivity of human Coronavirus (HCoV-OC43 used as SARS-CoV-2 surrogate) was wavelength dependent with 267 nm ~ 279 nm > 286 nm > 297 nm. Other viruses showed similar results, suggesting UV LED with peak emission at ~286 nm could serve as an effective tool in the fight against human Coronaviruses.
+~
+PMID: 33022467
+Journal: Journal of photochemistry and photobiology. B, Biology" fillcolor="#D7DFB7" margin=0.1613943352306837]
+    33294996 [label="Welch & Brenner
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/33294996/" tooltip="Title: Improved Ultraviolet Radiation Film Dosimetry Using OrthoChromic OC-1 Film†.
+~
+By: Welch, Brenner
+Date: 2021 05
+~
+Abstract: There is growing interest in far-UVC lighting, defined as wavelengths from 200 to 230 nm, because research has demonstrated these wavelengths to be an effective antimicrobial technology while posing a minimal hazard to human health. Far-UVC lighting is now being installed to directly irradiate spaces where humans are present, and it will be important to perform measurements to verify far-UVC lighting installations are operating within widely accepted exposure guidelines. In this work, we explore the use of a commercially available film, known as OrthoChromic OC-1, to measure ultraviolet radiation exposure. The film was tested with a variety of ultraviolet wavelengths and irradiance conditions, and the color change of the film was analyzed for increasing levels of radiant exposure. The film response extended over a dynamic range that was greater than the recommended exposure limits for far-UVC radiation so it can potentially be useful for health hazard monitoring. The spectrum of the incident ultraviolet radiation strongly affected the response of the film; therefore, for accurate measurements we recommend the measured spectrum match the spectrum used for calibration. Overall, dosimetry with this film provides a simple, accurate, and inexpensive method of quantifying ultraviolet radiation exposure that is suitable for far-UVC measurements.
+~
+PMID: 33294996
+Journal: Photochemistry and photobiology" fillcolor="#FFDC8C" margin=0.05]
+    33465817 [label="Buonanno, Welch, &
+Brenner (2021)" href="https://pubmed.ncbi.nlm.nih.gov/33465817/" tooltip="Title: Exposure of Human Skin Models to KrCl Excimer Lamps: The Impact of Optical Filtering†.
+~
+By: Buonanno, Welch, Brenner
+Date: 2021 05
+~
+Abstract: Far-UVC radiation is a promising technology that is potentially both effective at killing airborne microbes such as coronaviruses and influenza, and being minimally hazardous to the skin and eyes. Our previous studies on health risks from far-UVC have employed a krypton-chloride (KrCl) excimer lamp, emitting principally at 222 nm, supplemented with an optical filter to remove longer wavelength emissions inherent to these lamps. This study explores KrCl lamp health hazards by comparing filtered and unfiltered KrCl lamps using effective spectral irradiance calculations and experimental skin exposures. Analysis of effective irradiances showed a notable increase in allowable exposure when using a filter. Induction of DNA dimers (CPD and 6-4PP) was measured in human skin models exposed to a range of radiant exposures up to 500 mJ cm-2 . Compared to sham-exposed tissues, the unfiltered KrCl lamps induced a statistically significant increase in the yield of both DNA lesions at all the radiant exposures studied. Conversely, filtered KrCl lamps do not induce increased levels of dimers at the current daily TLV exposure limit for 222 nm (23 mJ cm-2 ). This work supports the use of filters for far-UVC KrCl excimer lamps when used to limit disease transmission in occupied locations.
+~
+PMID: 33465817
+Journal: Photochemistry and photobiology" fillcolor="#FFDC8C" margin=0.05]
+    33480023 [label="Yamano, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/33480023/" tooltip="Title: Evaluation of Acute Reactions on Mouse Skin Irradiated with 222 and 235 nm UV-C.
+~
+By: Yamano, Kunisada, Nishiaki-Sawada, Ohashi, Igarashi, Nishigori
+Date: 2021 07
+~
+Abstract: Biological response and DNA damage following irradiation with shorter wavelengths in the UV-C range were evaluated to investigate the safety at three wavelengths because of the recent emergence of germicidal equipment emitting short-wavelength UV-C for various purposes, including medical uses. To estimate an acceptable safety dose for human skin in the UV-C range, especially short UV-C, we studied the biological effects of 207, 222 and 235 nm UV-C using albino hairless mice and evaluated the inflammatory reactions in the skin. To explore an appropriate indicator to evaluate the biological response, we employed determination of the minimal perceptible response dose (MPRD), by which any subtle cutaneous response; erythema, edema and scale could be observed by visual inspection. Erythema was rarely observed, but edema and scale formation were evident for short UV-C wavelengths. The MPRD at 207, 222 and 235 nm was determined to be > 15, 15 and 2.0 kJ m-2 , respectively. These values could be thresholds and indicators for possible safety assessments. Our data suggest that the current human exposure limits for short UV-C wavelengths below 254 nm are overly restrictive and should be reconsidered for future disinfection lamps with short UV-C wavelengths.
+~
+PMID: 33480023
+Journal: Photochemistry and photobiology" fillcolor="#FFDC8C" margin=0.05]
+    33643774 [label="Hessling, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/33643774/" tooltip="Title: The impact of far-UVC radiation (200-230 nm) on pathogens, cells, skin, and eyes - a collection and analysis of a hundred years of data.
+~
+By: Hessling, Haag, Sieber, Vatter
+Date: 2021
+~
+Abstract: Background: The ongoing coronavirus pandemic requires new disinfection approaches, especially for airborne viruses. The 254 nm emission of low-pressure vacuum lamps is known for its antimicrobial effect, but unfortunately, this radiation is also harmful to human cells. Some researchers published reports that short-wavelength ultraviolet light in the spectral region of 200-230 nm (far-UVC) should inactivate pathogens without harming human cells, which might be very helpful in many applications. Methods: A literature search on the impact of far-UVC radiation on pathogens, cells, skin and eyes was performed and median log-reduction doses for different pathogens and wavelengths were calculated. Observed damage to cells, skin and eyes was collected and presented in standardized form. Results: More than 100 papers on far-UVC disinfection, published within the last 100 years, were found. Far-UVC radiation, especially the 222 nm emission of KrCl excimer lamps, exhibits strong antimicrobial properties. The average necessary log-reduction doses are 1.3 times higher than with 254 nm irradiation. A dose of 100 mJ/cm2 reduces all pathogens by several orders of magnitude without harming human cells, if optical filters block emissions above 230 nm. Conclusion: The approach is very promising, especially for temporary applications, but the data is still sparse. Investigations with high far-UVC doses over a longer period of time have not yet been carried out, and there is no positive study on the impact of this radiation on human eyes. Additionally, far-UVC sources are unavailable in larger quantities. Therefore, this is not a short-term solution for the current pandemic, but may be suitable for future technological approaches for decontamination in rooms in the presence of people or for antisepsis.
+~
+PMID: 33643774
+Journal: GMS hygiene and infection control" fillcolor="#FFDC8C" margin=0.09771212547196625]
+    33916016 [label="Imai, et al. (2021)" href="https://pubmed.ncbi.nlm.nih.gov/33916016/" tooltip="Title: Radiometric Calibration for a Multispectral Sensor Onboard RISESAT Microsatellite Based on Lunar Observations.
+~
+By: Imai, Kurihara, Kouyama, Kuwahara, Fujita, Sakamoto, Sato, Saitoh, Hirata, Yamamoto, Takahashi
+Date: 2021 Apr 01
+~
+Abstract: Radiometric calibration utilizing the Moon as a reference source is termed as lunar calibration. It is a useful method for evaluating the performance of optical sensors onboard satellites orbiting the Earth. Lunar calibration provides sufficient radiometric calibration opportunities without requiring any special equipment, and is suitable for nano/microsatellites. This study applies lunar calibration to a multispectral sensor, Ocean Observation Camera (OOC), on board a microsatellite named Rapid International Scientific Experiment Satellite. Simulating the brightness of the Moon based on the RObotic Lunar Observatory and SELENE/Spectrum Profiler models, sensitivity degradation was proven to be negligible in any of the four spectral bands of the OOC with the sensor temperature correction. A bluing trend in the OOC's sensor sensitivity was revealed, indicating a shorter observation wavelength shows larger irradiance. Comparing the top-of-atmosphere reflectance of Railroad Valley Playa with the Radiometric Calibration Network dataset revealed that the derived calibration parameter from the lunar calibration was valid for correcting the bluing trend in the visible range. Although the lunar and vicarious calibration parameters for the infrared band were unexpectedly inconsistent, lunar calibration could potentially contribute toward estimating the contaminated background radiance in the Earth observation images.
+~
+PMID: 33916016
+Journal: Sensors (Basel, Switzerland)" fillcolor="#FFDC8C" margin=0.05]
+    34029626 [label="Chiappa, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34029626/" tooltip="Title: The efficacy of ultraviolet light-emitting technology against coronaviruses: a systematic review.
+~
+By: Chiappa, Frascella, Vigezzi, Moro, Diamanti, Gentile, Lago, Clementi, Signorelli, Mancini, Odone
+Date: 2021 Aug
+~
+Abstract: The ongoing pandemic of COVID-19 has underlined the importance of adopting effective infection prevention and control (IPC) measures in hospital and community settings. Ultraviolet (UV)-based technologies represent promising IPC tools: their effective application for sanitation has been extensively evaluated in the past but scant, heterogeneous and inconclusive evidence is available on their effect on SARS-CoV-2 transmission. With the aim of pooling the available evidence on the efficacy of UV technologies against coronaviruses, we conducted a systematic review following PRISMA guidelines, searching Medline, Embase and the Cochrane Library, and the main clinical trials' registries (WHO ICTRP, ClinicalTrials.gov, Cochrane and EU Clinical Trial Register). Quantitative data on studies' interventions were summarized in tables, pooled by different coronavirus species and strain, UV source, characteristics of UV light exposure and outcomes. Eighteen papers met our inclusion criteria, published between 1972 and 2020. Six focused on SARS-CoV-2, four on SARS-CoV-1, one on MERS-CoV, three on seasonal coronaviruses, and four on animal coronaviruses. All were experimental studies. Overall, despite wide heterogenicity within included studies, complete inactivation of coronaviruses on surfaces or aerosolized, including SARS-CoV-2, was reported to take a maximum exposure time of 15 min and to need a maximum distance from the UV emitter of up to 1 m. Advances in UV-based technologies in the field of sanitation and their proved high virucidal potential against SARS-CoV-2 support their use for IPC in hospital and community settings and their contribution towards ending the COVID-19 pandemic. National and international guidelines are to be updated and parameters and conditions of use need to be identified to ensure both efficacy and safety of UV technology application for effective infection prevention and control in both healthcare and non-healthcare settings.
+~
+PMID: 34029626
+Journal: The Journal of hospital infection" fillcolor="#FFDC8C" margin=0.09771212547196625]
+    34282225 [label="Glaab, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34282225/" tooltip="Title: Skin tolerant inactivation of multiresistant pathogens using far-UVC LEDs.
+~
+By: Glaab, Lobo-Ploch, Cho, Filler, Gundlach, Guttmann, Hagedorn, Lohan, Mehnke, Schleusener, Sicher, Sulmoni, Wernicke, Wittenbecher, Woggon, Zwicker, Kramer, Meinke, Kneissl, Weyers, Winterwerber, Einfeldt
+Date: 2021 07 19
+~
+Abstract: Multiresistant pathogens such as methicillin-resistant Staphylococcus aureus (MRSA) cause serious postoperative infections. A skin tolerant far-UVC (< 240 nm) irradiation system for their inactivation is presented here. It uses UVC LEDs in combination with a spectral filter and provides a peak wavelength of 233 nm, with a full width at half maximum of 12 nm, and an irradiance of 44 µW/cm2. MRSA bacteria in different concentrations on blood agar plates were inactivated with irradiation doses in the range of 15-40 mJ/cm2. Porcine skin irradiated with a dose of 40 mJ/cm2 at 233 nm showed only 3.7% CPD and 2.3% 6-4PP DNA damage. Corresponding irradiation at 254 nm caused 15-30 times higher damage. Thus, the skin damage caused by the disinfectant doses is so small that it can be expected to be compensated by the skin's natural repair mechanisms. LED-based far-UVC lamps could therefore soon be used in everyday clinical practice to eradicate multiresistant pathogens directly on humans.
+~
+PMID: 34282225
+Journal: Scientific reports" fillcolor="#FFDC8C" margin=0.05]
+    34434627 [label="Cramer (2016)" href="https://pubmed.ncbi.nlm.nih.gov/34434627/" tooltip="Title: Workshop on Lunar Calibration for Satellite Remote Sensing.
+~
+By: Cramer
+Date: 2016
+~
+Abstract: Tracking climate variables at the levels of precision and accuracy required to detect global change requires satellite sensors to make highly consistent measurements that can be compared to measurements made at different times and with different instruments. Gaps in climate data records, such as those resulting from launch delay or instrument failure, and inconsistencies in radiometric scales between satellites can introduce unnecessary measurement error and thus undermine the credibility of fundamental climate data records. To address these issues, leading experts in satellite remote sensing and lunar observation and modeling assembled at the National Institute of Standards and Technology from 12-15 May 2012 for a workshop to discuss the utility of and strategies for using the Moon to calibrate satellite remote sensing measurements. This report summarizes the outcome of the workshop, including suggested steps to maximize the value of the Moon as an exoatmospheric calibration source for satellite remote sensing.
+~
+PMID: 34434627
+Journal: Journal of research of the National Institute of Standards and Technology" fillcolor="#FFDC8C" margin=0.05]
+    34452302 [label="Gardner, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34452302/" tooltip="Title: Virucidal Efficacy of Blue LED and Far-UVC Light Disinfection against Feline Infectious Peritonitis Virus as a Model for SARS-CoV-2.
+~
+By: Gardner, Ghosh, Dunowska, Brightwell
+Date: 2021 07 23
+~
+Abstract: Transmission of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) occurs through respiratory droplets passed directly from person to person or indirectly through fomites, such as common use surfaces or objects. The aim of this study was to determine the virucidal efficacy of blue LED (405 nm) and far-UVC (222 nm) light in comparison to standard UVC (254 nm) irradiation for the inactivation of feline infectious peritonitis virus (FIPV) on different matrices as a model for SARS-CoV-2. Wet or dried FIPV on stainless steel, plastic, or paper discs, in the presence or absence of artificial saliva, were exposed to various wavelengths of light for different time periods (1-90 min). Dual activity of blue LED and far-UVC lights were virucidal for most wet and dried FIPV within 4 to 16 min on all matrices. Individual action of blue LED and far-UVC lights were virucidal for wet FIPV but required longer irradiation times (8-90 min) to reach a 4-log reduction. In comparison, LED (265 nm) and germicidal UVC (254 nm) were virucidal on almost all matrices for both wet and dried FIPV within 1 min exposure. UVC was more effective for the disinfection of surfaces as compared to blue LED and far-UVC individually or together. However, dual action of blue LED and far-UVC was virucidal. This combination of lights could be used as a safer alternative to traditional UVC.
+~
+PMID: 34452302
+Journal: Viruses" fillcolor="#FFDC8C" margin=0.05]
+    34465056 [label="Bhardwaj, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34465056/" tooltip="Title: UVC-based photoinactivation as an efficient tool to control the transmission of coronaviruses.
+~
+By: Bhardwaj, Singh, Deep, Khatri, Bhaumik, Kim, Bhardwaj
+Date: 2021 Oct 20
+~
+Abstract: The ongoing COVID-19 pandemic made us re-realize the importance of environmental disinfection and sanitation in indoor areas, hospitals, and clinical rooms. UVC irradiation of high energy and short wavelengths, especially in the 200-290-nm range possesses the great potential for germicidal disinfection. These properties of UVC allow to damage or destruct the nucleic acids (DNA/RNA) in diverse microbes (e.g., bacteria, fungi, and viruses). UVC light can hence be used as a promising tool for prevention and control of their infection or transmission. The present review offers insights into the historical perspective, mode of action, and recent advancements in the application of UVC-based antiviral therapy against coronaviruses (including SARS CoV-2). Moreover, the application of UVC lights in the sanitization of healthcare units, public places, medical instruments, respirators, and personal protective equipment (PPE) is also discussed. This article, therefore, is expected to deliver a new path for the developments of UVC-based viricidal approach.
+~
+PMID: 34465056
+Journal: The Science of the total environment" fillcolor="#FFDC8C" margin=0.05]
+    34495736 [label="Ma, et al. (2021)" href="https://pubmed.ncbi.nlm.nih.gov/34495736/" tooltip="Title: UV Inactivation of SARS-CoV-2 across the UVC Spectrum: KrCl* Excimer, Mercury-Vapor, and Light-Emitting-Diode (LED) Sources.
+~
+By: Ma, Gundy, Gerba, Sobsey, Linden
+Date: 2021 10 28
+~
+Abstract: Effective disinfection technology to combat severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) can help reduce viral transmission during the ongoing COVID-19 global pandemic and in the future. UV devices emitting UVC irradiation (200 to 280 nm) have proven to be effective for virus disinfection, but limited information is available for SARS-CoV-2 due to the safety requirements of testing, which is limited to biosafety level 3 (BSL3) laboratories. In this study, inactivation of SARS-CoV-2 in thin-film buffered aqueous solution (pH 7.4) was determined across UVC irradiation wavelengths of 222 to 282 nm from krypton chloride (KrCl*) excimers, a low-pressure mercury-vapor lamp, and two UVC light-emitting diodes. Our results show that all tested UVC devices can effectively inactivate SARS-CoV-2, among which the KrCl* excimer had the best disinfection performance (i.e., highest inactivation rate). The inactivation rate constants of SARS-CoV-2 across wavelengths are similar to those for murine hepatitis virus (MHV) from our previous investigation, suggesting that MHV can serve as a reliable surrogate of SARS-CoV-2 with a lower BSL requirement (BSL2) during UV disinfection tests. This study provides fundamental information on UVC's action on SARS-CoV-2 and guidance for achieving reliable disinfection performance with UVC devices. IMPORTANCE UV light is an effective tool to help stem the spread of respiratory viruses and protect public health in commercial, public, transportation, and health care settings. For effective use of UV, there is a need to determine the efficiency of different UV wavelengths in killing pathogens, specifically SARS-CoV-2, to support efforts to control the ongoing COVID-19 global pandemic and future coronavirus-caused respiratory virus pandemics. We found that SARS-CoV-2 can be inactivated effectively using a broad range of UVC wavelengths, and 222 nm provided the best disinfection performance. Interestingly, 222-nm irradiation has been found to be safe for human exposure up to thresholds that are beyond those effective for inactivating viruses. Therefore, applying UV light from KrCl* excimers in public spaces can effectively help reduce viral aerosol or surface-based transmissions.
+~
+PMID: 34495736
+Journal: Applied and environmental microbiology" fillcolor="#FFDC8C" margin=0.05]
+    34734375 [label="Otake, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34734375/" tooltip="Title: 222 nm ultraviolet radiation C causes more severe damage to guard cells and epidermal cells of Arabidopsis plants than does 254 nm ultraviolet radiation.
+~
+By: Otake, Okamoto Yoshiyama, Yamaguchi, Hidema
+Date: 2021 Nov 03
+~
+Abstract: Lamps that emit 222 nm short-wavelength ultraviolet (UV) radiation can be safely used for sterilization without harming human health. However, there are few studies on the effects of 222 nm UVC (222-UVC) radiation exposure on plants compared with the effects of germicidal lamps emitting primarily 254 nm UVC (254-UVC) radiation. We investigated the growth inhibition and cell damage caused by 222-UVC exposure to Arabidopsis plants, especially mitochondrial dynamics, which is an index of damage caused by UVB radiation. Growth inhibition resulted from 254-UVC or 222-UVC exposure depending on the dose of UVC radiation. However, with respect to the phenotype of 222-UVC-irradiated plants, the leaves curled under 1 kJ m-2 and were markedly bleached under 10 kJ m-2 compared with those of plants irradiated with 254-UVC. The cellular state, especially the mitochondrial dynamics, of epidermal and mesophyll cells of Arabidopsis leaves exposed to 254-UVC or 222-UVC radiation was investigated using Arabidopsis plants expressing mitochondrial matrix-targeted yellow fluorescent protein (MT-YFP) under the control of Pro35S to visualize the mitochondria. 222-UVC (1 or 5 kJ m-2) severely damaged the guard cells within the epidermis, and YFP signals and chloroplast autofluorescence in guard cells within the epidermis exposed to 222-UVC (1 or 5 kJ m-2) were not detected compared with those in cells exposed to 254-UVC radiation. In addition, 222-UVC irradiation led to mitochondrial fragmentation in mesophyll cells, similar to the effects of 254-UVC exposure. These results suggest that 222-UVC severely damages guard cells and epidermal cells and that such damage might have resulted in growth inhibition.
+~
+PMID: 34734375
+Journal: Photochemical & photobiological sciences : Official journal of the European Photochemistry Association and the European Society for Photobiology" fillcolor="#FFDC8C" margin=0.05]
+    34785646 [label="Tatsuno, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34785646/" tooltip="Title: Mechanism of transient photothermal inactivation of bacteria using a wavelength-tunable nanosecond pulsed laser.
+~
+By: Tatsuno, Niimi, Tomita, Terashima, Hasegawa, Matsumoto
+Date: 2021 Nov 16
+~
+Abstract: There is a great demand for novel disinfection technologies to inactivate various pathogenic viruses and bacteria. In this situation, ultraviolet (UVC) disinfection technologies seem to be promising because biocontaminated air and surfaces are the major media for disease transmission. However, UVC is strongly absorbed by human cells and protein components; therefore, there are concerns about damaging plasma components and causing dermatitis and skin cancer. To avoid these concerns, in this study, we demonstrate that the efficient inactivation of bacteria is achieved by visible pulsed light irradiation. The principle of inactivation is based on transient photothermal heating. First, we provide experimental confirmation that extremely high temperatures above 1000 K can be achieved by pulsed laser irradiation. Evidence of this high temperature is directly confirmed by melting gold nanoparticles (GNPs). Inorganic GNPs are used because of their well-established thermophysical properties. Second, we show inactivation behaviour by pulsed laser irradiation. This inactivation behaviour cannot be explained by a simple optical absorption effect. We experimentally and theoretically clarify this inactivation mechanism based on both optical absorption and scattering effects. We find that scattering and absorption play an important role in inactivation because the input irradiation is inherently scattered by the bacteria; therefore, the dose that bacteria feel is reduced. This scattering effect can be clearly shown by a technique that combines stained Escherichia coli and site selective irradiation obtained by a wavelength tunable pulsed laser. By measuring Live/Dead fluorescence microscopy images, we show that the inactivation attained by the transient photothermal heating is possible to instantaneously and selectively kill microorganisms such as Escherichia coli bacteria. Thus, this method is promising for the site selective inactivation of various pathogenic viruses and bacteria in a safe and simple manner.
+~
+PMID: 34785646
+Journal: Scientific reports" fillcolor="#FFDC8C" margin=0.05]
+
+12371544:n->27366615:s [penwidth=0.497787]
+    12371545:n->27366615:s [penwidth=1.221816]
+    15540442:n->26401440:s [penwidth=0.504580]
+    15540442:n->26836861:s [penwidth=0.619928]
+    15540442:n->26900523:s [penwidth=0.953447]
+    15540442:n->34434627:s [penwidth=0.362816]
+    16252654:n->26989588:s [penwidth=0.388203]
+    16295846:n->26712541:s [penwidth=0.667899]
+    16295846:n->27889622:s [penwidth=0.386759]
+    16295846:n->31275622:s [penwidth=0.093656]
+    16295846:n->33643774:s [penwidth=0.104305]
+    16386286:n->26712541:s [penwidth=0.276173]
+    16386286:n->27889622:s [penwidth=0.201554]
+    16386286:n->31275622:s [penwidth=0.182440]
+    16386286:n->32812619:s [penwidth=0.045792]
+    16386286:n->32911671:s [penwidth=0.315885]
+    16386286:n->34282225:s [penwidth=0.184850]
+    16386286:n->34465056:s [penwidth=0.078347]
+    17068565:n->26836861:s [penwidth=1.327658]
+    17068565:n->26900523:s [penwidth=0.614689]
+    17068565:n->26989581:s [penwidth=0.055326]
+    17068565:n->26989588:s [penwidth=0.207786]
+    17068565:n->27366615:s [penwidth=0.323887]
+    17068565:n->27661568:s [penwidth=0.392091]
+    17068565:n->30278699:s [penwidth=3.743278]
+    17068565:n->32601509:s [penwidth=0.321556]
+    17068565:n->32752793:s [penwidth=0.245415]
+    17068565:n->32825075:s [penwidth=0.041841]
+    17933932:n->18978087:s [penwidth=0.592180]
+    17933932:n->21131511:s [penwidth=0.373194]
+    17933932:n->26712541:s [penwidth=0.731400]
+    17933932:n->27889622:s [penwidth=0.380058]
+    17933932:n->32752793:s [penwidth=0.365045]
+    17933932:n->33643774:s [penwidth=0.104022]
+    18216962:n->26601030:s [penwidth=0.000000]
+    18216962:n->32601509:s [penwidth=0.000000]
+    18354559:n->26836861:s [penwidth=0.225486]
+    18354559:n->32601509:s [penwidth=0.404239]
+    18354566:n->27413606:s [penwidth=0.283013]
+    18354566:n->32601509:s [penwidth=0.215124]
+    18978087:n->21131511:s [penwidth=2.799811]
+    18978087:n->31275622:s [penwidth=0.048537]
+    18978087:n->32752793:s [penwidth=0.201021]
+    19762061:n->26712541:s [penwidth=0.374895]
+    19762061:n->31275622:s [penwidth=0.037286]
+    19762061:n->33643774:s [penwidth=0.066101]
+    19762061:n->34282225:s [penwidth=0.061274]
+    19762061:n->34785646:s [penwidth=0.061395]
+    19872573:n->27889622:s [penwidth=0.046717]
+    19872573:n->31275622:s [penwidth=0.026609]
+    19872573:n->32752793:s [penwidth=0.095891]
+    19872573:n->33643774:s [penwidth=0.045622]
+    19912558:n->24146947:s [penwidth=0.038788]
+    19912558:n->29426899:s [penwidth=0.087268]
+    19912558:n->30610077:s [penwidth=0.323868]
+    19912558:n->32033948:s [penwidth=0.321754]
+    19912558:n->32222977:s [penwidth=0.082803]
+    19912558:n->33294996:s [penwidth=0.093563]
+    19912558:n->33465817:s [penwidth=0.196432]
+    19912558:n->33643774:s [penwidth=0.156227]
+    19912558:n->34734375:s [penwidth=0.130448]
+    21131511:n->26712541:s [penwidth=0.668504]
+    21131511:n->27889622:s [penwidth=0.262469]
+    21131511:n->31275622:s [penwidth=0.068587]
+    21131511:n->33022467:s [penwidth=0.050490]
+    21804977:n->24146947:s [penwidth=0.122470]
+    21804977:n->27275949:s [penwidth=0.040030]
+    21804977:n->28225654:s [penwidth=0.235528]
+    21804977:n->29101868:s [penwidth=0.104774]
+    21804977:n->30044862:s [penwidth=0.147607]
+    21804977:n->32222977:s [penwidth=0.220347]
+    21804977:n->32785216:s [penwidth=0.066545]
+    21804977:n->32812619:s [penwidth=0.030993]
+    21804977:n->33465817:s [penwidth=0.069883]
+    21804977:n->34465056:s [penwidth=0.033372]
+    21804977:n->34734375:s [penwidth=0.027620]
+    22695603:n->26601030:s [penwidth=0.029741]
+    22695603:n->30278699:s [penwidth=0.218225]
+    23262612:n->32825258:s [penwidth=0.317300]
+    24146947:n->27275949:s [penwidth=0.696110]
+    24146947:n->28225654:s [penwidth=0.603527]
+    24146947:n->29101868:s [penwidth=0.331941]
+    24146947:n->29426899:s [penwidth=0.332703]
+    24146947:n->29466457:s [penwidth=0.463510]
+    24146947:n->30044862:s [penwidth=0.228331]
+    24146947:n->30096188:s [penwidth=0.287783]
+    24146947:n->30610077:s [penwidth=0.028593]
+    24146947:n->32033948:s [penwidth=0.044254]
+    24146947:n->32222977:s [penwidth=0.134519]
+    24146947:n->32581288:s [penwidth=0.173891]
+    24146947:n->32911671:s [penwidth=0.068587]
+    24146947:n->33294996:s [penwidth=0.196663]
+    24146947:n->33465817:s [penwidth=0.151671]
+    24146947:n->33480023:s [penwidth=0.080532]
+    24146947:n->33643774:s [penwidth=0.105772]
+    24146947:n->34282225:s [penwidth=0.073455]
+    24146947:n->34465056:s [penwidth=0.065373]
+    24146947:n->34734375:s [penwidth=0.111428]
+    24266597:n->26712541:s [penwidth=2.852928]
+    24266597:n->27889622:s [penwidth=0.952489]
+    24266597:n->31275622:s [penwidth=0.447057]
+    24266597:n->32752793:s [penwidth=0.610972]
+    24266597:n->32812619:s [penwidth=0.044395]
+    24266597:n->32911671:s [penwidth=0.237161]
+    24266597:n->33643774:s [penwidth=0.268249]
+    24266597:n->34495736:s [penwidth=0.422514]
+    24922428:n->30278699:s [penwidth=1.011563]
+    25506761:n->26712541:s [penwidth=0.758983]
+    25506761:n->27889622:s [penwidth=0.458818]
+    25506761:n->32752793:s [penwidth=0.465044]
+    25506761:n->33643774:s [penwidth=0.072617]
+    25506761:n->34495736:s [penwidth=0.086987]
+    25506761:n->34785646:s [penwidth=0.097754]
+    26401440:n->26836861:s [penwidth=0.110870]
+    26401440:n->34434627:s [penwidth=0.596146]
+    26712541:n->27889622:s [penwidth=0.312804]
+    26712541:n->29426899:s [penwidth=0.033344]
+    26712541:n->31275622:s [penwidth=0.195386]
+    26712541:n->32752793:s [penwidth=0.544922]
+    26712541:n->32911671:s [penwidth=0.123930]
+    26712541:n->33022467:s [penwidth=0.186540]
+    26712541:n->33294996:s [penwidth=0.141999]
+    26712541:n->33643774:s [penwidth=0.092086]
+    26712541:n->34495736:s [penwidth=0.192329]
+    26712541:n->34785646:s [penwidth=0.079035]
+    26836861:n->26401440:s [penwidth=0.110870]
+    26836861:n->27661568:s [penwidth=0.545754]
+    26836861:n->30278699:s [penwidth=1.234899]
+    26836861:n->32601509:s [penwidth=0.644619]
+    26836861:n->32825075:s [penwidth=0.079409]
+    26900523:n->26601030:s [penwidth=0.326949]
+    26989581:n->26401440:s [penwidth=0.262663]
+    26989581:n->26601030:s [penwidth=1.153754]
+    26989588:n->26401440:s [penwidth=0.086909]
+    26989588:n->26601030:s [penwidth=1.088643]
+    26989588:n->26989581:s [penwidth=0.727700]
+    27275949:n->28225654:s [penwidth=0.542018]
+    27275949:n->29101868:s [penwidth=0.223653]
+    27275949:n->29426899:s [penwidth=1.122693]
+    27275949:n->29466457:s [penwidth=0.122116]
+    27275949:n->30044862:s [penwidth=0.181982]
+    27275949:n->30096188:s [penwidth=0.082219]
+    27275949:n->30610077:s [penwidth=0.030224]
+    27275949:n->32033948:s [penwidth=0.036590]
+    27275949:n->32222977:s [penwidth=0.101137]
+    27275949:n->32581288:s [penwidth=0.143996]
+    27275949:n->32785216:s [penwidth=0.111378]
+    27275949:n->32812619:s [penwidth=0.049979]
+    27275949:n->33294996:s [penwidth=0.066078]
+    27275949:n->33480023:s [penwidth=0.076648]
+    27275949:n->33643774:s [penwidth=0.084311]
+    27275949:n->34734375:s [penwidth=0.114290]
+    27366615:n->30278699:s [penwidth=0.577636]
+    27413606:n->26836861:s [penwidth=0.262226]
+    27805113:n->27413606:s [penwidth=4.869452]
+    27879830:n->28777329:s [penwidth=0.675533]
+    27889622:n->30610077:s [penwidth=0.066229]
+    27889622:n->31275622:s [penwidth=1.830347]
+    27889622:n->33022467:s [penwidth=0.166682]
+    27889622:n->34465056:s [penwidth=0.048120]
+    27889622:n->34495736:s [penwidth=0.150148]
+    27889622:n->34785646:s [penwidth=0.027667]
+    28117745:n->28777329:s [penwidth=0.598355]
+    28225654:n->29426899:s [penwidth=0.373357]
+    28225654:n->29466457:s [penwidth=0.830837]
+    28225654:n->30044862:s [penwidth=0.625794]
+    28225654:n->30096188:s [penwidth=0.447436]
+    28225654:n->30610077:s [penwidth=0.138290]
+    28225654:n->32033948:s [penwidth=0.217530]
+    28225654:n->32222977:s [penwidth=0.790691]
+    28225654:n->32581288:s [penwidth=0.432791]
+    28225654:n->32785216:s [penwidth=0.109230]
+    28225654:n->32812619:s [penwidth=0.135791]
+    28225654:n->32896604:s [penwidth=0.045780]
+    28225654:n->32911671:s [penwidth=0.096259]
+    28225654:n->33294996:s [penwidth=0.130796]
+    28225654:n->33465817:s [penwidth=0.394843]
+    28225654:n->33480023:s [penwidth=0.215017]
+    28225654:n->33643774:s [penwidth=0.347470]
+    28225654:n->34029626:s [penwidth=0.096316]
+    28225654:n->34282225:s [penwidth=0.301773]
+    28225654:n->34465056:s [penwidth=0.097514]
+    28225654:n->34495736:s [penwidth=0.273109]
+    28225654:n->34734375:s [penwidth=0.657353]
+    28777329:n->32708337:s [penwidth=0.000121]
+    29101868:n->29466457:s [penwidth=0.313337]
+    29101868:n->30044862:s [penwidth=3.320490]
+    29101868:n->30096188:s [penwidth=0.551896]
+    29101868:n->32033948:s [penwidth=0.320308]
+    29101868:n->32581288:s [penwidth=0.197208]
+    29101868:n->32785216:s [penwidth=0.701646]
+    29101868:n->32896604:s [penwidth=0.093656]
+    29101868:n->33294996:s [penwidth=0.251545]
+    29101868:n->33643774:s [penwidth=0.781250]
+    29101868:n->34282225:s [penwidth=0.525919]
+    29426899:n->30044862:s [penwidth=0.297750]
+    29426899:n->32033948:s [penwidth=0.048097]
+    29426899:n->32222977:s [penwidth=0.282831]
+    29426899:n->32581288:s [penwidth=1.310410]
+    29426899:n->32785216:s [penwidth=0.098806]
+    29426899:n->32812619:s [penwidth=0.109291]
+    29426899:n->32896604:s [penwidth=0.068587]
+    29426899:n->32911671:s [penwidth=0.112162]
+    29426899:n->33294996:s [penwidth=0.150790]
+    29426899:n->33465817:s [penwidth=0.183814]
+    29426899:n->33480023:s [penwidth=0.031190]
+    29426899:n->33643774:s [penwidth=0.414598]
+    29426899:n->34029626:s [penwidth=0.052531]
+    29426899:n->34465056:s [penwidth=0.147279]
+    29426899:n->34734375:s [penwidth=0.145785]
+    29426899:n->34785646:s [penwidth=0.410519]
+    29466457:n->30044862:s [penwidth=0.260140]
+    29466457:n->32033948:s [penwidth=0.089598]
+    29466457:n->32581288:s [penwidth=0.080842]
+    29466457:n->32785216:s [penwidth=0.179497]
+    29466457:n->32812619:s [penwidth=0.032037]
+    29466457:n->33294996:s [penwidth=0.136333]
+    29466457:n->33465817:s [penwidth=0.093212]
+    29466457:n->33643774:s [penwidth=0.085120]
+    30044862:n->32033948:s [penwidth=0.298844]
+    30044862:n->32222977:s [penwidth=1.008534]
+    30044862:n->32581288:s [penwidth=0.126228]
+    30044862:n->32785216:s [penwidth=0.879300]
+    30044862:n->32812619:s [penwidth=0.134803]
+    30044862:n->32896604:s [penwidth=0.063387]
+    30044862:n->32911671:s [penwidth=0.044391]
+    30044862:n->33294996:s [penwidth=0.255105]
+    30044862:n->33465817:s [penwidth=0.316997]
+    30044862:n->33480023:s [penwidth=0.246930]
+    30044862:n->33643774:s [penwidth=0.765755]
+    30044862:n->34029626:s [penwidth=0.063397]
+    30044862:n->34282225:s [penwidth=0.219075]
+    30044862:n->34452302:s [penwidth=0.195071]
+    30044862:n->34495736:s [penwidth=0.177191]
+    30044862:n->34734375:s [penwidth=0.750211]
+    30044862:n->34785646:s [penwidth=0.166419]
+    30096188:n->32033948:s [penwidth=0.085550]
+    30096188:n->33294996:s [penwidth=0.196035]
+    30096188:n->33643774:s [penwidth=0.204800]
+    30096188:n->34282225:s [penwidth=0.142775]
+    30278699:n->32752793:s [penwidth=0.431812]
+    30461732:n->32825258:s [penwidth=0.517764]
+    30461732:n->33916016:s [penwidth=0.237674]
+    30610077:n->33294996:s [penwidth=0.072468]
+    30610077:n->33643774:s [penwidth=0.165356]
+    31275622:n->33022467:s [penwidth=0.239180]
+    31275622:n->34785646:s [penwidth=0.020290]
+    32020954:n->31918454:s [penwidth=0.371646]
+    32020955:n->31918454:s [penwidth=0.124380]
+    32033948:n->33294996:s [penwidth=0.095857]
+    32033948:n->33465817:s [penwidth=0.074164]
+    32033948:n->33480023:s [penwidth=0.103349]
+    32033948:n->33643774:s [penwidth=0.313445]
+    32182409:n->32581288:s [penwidth=0.000000]
+    32182409:n->32812619:s [penwidth=0.000000]
+    32182409:n->32896604:s [penwidth=0.000000]
+    32182409:n->32911671:s [penwidth=0.000000]
+    32182409:n->33022467:s [penwidth=0.000000]
+    32182409:n->34029626:s [penwidth=0.000000]
+    32182409:n->34452302:s [penwidth=0.000000]
+    32182409:n->34465056:s [penwidth=0.000000]
+    32182409:n->34495736:s [penwidth=0.000000]
+    32182409:n->34785646:s [penwidth=0.000000]
+    32222977:n->32581288:s [penwidth=0.128526]
+    32222977:n->32785216:s [penwidth=0.149743]
+    32222977:n->32812619:s [penwidth=0.168711]
+    32222977:n->32896604:s [penwidth=0.031947]
+    32222977:n->33294996:s [penwidth=0.241205]
+    32222977:n->33465817:s [penwidth=0.232865]
+    32222977:n->33480023:s [penwidth=0.580451]
+    32222977:n->33643774:s [penwidth=0.394843]
+    32222977:n->34734375:s [penwidth=1.105387]
+    32243946:n->32581288:s [penwidth=0.000924]
+    32243946:n->32812619:s [penwidth=0.004312]
+    32243946:n->32896604:s [penwidth=0.003922]
+    32243946:n->33294996:s [penwidth=0.001736]
+    32243946:n->33465817:s [penwidth=0.000565]
+    32243946:n->33480023:s [penwidth=0.000229]
+    32243946:n->33643774:s [penwidth=0.003598]
+    32243946:n->34452302:s [penwidth=0.001000]
+    32243946:n->34465056:s [penwidth=0.001836]
+    32243946:n->34734375:s [penwidth=0.023342]
+    32243946:n->34785646:s [penwidth=0.000153]
+    32581288:n->32896604:s [penwidth=0.063085]
+    32581288:n->32911671:s [penwidth=0.102335]
+    32581288:n->33294996:s [penwidth=0.180336]
+    32581288:n->33465817:s [penwidth=0.342986]
+    32581288:n->33643774:s [penwidth=0.347073]
+    32581288:n->34029626:s [penwidth=0.157061]
+    32581288:n->34282225:s [penwidth=0.211134]
+    32581288:n->34465056:s [penwidth=0.109409]
+    32581288:n->34495736:s [penwidth=0.418558]
+    32581288:n->34785646:s [penwidth=0.126943]
+    32785216:n->33294996:s [penwidth=0.067175]
+    32785216:n->33465817:s [penwidth=0.059204]
+    32785216:n->33643774:s [penwidth=0.100402]
+    32785216:n->34282225:s [penwidth=0.088541]
+    32812619:n->34029626:s [penwidth=0.088849]
+    32896604:n->33294996:s [penwidth=0.026899]
+    32896604:n->33465817:s [penwidth=0.024870]
+    32896604:n->33643774:s [penwidth=0.030403]
+    32896604:n->34029626:s [penwidth=0.032045]
+    32896604:n->34465056:s [penwidth=0.064994]
+    32896604:n->34495736:s [penwidth=0.234363]
+    32911671:n->34029626:s [penwidth=0.521690]
+    32911671:n->34452302:s [penwidth=0.283280]
+    32911671:n->34465056:s [penwidth=0.326949]
+    33022467:n->34029626:s [penwidth=0.063347]
+    33022467:n->34495736:s [penwidth=0.269642]
+    33022467:n->34785646:s [penwidth=0.008589]
+
+}
+
