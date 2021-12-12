@@ -24,7 +24,7 @@ import requests
 # CONSTANTS
 
 
-PATTERN_WORD = re.compile(r"[\w.]+")
+PATTERN_WORD = re.compile(r"(\w+\.*)")
 
 FORM_NCBI = "https://{}.ncbi.nlm.nih.gov/{}".format
 FORM_EUTILS = FORM_NCBI("eutils", "entrez/eutils/{}.cgi").format
@@ -527,14 +527,19 @@ def repl_table(par, args, echo=True):
     return fpath
 
 
-def repl_diwords(par, args):
+def repl_ngram(par, args):
     dct = par["data"]
+    if not args:
+        args += [2]
+    n = int(args[0])
 
     data = dict()
     for x in dct.values():
         words = tokenize(x["abstract"])
-        diwords = map("{} {}".format, words, words[1:])
-        for k, v in table(diwords).items():
+        ngram = list()
+        for i in range(len(words) - n):
+            ngram.append(" ".join(words[i:i + n]))
+        for k, v in table(ngram).items():
             try:
                 data[k] += v
             except KeyError:
@@ -548,30 +553,31 @@ def repl_diwords(par, args):
     if not os.path.exists(dir_out):
         os.makedirs(dir_out)
 
-    print("\n".join(map("{},{}".format, keys, map(data.get, keys))), file=open(fpath, "w", encoding="utf8"))
+    text = "\n".join(map("{},{}".format, keys, map(data.get, keys)))
+    print(text, file=open(fpath, "w", encoding="utf8"))
     printt("Wrote {}...".format(repr(fpath)))
 
-    dct = dict()
-    for k, v in data.items():
-        w1, w2 = k.split()
-        try:
-            dct[w1][w2] = v
-        except KeyError:
-            dct[w1] = {w2: v}
+    # dct = dict()
+    # for k, v in data.items():
+    #     w1, w2 = k.split()
+    #     try:
+    #         dct[w1][w2] = v
+    #     except KeyError:
+    #         dct[w1] = {w2: v}
 
-    word = next(iter(dct))
-    lst = [word]
-    for i in range(int(args[0]) if args else 100):
-        new = None
-        while new is None:
-            while new not in dct:
-                new, *_ = random.choices(tuple(dct[word].keys()), weights=tuple(dct[word].values()))
-            if not any((x in dct) for x in dct[new]):
-                word = next(iter(dct))
-                new = None
-        word = new
-        lst.append(word)
-    printt(wrap(" ".join(lst), 76))
+    # word = next(iter(dct))
+    # lst = [word]
+    # for i in range(int(args[0]) if args else 100):
+    #     new = None
+    #     while new is None:
+    #         while new not in dct:
+    #             new, *_ = random.choices(tuple(dct[word].keys()), weights=tuple(dct[word].values()))
+    #         if not any((x in dct) for x in dct[new]):
+    #             word = next(iter(dct))
+    #             new = None
+    #     word = new
+    #     lst.append(word)
+    # printt(wrap(" ".join(lst), 76))
 
     return fpath
 
@@ -613,7 +619,31 @@ def repl_main():
             par["state"] = State.EXIT
 
         elif cmd == "HELP":
-            printt("Helping...")
+            tup = (
+                ("EXIT", " ", "Exit the program"),
+                ("HELP", " ", "Help page for command state and usage"),
+                ("SEARCH", " ", "Search PubMed, query follows command"),
+                ("ADD", "α", "Add a new file to the database, becomes active"),
+                ("LOAD", "α", "Load a file from the database, becomes active"),
+                ("RM", "α", "Remove a file from the database"),
+                ("PEEK", "α", "Peek the files in the database"),
+                ("UNLOAD", "δ", "Unload active file"),
+                ("ADD", "δ", "Add a new PubMed ID to the active file"),
+                ("GROW", "δ",
+                 "Find related articles, can specify number of cycles"),
+                ("GV", "δ", "Render out a GV file, this is the base graph"),
+                ("SVG", "δ", "Render out a SVG file, has hyperlink support"),
+                ("PDF", "δ", "Render out a PDF file"),
+                ("PNG", "δ", "Render out a PNG file, can specify DPI"),
+                ("CSV", "δ", "Export articles to a table"),
+                ("TXT NGRAM", "δ",
+                 "Export n-grams from all abstracts, must specify number"),
+                ("PEEK", "δ", "Peek the articles in the active file"),
+            )
+
+            printt("Help (state, command, usage):")
+            for c, s, d in sorted(tup):
+                printt("  - [{}] {}{}".format(s, c.ljust(10), d))
 
         elif cmd == "SEARCH":
             if not args:
@@ -708,6 +738,7 @@ def repl_main():
 
                 printt("Adding...")
                 repl_add(par, args)
+
             elif cmd == "GROW":
                 if not args:
                     cycles = 1
@@ -733,9 +764,9 @@ def repl_main():
                 try:
                     if not args:
                         pass
-                    elif (args[0].upper() == "DIWORDS"):
+                    elif (args[0].upper() == "NGRAM"):
                         _, *args = args
-                        repl_diwords(par, args)
+                        repl_ngram(par, args)
                 except KeyboardInterrupt:
                     printe("Aborted!")
             else:
