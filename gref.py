@@ -7,7 +7,6 @@ __email__ = "shane.drabing@gmail.com"
 
 
 import csv
-import functools
 import json
 import math
 import os
