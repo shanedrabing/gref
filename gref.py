@@ -43,7 +43,7 @@ nodesep=0.0
 splines=true
 outputorder=edgesfirst
 
-node [shape=note style=filled fontsize=9 fillcolor=none target="_blank"]
+node [shape=note style=filled fontsize=9 fillcolor=none target="_blank" ordering="in"]
 edge [arrowhead=none]
 
 {}
@@ -90,6 +90,8 @@ def wrap(text, length=80):
 
 
 def tokenize(x):
+    if x is None:
+        return list()
     return PATTERN_WORD.findall(x)
 
 
@@ -106,6 +108,9 @@ def jaccard(x, y, use_counts=True):
 
     total = sum((*tx.values(), *ty.values()))
     shared = sum(tx[k] + ty[k] for k in intersection)
+    if total == 0:
+        return 0
+
     return shared / total
 
 
@@ -178,6 +183,8 @@ def text(node, sep=str(), strip=True):
     if node is None:
         return
     text = node.get_text(sep)
+    if text is None:
+        text = str()
     if bool(strip):
         return text.strip()
     return text
@@ -281,10 +288,13 @@ def article_summary(dct):
 def article_summary_wide(dct):
     lnames = ", ".join(x[-1].split(",")[0] for x in dct["authors"])
     return "\n".join((
-        "Date: " + dct["date"],
         "Title: " + dct["title"],
-        "By: " + lnames, "~",
-        "Abstract: " + str(dct["abstract"]).replace('"', "'"), "~",
+        "~",
+        "By: " + lnames,
+        "Date: " + dct["date"],
+        "~",
+        "Abstract: " + str(dct["abstract"]).replace('"', "'"),
+        "~",
         "PMID: " + dct["pmid"],
         "Journal: " + dct["journal"]
     ))
@@ -413,11 +423,11 @@ def repl_graph(par, args, echo=True):
         for k, v in dct.items():
             if "references" in v:
                 for x in v["references"]:
-                    if x in dct:
+                    if x in dct and x != k:
                         edges.add((x, k))
             if "citedin" in v:
                 for x in v["citedin"]:
-                    if x in dct:
+                    if x in dct and x != k:
                         edges.add((k, x))
     inbound, outbound = zip(*edges)
 
