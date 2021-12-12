@@ -302,17 +302,17 @@ def article_summary_wide(dct):
     ))
 
 
-def article_reference(dct):
+def article_reference(dct, k=3):
     authors = tuple(x[-1].split(",")[0] for x in dct["authors"])
     n = len(authors)
     if n == 2:
         authors_str = " & ".join(authors)
-    elif n <= 3:
-        authors_str = ", & ".join(authors).replace(", &", ", ", n - 2)
+    elif n <= k:
+        authors_str = ", & ".join(authors).replace(", & ", ", ", n - 2)
     else:
         authors_str = authors[0] + ", et al."
     date_str = dct["date"].split()[0]
-    return wrap("{} ({})".format(authors_str, date_str), 20)
+    return "{} ({})".format(authors_str, date_str)
 
 
 def article_link(dct):
@@ -441,7 +441,7 @@ def repl_graph(par, args, echo=True):
     nodes_lst = list()
     for x in nodes:
         pmid = x["pmid"]
-        label = article_reference(x)
+        label = wrap(article_reference(x), 20)
         href = "https://pubmed.ncbi.nlm.nih.gov/{}/".format(x["pmid"])
         tooltip = article_summary_wide(x).replace('"', "'")
         i1 = inbound.count(pmid)
@@ -482,7 +482,10 @@ def repl_render(par, args, cmd):
     repl_graph(par, args, echo=False)
 
     name = fpath.split("/")[-1].replace(".gv", "")
-    expression = f"dot -T{cmd}{' -Gdpi={}'.format(args[0]) if args else ''} {fpath} -o gref/{cmd}/{name}.{cmd}"
+    if cmd == "png":
+        args[0] += [300]
+    dpi = (" -Gdpi={}".format(args[0]) if args else "")
+    expression = f"dot -T{cmd}{dpi} {fpath} -o gref/{cmd}/{name}.{cmd}"
 
     printt(expression)
     os.system(expression)
@@ -687,8 +690,17 @@ def repl_main():
                 printt("Unloading...")
                 par = repl_par()
             elif cmd == "PEEK":
-                printt("Peeking...")
-                printt(len(par["data"]))
+                data = par["data"]
+                if not data:
+                    printe("No references found!")
+                    continue
+                
+                printt("References found:")
+                for x in map(data.get, sorted(data)):
+                    pmid = x["pmid"]
+                    label = article_reference(x, 5)
+                    printt("  - [{}] {}".format(pmid, label))
+
             elif cmd == "ADD":
                 if not args:
                     printe("No PMIDs provided!")
