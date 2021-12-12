@@ -1,0 +1,323 @@
+digraph {
+
+pad=0.7
+layout=dot
+rankdir=BT
+ranksep=0.5
+nodesep=0.0
+splines=true
+outputorder=edgesfirst
+
+node [shape=note style=filled fontsize=9
+      fillcolor=none target="_blank" ordering="in"]
+edge [arrowhead=none]
+
+14597658 [label="Shannon, et al.
+(2003)" href="https://pubmed.ncbi.nlm.nih.gov/14597658/" tooltip="Title: Cytoscape: a software environment for integrated models of biomolecular interaction networks.
+~
+By: Shannon, Markiel, Ozier, Baliga, Wang, Ramage, Amin, Schwikowski, Ideker
+Date: 2003 Nov
+~
+Abstract: Cytoscape is an open source software project for integrating biomolecular interaction networks with high-throughput expression data and other molecular states into a unified conceptual framework. Although applicable to any system of molecular components and interactions, Cytoscape is most powerful when used in conjunction with large databases of protein-protein, protein-DNA, and genetic interactions that are increasingly available for humans and model organisms. Cytoscape's software Core provides basic functionality to layout and query the network; to visually integrate the network with expression profiles, phenotypes, and other molecular states; and to link the network to databases of functional annotations. The Core is extensible through a straightforward plug-in architecture, allowing rapid development of additional computational analyses and features. Several case studies of Cytoscape plug-ins are surveyed, including a search for interaction pathways correlating with changes in gene expression, a study of protein complexes involved in cellular recovery to DNA damage, inference of a combined physical/functional interaction network for Halobacterium, and an interface to detailed stochastic/kinetic gene regulatory models.
+~
+PMID: 14597658
+Journal: Genome research" fillcolor="#ABE4E8" margin=0.46116321117085995]
+    15180930 [label="Saldanha (2004)" href="https://pubmed.ncbi.nlm.nih.gov/15180930/" tooltip="Title: Java Treeview--extensible visualization of microarray data.
+~
+By: Saldanha
+Date: 2004 Nov 22
+~
+Abstract: Open source software encourages innovation by allowing users to extend the functionality of existing applications. Treeview is a popular application for the visualization of microarray data, but is closed-source and platform-specific, which limits both its current utility and suitability as a platform for further development. Java Treeview is an open-source, cross-platform rewrite that handles very large datasets well, and supports extensions to the file format that allow the results of additional analysis to be visualized and compared. The combination of a general file format and open source makes Java Treeview an attractive choice for solving a class of visualization problems. An applet version is also available that can be used on any website with no special server-side setup.
+~
+PMID: 15180930
+Journal: Bioinformatics (Oxford, England)" fillcolor="#96E6FF" margin=0.3731979026831504]
+    17073365 [label="Lee, et al. (2006)" href="https://pubmed.ncbi.nlm.nih.gov/17073365/" tooltip="Title: TreePlus: interactive exploration of networks with enhanced tree layouts.
+~
+By: Lee, Parr, Plaisant, Bederson, Veksler, Gray, Kotfila
+Date: 2006 Nov-Dec
+~
+Abstract: Despite extensive research, it is still difficult to produce effective interactive layouts for large graphs. Dense layout and occlusion make food webs, ontologies, and social networks difficult to understand and interact with. We propose a new interactive Visual Analytics component called TreePlus that is based on a tree-style layout. TreePlus reveals the missing graph structure with visualization and interaction while maintaining good readability. To support exploration of the local structure of the graph and gathering of information from the extensive reading of labels, we use a guiding metaphor of 'Plant a seed and watch it grow.' It allows users to start with a node and expand the graph as needed, which complements the classic overview techniques that can be effective at (but often limited to) revealing clusters. We describe our design goals, describe the interface, and report on a controlled user study with 28 participants comparing TreePlus with a traditional graph interface for six tasks. In general, the advantage of TreePlus over the traditional interface increased as the density of the displayed data increased. Participants also reported higher levels of confidence in their answers with TreePlus and most of them preferred TreePlus.
+~
+PMID: 17073365
+Journal: IEEE transactions on visualization and computer graphics" fillcolor="#96E6FF" margin=0.1345098040014257]
+    18988971 [label="Barsky, et al.
+(2008)" href="https://pubmed.ncbi.nlm.nih.gov/18988971/" tooltip="Title: Cerebral: visualizing multiple experimental conditions on a graph with biological context.
+~
+By: Barsky, Munzner, Gardy, Kincaid
+Date: 2008 Nov-Dec
+~
+Abstract: Systems biologists use interaction graphs to model the behavior of biological systems at the molecular level. In an iterative process, such biologists observe the reactions of living cells under various experimental conditions, view the results in the context of the interaction graph, and then propose changes to the graph model. These graphs ser ve as a form of dynamic knowledge representation of the biological system being studied and evolve as new insight is gained from the experimental data. While numerous graph layout and drawing packages are available, these tools did not fully meet the needs of our immunologist collaborators. In this paper, we describe the data information display needs of these immunologists and translate them into design decisions. These decisions led us to create Cerebral, a system that uses a biologically guided graph layout and incorporates experimental data directly into the graph display. Small multiple views of different experimental conditions and a data-driven parallel coordinates view enable correlations between experimental conditions to be analyzed at the same time that the data is viewed in the graph context. This combination of coordinated views allows the biologist to view the data from many different perspectives simultaneously. To illustrate the typical analysis tasks performed, we analyze two datasets using Cerebral. Based on feedback from our collaborators we conclude that Cerebral is a valuable tool for analyzing experimental data in the context of an interaction graph model.
+~
+PMID: 18988971
+Journal: IEEE transactions on visualization and computer graphics" fillcolor="#96E6FF" margin=0.1842422680822206]
+    19620095 [label="Streit, et al.
+(2009)" href="https://pubmed.ncbi.nlm.nih.gov/19620095/" tooltip="Title: Caleydo: connecting pathways and gene expression.
+~
+By: Streit, Lex, Kalkusch, Zatloukal, Schmalstieg
+Date: 2009 Oct 15
+~
+Abstract: Understanding the relationships between pathways and the altered expression of their components in disease conditions can be addressed in a visual data analysis process. Caleydo uses novel visualization techniques to support life science experts in their analysis of gene expression data in the context of pathways and functions of individual genes. Pathways and gene expression visualizations are placed in a 3D scene where selected entities (i.e. genes) are visually connected. This allows Caleydo to seamlessly integrate interactive gene expression visualization with cross-database pathway exploration.
+~
+PMID: 19620095
+Journal: Bioinformatics (Oxford, England)" fillcolor="#96E6FF" margin=0.16461280356782382]
+    19834159 [label="van Ham & Perer
+(2009)" href="https://pubmed.ncbi.nlm.nih.gov/19834159/" tooltip="Title: 'Search, show context, expand on demand': supporting large graph exploration with degree-of-interest.
+~
+By: van Ham, Perer
+Date: 2009 Nov-Dec
+~
+Abstract: A common goal in graph visualization research is the design of novel techniques for displaying an overview of an entire graph. However, there are many situations where such an overview is not relevant or practical for users, as analyzing the global structure may not be related to the main task of the users that have semi-specific information needs. Furthermore, users accessing large graph databases through an online connection or users running on less powerful (mobile) hardware simply do not have the resources needed to compute these overviews. In this paper, we advocate an interaction model that allows users to remotely browse the immediate context graph around a specific node of interest. We show how Furnas' original degree of interest function can be adapted from trees to graphs and how we can use this metric to extract useful contextual subgraphs, control the complexity of the generated visualization and direct users to interesting datapoints in the context. We demonstrate the effectiveness of our approach with an exploration of a dense online database containing over 3 million legal citations.
+~
+PMID: 19834159
+Journal: IEEE transactions on visualization and computer graphics" fillcolor="#96E6FF" margin=0.16760912590556815]
+    20195258 [label="Gehlenborg, et al.
+(2010)" href="https://pubmed.ncbi.nlm.nih.gov/20195258/" tooltip="Title: Visualization of omics data for systems biology.
+~
+By: Gehlenborg, O'Donoghue, Baliga, Goesmann, Hibbs, Kitano, Kohlbacher, Neuweger, Schneider, Tenenbaum, Gavin
+Date: 2010 Mar
+~
+Abstract: High-throughput studies of biological systems are rapidly accumulating a wealth of 'omics'-scale data. Visualization is a key aspect of both the analysis and understanding of these data, and users now have many visualization methods and tools to choose from. The challenge is to create clear, meaningful and integrated visualizations that give biological insight, without being overwhelmed by the intrinsic complexity of the data. In this review, we discuss how visualization tools are being used to help interpret protein interaction, gene expression and metabolic profile data, and we highlight emerging new directions.
+~
+PMID: 20195258
+Journal: Nature methods" fillcolor="#C0E2D1" margin=0.2771841606536499]
+    22034366 [label="Gou & Zhang (2011)" href="https://pubmed.ncbi.nlm.nih.gov/22034366/" tooltip="Title: TreeNetViz: revealing patterns of networks over tree structures.
+~
+By: Gou, Zhang
+Date: 2011 Dec
+~
+Abstract: Network data often contain important attributes from various dimensions such as social affiliations and areas of expertise in a social network. If such attributes exhibit a tree structure, visualizing a compound graph consisting of tree and network structures becomes complicated. How to visually reveal patterns of a network over a tree has not been fully studied. In this paper, we propose a compound graph model, TreeNet, to support visualization and analysis of a network at multiple levels of aggregation over a tree. We also present a visualization design, TreeNetViz, to offer the multiscale and cross-scale exploration and interaction of a TreeNet graph. TreeNetViz uses a Radial, Space-Filling (RSF) visualization to represent the tree structure, a circle layout with novel optimization to show aggregated networks derived from TreeNet, and an edge bundling technique to reduce visual complexity. Our circular layout algorithm reduces both total edge-crossings and edge length and also considers hierarchical structure constraints and edge weight in a TreeNet graph. These experiments illustrate that the algorithm can reduce visual cluttering in TreeNet graphs. Our case study also shows that TreeNetViz has the potential to support the analysis of a compound graph by revealing multiscale and cross-scale network patterns.
+~
+PMID: 22034366
+Journal: IEEE transactions on visualization and computer graphics" fillcolor="#96E6FF" margin=0.08010299956639813]
+    23346040 [label="Kim, et al. (2012)" href="https://pubmed.ncbi.nlm.nih.gov/23346040/" tooltip="Title: QCanvas: An Advanced Tool for Data Clustering and Visualization of Genomics Data.
+~
+By: Kim, Park, He, Lee, Yoon
+Date: 2012 Dec
+~
+Abstract: We developed a user-friendly, interactive program to simultaneously cluster and visualize omics data, such as DNA and protein array profiles. This program provides diverse algorithms for the hierarchical clustering of two-dimensional data. The clustering results can be interactively visualized and optimized on a heatmap. The present tool does not require any prior knowledge of scripting languages to carry out the data clustering and visualization. Furthermore, the heatmaps allow the selective display of data points satisfying user-defined criteria. For example, a clustered heatmap of experimental values can be differentially visualized based on statistical values, such as p-values. Including diverse menu-based display options, QCanvas provides a convenient graphical user interface for pattern analysis and visualization with high-quality graphics.
+~
+PMID: 23346040
+Journal: Genomics & informatics" fillcolor="#C0E2D1" margin=0.1730448921378274]
+    23363777 [label="Schroeder,
+Gonzalez-Perez, &
+Lopez-Bigas (2013)" href="https://pubmed.ncbi.nlm.nih.gov/23363777/" tooltip="Title: Visualizing multidimensional cancer genomics data.
+~
+By: Schroeder, Gonzalez-Perez, Lopez-Bigas
+Date: 2013
+~
+Abstract: Cancer genomics projects employ high-throughput technologies to identify the complete catalog of somatic alterations that characterize the genome, transcriptome and epigenome of cohorts of tumor samples. Examples include projects carried out by the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA). A crucial step in the extraction of knowledge from the data is the exploration by experts of the different alterations, as well as the multiple relationships between them. To that end, the use of intuitive visualization tools that can integrate different types of alterations with clinical data is essential to the field of cancer genomics. Here, we review effective and common visualization techniques for exploring oncogenomics data and discuss a selection of tools that allow researchers to effectively visualize multidimensional oncogenomics datasets. The review covers visualization methods employed by tools such as Circos, Gitools, the Integrative Genomics Viewer, Cytoscape, Savant Genome Browser, StratomeX and platforms such as cBio Cancer Genomics Portal, IntOGen, the UCSC Cancer Genomics Browser, the Regulome Explorer and the Cancer Genome Workbench.
+~
+PMID: 23363777
+Journal: Genome medicine" fillcolor="#D2E0BD" margin=0.21989700043360189]
+    24564375 [label="Partl, et al.
+(2013)" href="https://pubmed.ncbi.nlm.nih.gov/24564375/" tooltip="Title: enRoute: dynamic path extraction from biological pathway maps for exploring heterogeneous experimental datasets.
+~
+By: Partl, Lex, Streit, Kalkofen, Kashofer, Schmalstieg
+Date: 2013
+~
+Abstract: Jointly analyzing biological pathway maps and experimental data is critical for understanding how biological processes work in different conditions and why different samples exhibit certain characteristics. This joint analysis, however, poses a significant challenge for visualization. Current techniques are either well suited to visualize large amounts of pathway node attributes, or to represent the topology of the pathway well, but do not accomplish both at the same time. To address this we introduce enRoute, a technique that enables analysts to specify a path of interest in a pathway, extract this path into a separate, linked view, and show detailed experimental data associated with the nodes of this extracted path right next to it. This juxtaposition of the extracted path and the experimental data allows analysts to simultaneously investigate large amounts of potentially heterogeneous data, thereby solving the problem of joint analysis of topology and node attributes. As this approach does not modify the layout of pathway maps, it is compatible with arbitrary graph layouts, including those of hand-crafted, image-based pathway maps. We demonstrate the technique in context of pathways from the KEGG and the Wikipathways databases. We apply experimental data from two public databases, the Cancer Cell Line Encyclopedia (CCLE) and The Cancer Genome Atlas (TCGA) that both contain a wide variety of genomic datasets for a large number of samples. In addition, we make use of a smaller dataset of hepatocellular carcinoma and common xenograft models. To verify the utility of enRoute, domain experts conducted two case studies where they explore data from the CCLE and the hepatocellular carcinoma datasets in the context of relevant pathways.
+~
+PMID: 24564375
+Journal: BMC bioinformatics" fillcolor="#DCDFB2" margin=0.1454242509439325]
+    24748858 [label="Nguyen, et al.
+(2014)" href="https://pubmed.ncbi.nlm.nih.gov/24748858/" tooltip="Title: Interactive Visualization for Patient-to-Patient Comparison.
+~
+By: Nguyen, Nelmes, Huang, Simoff, Catchpoole
+Date: 2014 Mar
+~
+Abstract: A visual analysis approach and the developed supporting technology provide a comprehensive solution for analyzing large and complex integrated genomic and biomedical data. This paper presents a methodology that is implemented as an interactive visual analysis technology for extracting knowledge from complex genetic and clinical data and then visualizing it in a meaningful and interpretable way. By synergizing the domain knowledge into development and analysis processes, we have developed a comprehensive tool that supports a seamless patient-to-patient analysis, from an overview of the patient population in the similarity space to the detailed views of genes. The system consists of multiple components enabling the complete analysis process, including data mining, interactive visualization, analytical views, and gene comparison. We demonstrate our approach with medical scientists on a case study of childhood cancer patients on how they use the tool to confirm existing hypotheses and to discover new scientific insights.
+~
+PMID: 24748858
+Journal: Genomics & informatics" fillcolor="#EDDD9F" margin=0.09771212547196625]
+    25078951 [label="Streit, et al.
+(2014)" href="https://pubmed.ncbi.nlm.nih.gov/25078951/" tooltip="Title: Furby: fuzzy force-directed bicluster visualization.
+~
+By: Streit, Gratzl, Gillhofer, Mayr, Mitterecker, Hochreiter
+Date: 2014
+~
+Abstract: Cluster analysis is widely used to discover patterns in multi-dimensional data. Clustered heatmaps are the standard technique for visualizing one-way and two-way clustering results. In clustered heatmaps, rows and/or columns are reordered, resulting in a representation that shows the clusters as contiguous blocks. However, for biclustering results, where clusters can overlap, it is not possible to reorder the matrix in this way without duplicating rows and/or columns.
+~
+PMID: 25078951
+Journal: BMC bioinformatics" fillcolor="#E4DEA8" margin=0.1345098040014257]
+    25264459 [label="Skuta, Bartůněk, &
+Svozil (2014)" href="https://pubmed.ncbi.nlm.nih.gov/25264459/" tooltip="Title: InCHlib - interactive cluster heatmap for web applications.
+~
+By: Skuta, Bartůněk, Svozil
+Date: 2014 Dec
+~
+Abstract: Hierarchical clustering is an exploratory data analysis method that reveals the groups (clusters) of similar objects. The result of the hierarchical clustering is a tree structure called dendrogram that shows the arrangement of individual clusters. To investigate the row/column hierarchical cluster structure of a data matrix, a visualization tool called 'cluster heatmap' is commonly employed. In the cluster heatmap, the data matrix is displayed as a heatmap, a 2-dimensional array in which the colour of each element corresponds to its value. The rows/columns of the matrix are ordered such that similar rows/columns are near each other. The ordering is given by the dendrogram which is displayed on the side of the heatmap.
+~
+PMID: 25264459
+Journal: Journal of cheminformatics" fillcolor="#E1DEAC" margin=0.18010299956639814]
+    26356945 [label="van den Elzen & van
+Wijk (2014)" href="https://pubmed.ncbi.nlm.nih.gov/26356945/" tooltip="Title: Multivariate Network Exploration and Presentation: From Detail to Overview via Selections and Aggregations.
+~
+By: van den Elzen, van Wijk
+Date: 2014 Dec
+~
+Abstract: Network data is ubiquitous; e-mail traffic between persons, telecommunication, transport and financial networks are some examples. Often these networks are large and multivariate, besides the topological structure of the network, multivariate data on the nodes and links is available. Currently, exploration and analysis methods are focused on a single aspect; the network topology or the multivariate data. In addition, tools and techniques are highly domain specific and require expert knowledge. We focus on the non-expert user and propose a novel solution for multivariate network exploration and analysis that tightly couples structural and multivariate analysis. In short, we go from Detail to Overview via Selections and Aggregations (DOSA): users are enabled to gain insights through the creation of selections of interest (manually or automatically), and producing high-level, infographic-style overviews simultaneously. Finally, we present example explorations on real-world datasets that demonstrate the effectiveness of our method for the exploration and understanding of multivariate networks where presentation of findings comes for free.
+~
+PMID: 26356945
+Journal: IEEE transactions on visualization and computer graphics" fillcolor="#96E6FF" margin=0.15000000000000002]
+    27942089 [label="Lex, et al. (2012)" href="https://pubmed.ncbi.nlm.nih.gov/27942089/" tooltip="Title: StratomeX: Visual Analysis of Large-Scale Heterogeneous Genomics Data for Cancer Subtype Characterization.
+~
+By: Lex, Streit, Schulz, Partl, Schmalstieg, Park, Gehlenborg
+Date: 2012 Jun
+~
+Abstract: Identification and characterization of cancer subtypes are important areas of research that are based on the integrated analysis of multiple heterogeneous genomics datasets. Since there are no tools supporting this process, much of this work is done using ad-hoc scripts and static plots, which is inefficient and limits visual exploration of the data. To address this, we have developed StratomeX, an integrative visualization tool that allows investigators to explore the relationships of candidate subtypes across multiple genomic data types such as gene expression, DNA methylation, or copy number data. StratomeX represents datasets as columns and subtypes as bricks in these columns. Ribbons between the columns connect bricks to show subtype relationships across datasets. Drill-down features enable detailed exploration. StratomeX provides insights into the functional and clinical implications of candidate subtypes by employing small multiples, which allow investigators to assess the effect of subtypes on molecular pathways or outcomes such as patient survival. As the configuration of viewing parameters in such a multi-dataset, multi-view scenario is complex, we propose a meta visualization and configuration interface for dataset dependencies and data-view relationships. StratomeX is developed in close collaboration with domain experts. We describe case studies that illustrate how investigators used the tool to explore subtypes in large datasets and demonstrate how they efficiently replicated findings from the literature and gained new insights into the data.
+~
+PMID: 27942089
+Journal: Computer graphics forum : journal of the European Association for Computer Graphics" fillcolor="#A1E4F2" margin=0.19771212547196626]
+    27942090 [label="Partl, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27942090/" tooltip="Title: Pathfinder: Visual Analysis of Paths in Graphs.
+~
+By: Partl, Gratzl, Streit, Wassermann, Pfister, Schmalstieg, Lex
+Date: 2016 Jun
+~
+Abstract: The analysis of paths in graphs is highly relevant in many domains. Typically, path-related tasks are performed in node-link layouts. Unfortunately, graph layouts often do not scale to the size of many real world networks. Also, many networks are multivariate, i.e., contain rich attribute sets associated with the nodes and edges. These attributes are often critical in judging paths, but directly visualizing attributes in a graph layout exacerbates the scalability problem. In this paper, we present visual analysis solutions dedicated to path-related tasks in large and highly multivariate graphs. We show that by focusing on paths, we can address the scalability problem of multivariate graph visualization, equipping analysts with a powerful tool to explore large graphs. We introduce Pathfinder (Figure 1), a technique that provides visual methods to query paths, while considering various constraints. The resulting set of paths is visualized in both a ranked list and as a node-link diagram. For the paths in the list, we display rich attribute data associated with nodes and edges, and the node-link diagram provides topological context. The paths can be ranked based on topological properties, such as path length or average node degree, and scores derived from attribute data. Pathfinder is designed to scale to graphs with tens of thousands of nodes and edges by employing strategies such as incremental query results. We demonstrate Pathfinder's fitness for use in scenarios with data from a coauthor network and biological pathways.
+~
+PMID: 27942090
+Journal: Computer graphics forum : journal of the European Association for Computer Graphics" fillcolor="#CAE1C5" margin=0.11020599913279625]
+    28251868 [label="Engle, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28251868/" tooltip="Title: Unboxing cluster heatmaps.
+~
+By: Engle, Whalen, Joshi, Pollard
+Date: 2017 Feb 15
+~
+Abstract: Cluster heatmaps are commonly used in biology and related fields to reveal hierarchical clusters in data matrices. This visualization technique has high data density and reveal clusters better than unordered heatmaps alone. However, cluster heatmaps have known issues making them both time consuming to use and prone to error. We hypothesize that visualization techniques without the rigid grid constraint of cluster heatmaps will perform better at clustering-related tasks.
+~
+PMID: 28251868
+Journal: BMC bioinformatics" fillcolor="#FFDC8C" margin=0.12781512503836437]
+    28994825 [label="Fernandez, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28994825/" tooltip="Title: Clustergrammer, a web-based heatmap visualization and analysis tool for high-dimensional biological data.
+~
+By: Fernandez, Gundersen, Rahman, Grimes, Rikova, Hornbeck, Ma'ayan
+Date: 2017 10 10
+~
+Abstract: Most tools developed to visualize hierarchically clustered heatmaps generate static images. Clustergrammer is a web-based visualization tool with interactive features such as: zooming, panning, filtering, reordering, sharing, performing enrichment analysis, and providing dynamic gene annotations. Clustergrammer can be used to generate shareable interactive visualizations by uploading a data table to a web-site, or by embedding Clustergrammer in Jupyter Notebooks. The Clustergrammer core libraries can also be used as a toolkit by developers to generate visualizations within their own applications. Clustergrammer is demonstrated using gene expression data from the cancer cell line encyclopedia (CCLE), original post-translational modification data collected from lung cancer cells lines by a mass spectrometry approach, and original cytometry by time of flight (CyTOF) single-cell proteomics data from blood. Clustergrammer enables producing interactive web based visualizations for the analysis of diverse biological data.
+~
+PMID: 28994825
+Journal: Scientific data" fillcolor="#FFDC8C" margin=0.22242758696007892]
+    29479126 [label="Kerzner, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/29479126/" tooltip="Title: Graffinity: Visualizing Connectivity in Large Graphs.
+~
+By: Kerzner, Lex, Sigulinsky, Umess, Jones, Marc, Meyer
+Date: 2017 Jun
+~
+Abstract: Multivariate graphs are prolific across many fields, including transportation and neuroscience. A key task in graph analysis is the exploration of connectivity, to, for example, analyze how signals flow through neurons, or to explore how well different cities are connected by flights. While standard node-link diagrams are helpful in judging connectivity, they do not scale to large networks. Adjacency matrices also do not scale to large networks and are only suitable to judge connectivity of adjacent nodes. A key approach to realize scalable graph visualization are queries: instead of displaying the whole network, only a relevant subset is shown. Query-based techniques for analyzing connectivity in graphs, however, can also easily suffer from cluttering if the query result is big enough. To remedy this, we introduce techniques that provide an overview of the connectivity and reveal details on demand. We have two main contributions: (1) two novel visualization techniques that work in concert for summarizing graph connectivity; and (2) Graffinity, an open-source implementation of these visualizations supplemented by detail views to enable a complete analysis workflow. Graffinity was designed in a close collaboration with neuroscientists and is optimized for connectomics data analysis, yet the technique is applicable across domains. We validate the connectivity overview and our open-source tool with illustrative examples using flight and connectomics data.
+~
+PMID: 29479126
+Journal: Computer graphics forum : journal of the European Association for Computer Graphics" fillcolor="#D5E0BA" margin=0.1198970004336019]
+    29993603 [label="Nobre, et al.
+(2019)" href="https://pubmed.ncbi.nlm.nih.gov/29993603/" tooltip="Title: Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs.
+~
+By: Nobre, Gehlenborg, Coon, Lex
+Date: 2019 03
+~
+Abstract: The majority of diseases that are a significant challenge for public and individual heath are caused by a combination of hereditary and environmental factors. In this paper we introduce Lineage, a novel visual analysis tool designed to support domain experts who study such multifactorial diseases in the context of genealogies. Incorporating familial relationships between cases with other data can provide insights into shared genomic variants and shared environmental exposures that may be implicated in such diseases. We introduce a data and task abstraction, and argue that the problem of analyzing such diseases based on genealogical, clinical, and genetic data can be mapped to a multivariate graph visualization problem. The main contribution of our design study is a novel visual representation for tree-like, multivariate graphs, which we apply to genealogies and clinical data about the individuals in these families. We introduce data-driven aggregation methods to scale to multiple families. By designing the genealogy graph layout to align with a tabular view, we are able to incorporate extensive, multivariate attributes in the analysis of the genealogy without cluttering the graph. We validate our designs by conducting case studies with our domain collaborators.
+~
+PMID: 29993603
+Journal: IEEE transactions on visualization and computer graphics" fillcolor="#F4DD97" margin=0.08010299956639813]
+    30188828 [label="Nobre, Streit, &
+Lex (2018)" href="https://pubmed.ncbi.nlm.nih.gov/30188828/" tooltip="Title: Juniper: A Tree+ Table Approach to Multivariate Graph Visualization.
+~
+By: Nobre, Streit, Lex
+Date: 2018 Sep 03
+~
+Abstract: Analyzing large, multivariate graphs is an important problem in many domains, yet such graphs are challenging to visualize. In this paper, we introduce a novel, scalable, tree+table multivariate graph visualization technique, which makes many tasks related to multivariate graph analysis easier to achieve. The core principle we follow is to selectively query for nodes or subgraphs of interest and visualize these subgraphs as a spanning tree of the graph. The tree is laid out linearly, which enables us to juxtapose the nodes with a table visualization where diverse attributes can be shown. We also use this table as an adjacency matrix, so that the resulting technique is a hybrid node-link/adjacency matrix technique. We implement this concept in Juniper and complement it with a set of interaction techniques that enable analysts to dynamically grow, restructure, and aggregate the tree, as well as change the layout or show paths between nodes. We demonstrate the utility of our tool in usage scenarios for different multivariate networks: a bipartite network of scholars, papers, and citation metrics and a multitype network of story characters, places, books, etc.
+~
+PMID: 30188828
+Journal: IEEE transactions on visualization and computer graphics" fillcolor="#FFDC8C" margin=0.05]
+    30890859 [label="Qu, et al. (2019)" href="https://pubmed.ncbi.nlm.nih.gov/30890859/" tooltip="Title: Visual Analytics of Genomic and Cancer Data: A Systematic Review.
+~
+By: Qu, Lau, Nguyen, Zhou, Catchpoole
+Date: 2019
+~
+Abstract: Visual analytics and visualisation can leverage the human perceptual system to interpret and uncover hidden patterns in big data. The advent of next-generation sequencing technologies has allowed the rapid production of massive amounts of genomic data and created a corresponding need for new tools and methods for visualising and interpreting these data. Visualising genomic data requires not only simply plotting of data but should also offer a decision or a choice about what the message should be conveyed in the particular plot; which methodologies should be used to represent the results must provide an easy, clear, and accurate way to the clinicians, experts, or researchers to interact with the data. Genomic data visual analytics is rapidly evolving in parallel with advances in high-throughput technologies such as artificial intelligence (AI) and virtual reality (VR). Personalised medicine requires new genomic visualisation tools, which can efficiently extract knowledge from the genomic data and speed up expert decisions about the best treatment of individual patient's needs. However, meaningful visual analytics of such large genomic data remains a serious challenge. This article provides a comprehensive systematic review and discussion on the tools, methods, and trends for visual analytics of cancer-related genomic data. We reviewed methods for genomic data visualisation including traditional approaches such as scatter plots, heatmaps, coordinates, and networks, as well as emerging technologies using AI and VR. We also demonstrate the development of genomic data visualisation tools over time and analyse the evolution of visualising genomic data.
+~
+PMID: 30890859
+Journal: Cancer informatics" fillcolor="#FFDC8C" margin=0.09771212547196625]
+    9843981 [label="Eisen, et al.
+(1998)" href="https://pubmed.ncbi.nlm.nih.gov/9843981/" tooltip="Title: Cluster analysis and display of genome-wide expression patterns.
+~
+By: Eisen, Spellman, Brown, Botstein
+Date: 1998 Dec 08
+~
+Abstract: A system of cluster analysis for genome-wide expression data from DNA microarray hybridization is described that uses standard statistical algorithms to arrange genes according to similarity in pattern of gene expression. The output is displayed graphically, conveying the clustering and the underlying expression data simultaneously in a form intuitive for biologists. We have found in the budding yeast Saccharomyces cerevisiae that clustering gene expression data groups together efficiently genes of known similar function, and we find a similar tendency in human data. Thus patterns seen in genome-wide expression experiments can be interpreted as indications of the status of cellular processes. Also, coexpression of genes of known function with poorly characterized or novel genes may provide a simple means of gaining leads to the functions of many genes for which information is not available currently.
+~
+PMID: 9843981
+Journal: Proceedings of the National Academy of Sciences of the United States of America" fillcolor="#96E6FF" margin=0.4231346975545955]
+
+14597658:n->23363777:s [penwidth=0.052405]
+    14597658:n->24748858:s [penwidth=0.123376]
+    14597658:n->28251868:s [penwidth=0.005656]
+    14597658:n->30890859:s [penwidth=0.057638]
+    15180930:n->20195258:s [penwidth=0.057921]
+    15180930:n->23346040:s [penwidth=0.070284]
+    15180930:n->25264459:s [penwidth=0.116332]
+    15180930:n->28251868:s [penwidth=0.004741]
+    15180930:n->28994825:s [penwidth=0.054305]
+    17073365:n->27942090:s [penwidth=0.269642]
+    17073365:n->29993603:s [penwidth=0.267400]
+    17073365:n->30188828:s [penwidth=0.256695]
+    18988971:n->20195258:s [penwidth=0.247563]
+    18988971:n->24564375:s [penwidth=0.519959]
+    18988971:n->24748858:s [penwidth=0.369061]
+    18988971:n->29993603:s [penwidth=0.551682]
+    18988971:n->30188828:s [penwidth=0.347050]
+    19620095:n->20195258:s [penwidth=0.194716]
+    19620095:n->23363777:s [penwidth=0.050170]
+    19620095:n->24564375:s [penwidth=0.138264]
+    19620095:n->25078951:s [penwidth=0.015266]
+    19620095:n->28251868:s [penwidth=0.019791]
+    19834159:n->27942090:s [penwidth=0.396483]
+    19834159:n->29479126:s [penwidth=0.590976]
+    19834159:n->30188828:s [penwidth=0.660381]
+    20195258:n->23363777:s [penwidth=0.170152]
+    20195258:n->24564375:s [penwidth=0.122978]
+    20195258:n->24748858:s [penwidth=0.220513]
+    20195258:n->27942089:s [penwidth=0.166138]
+    20195258:n->29993603:s [penwidth=0.204800]
+    20195258:n->30188828:s [penwidth=0.074725]
+    22034366:n->30188828:s [penwidth=0.427496]
+    23346040:n->25264459:s [penwidth=0.127763]
+    23346040:n->28251868:s [penwidth=0.025535]
+    23346040:n->28994825:s [penwidth=0.102335]
+    23363777:n->24748858:s [penwidth=0.218657]
+    23363777:n->25264459:s [penwidth=0.086017]
+    23363777:n->30890859:s [penwidth=0.203335]
+    24564375:n->27942090:s [penwidth=0.719431]
+    24564375:n->29993603:s [penwidth=0.343511]
+    24748858:n->30890859:s [penwidth=0.366822]
+    25078951:n->28251868:s [penwidth=0.125798]
+    25264459:n->28251868:s [penwidth=0.094063]
+    25264459:n->28994825:s [penwidth=0.040954]
+    26356945:n->29479126:s [penwidth=0.319655]
+    26356945:n->29993603:s [penwidth=0.247841]
+    26356945:n->30188828:s [penwidth=0.268000]
+    27942089:n->23363777:s [penwidth=0.314520]
+    27942089:n->24564375:s [penwidth=0.376156]
+    27942089:n->24748858:s [penwidth=0.793766]
+    27942089:n->25078951:s [penwidth=0.038949]
+    27942089:n->25264459:s [penwidth=0.085684]
+    27942089:n->29993603:s [penwidth=0.365178]
+    27942089:n->30188828:s [penwidth=0.162799]
+    27942089:n->30890859:s [penwidth=0.283468]
+    27942090:n->29479126:s [penwidth=0.791429]
+    27942090:n->29993603:s [penwidth=0.572629]
+    27942090:n->30188828:s [penwidth=1.571551]
+    29479126:n->29993603:s [penwidth=0.458001]
+    29479126:n->30188828:s [penwidth=0.758330]
+    29993603:n->30188828:s [penwidth=0.632922]
+    9843981:n->14597658:s [penwidth=0.103758]
+    9843981:n->20195258:s [penwidth=0.121796]
+    9843981:n->23346040:s [penwidth=0.116955]
+    9843981:n->25078951:s [penwidth=0.061044]
+    9843981:n->25264459:s [penwidth=0.207250]
+    9843981:n->28994825:s [penwidth=0.084980]
+    9843981:n->29993603:s [penwidth=0.132399]
+    9843981:n->30188828:s [penwidth=0.105713]
+    9843981:n->30890859:s [penwidth=0.151043]
+
+}
+

@@ -31,7 +31,8 @@ FORM_EUTILS = FORM_NCBI("eutils", "entrez/eutils/{}.cgi").format
 
 TUP_LINKNAME = ("pubmed_pubmed_citedin", "pubmed_pubmed_five")
 
-FORM_NODE = '{} [label="{}" href="{}" tooltip="{}" fillcolor="{}" margin={}]'.format
+tmp = '{} [label="{}" href="{}" tooltip="{}" fillcolor="{}" margin={}]'
+FORM_NODE = tmp.format
 FORM_EDGE = "{}:n->{}:s [penwidth={}]".format
 FORM_GRAPH = """
 digraph {{
@@ -44,7 +45,8 @@ nodesep=0.0
 splines=true
 outputorder=edgesfirst
 
-node [shape=note style=filled fontsize=9 fillcolor=none target="_blank" ordering="in"]
+node [shape=note style=filled fontsize=9
+      fillcolor=none target="_blank" ordering="in"]
 edge [arrowhead=none]
 
 {}
@@ -483,7 +485,7 @@ def repl_render(par, args, cmd):
 
     name = fpath.split("/")[-1].replace(".gv", "")
     if cmd == "png":
-        args[0] += [300]
+        args += [200]
     dpi = (" -Gdpi={}".format(args[0]) if args else "")
     expression = f"dot -T{cmd}{dpi} {fpath} -o gref/{cmd}/{name}.{cmd}"
 
