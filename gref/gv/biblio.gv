@@ -1,0 +1,370 @@
+digraph {
+
+pad=0.7
+layout=dot
+rankdir=BT
+ranksep=0.5
+nodesep=0.0
+splines=true
+outputorder=edgesfirst
+
+node [shape=note style=filled fontsize=9 fillcolor=none target="_blank" ordering="in"]
+edge [arrowhead=none]
+
+16275915 [label="Hirsch (2005)" href="https://pubmed.ncbi.nlm.nih.gov/16275915/" tooltip="Title: An index to quantify an individual's scientific research output.
+~
+By: Hirsch
+Date: 2005 Nov 15
+~
+Abstract: I propose the index h, defined as the number of papers with citation number > or =h, as a useful index to characterize the scientific output of a researcher.
+~
+PMID: 16275915
+Journal: Proceedings of the National Academy of Sciences of the United States of America" fillcolor="#96E6FF" margin=0.33992731873176035]
+    16545114 [label="Falagas,
+Papastamataki, &
+Bliziotis (2006)" href="https://pubmed.ncbi.nlm.nih.gov/16545114/" tooltip="Title: A bibliometric analysis of research productivity in Parasitology by different world regions during a 9-year period (1995-2003).
+~
+By: Falagas, Papastamataki, Bliziotis
+Date: 2006 Mar 17
+~
+Abstract: The objective of this study was to estimate the research productivity of different world regions in the field of Parasitology.
+~
+PMID: 16545114
+Journal: BMC infectious diseases" fillcolor="#96E6FF" margin=0.1914973347970818]
+    17884971 [label="Falagas, et al.
+(2008)" href="https://pubmed.ncbi.nlm.nih.gov/17884971/" tooltip="Title: Comparison of PubMed, Scopus, Web of Science, and Google Scholar: strengths and weaknesses.
+~
+By: Falagas, Pitsouni, Malietzis, Pappas
+Date: 2008 Feb
+~
+Abstract: The evolution of the electronic age has led to the development of numerous medical databases on the World Wide Web, offering search facilities on a particular subject and the ability to perform citation analysis. We compared the content coverage and practical utility of PubMed, Scopus, Web of Science, and Google Scholar. The official Web pages of the databases were used to extract information on the range of journals covered, search facilities and restrictions, and update frequency. We used the example of a keyword search to evaluate the usefulness of these databases in biomedical information retrieval and a specific published article to evaluate their utility in performing citation analysis. All databases were practical in use and offered numerous search facilities. PubMed and Google Scholar are accessed for free. The keyword search with PubMed offers optimal update frequency and includes online early articles; other databases can rate articles by number of citations, as an index of importance. For citation analysis, Scopus offers about 20% more coverage than Web of Science, whereas Google Scholar offers results of inconsistent accuracy. PubMed remains an optimal tool in biomedical electronic research. Scopus covers a wider journal range, of help both in keyword searching and citation analysis, but it is currently limited to recent articles (published after 1995) compared with Web of Science. Google Scholar, as for the Web in general, can help in the retrieval of even the most obscure information but its use is marred by inadequate, less often updated, citation information.
+~
+PMID: 17884971
+Journal: FASEB journal : official publication of the Federation of American Societies for Experimental Biology" fillcolor="#96E6FF" margin=0.3103144372620182]
+    25940769 [label="Thompson & Walker
+(2015)" href="https://pubmed.ncbi.nlm.nih.gov/25940769/" tooltip="Title: A descriptive and historical review of bibliometrics with applications to medical sciences.
+~
+By: Thompson, Walker
+Date: 2015 Jun
+~
+Abstract: The discipline of bibliometrics involves the application of mathematical and statistical methods to scholarly publications. The first attempts at systematic data collection were provided by Alfred Lotka and Samuel Bradford, who subsequently established the foundational laws of bibliometrics. Eugene Garfield ushered in the modern era of bibliometrics with the routine use of citation analysis and systematized processing. Key elements of bibliometric analysis include database coverage, consistency and accuracy of the data, data fields, search options, and analysis and use of metrics. A number of bibliometric applications are currently being used in medical science and health care. Bibliometric parameters and indexes may be increasingly used by grant funding sources as measures of research success. Universities may build benchmarking standards from bibliometric data to determine academic achievement through promotion and tenure guidelines in the future. This article reviews the history, definition, laws, and elements of bibliometric principles and provides examples of bibliometric applications to the broader health care community. To accomplish this, the Medline (1966-2014) and Web of Science (1945-2014) databases were searched to identify relevant articles; select articles were also cross-referenced. Articles selected were those that provided background, history, descriptive analysis, and application of bibliometric principles and metrics to medical science and health care. No attempt was made to cover all areas exhaustively; rather, key articles were chosen that illustrate bibliometric concepts and enhance the reader's knowledge. It is important that faculty and researchers understand the limitations and appropriate uses of bibliometric data. Bibliometrics has considerable potential as a research area for health care scientists and practitioners that can be used to discover new information about academic trends, pharmacotherapy, disease, and broader health sciences trends.
+~
+PMID: 25940769
+Journal: Pharmacotherapy" fillcolor="#96E6FF" margin=0.21127838567197355]
+    27579264 [label="Daar, et al. (2016)" href="https://pubmed.ncbi.nlm.nih.gov/27579264/" tooltip="Title: Plastic Surgery and Acellular Dermal Matrix: Highlighting Trends from 1999 to 2013.
+~
+By: Daar, Gandy, Clark, Mowlds, Paydar, Wirth
+Date: 2016 May
+~
+Abstract: The last decade has ushered in a rapidly expanding global discussion regarding acellular dermal matrix (ADM) applications, economic analyses, technical considerations, benefits, and risks, with recent emphasis on ADM use in breast surgery. This study aims to evaluate global trends in ADM research using bibliometric analysis. The top nine Plastic Surgery journals were determined by impact factor (IF). Each issue of the nine journals between 1999 and 2013 was accessed to compile a database of articles discussing ADM. Publications were further classified by IF, authors' geographic location, study design, and level of evidence (LOE, I-V). Productivity index and productivity share were calculated for each region. In total, 256 ADM articles were accessed. The annual global publication volume increased significantly by 4.2 (0.87) articles per year (p<0.001), with a mean productivity index of 36.3 (59.0). The mean impact factor of the nine journals increased significantly from 0.61 (0.11) to 2.47 (0.99) from 1993 to 2013 (p<0.001). Despite this increase in the global ADM literature, the majority of research was of weaker LOE (level I: 2.29% and level II: 9.17%). USA contributed the most research (87%), followed by Asia (4.76%) and Western Europe (4.71%). USA contributed the greatest volume of research. Regarding clinical application of ADM, the majority of publications focused on ADM use in breast surgery, specifically breast reconstruction (154 articles, 60.2%). The majority of research was of lower LOE; thus, efforts should be made to strengthen the body of literature, particularly with regard to cost analysis.
+~
+PMID: 27579264
+Journal: World journal of plastic surgery" fillcolor="#FFDC8C" margin=0.12781512503836437]
+    27663999 [label="Sweileh, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27663999/" tooltip="Title: Bibliometric analysis of global scientific research on carbapenem resistance (1986-2015).
+~
+By: Sweileh, Shraim, Al-Jabi, Sawalha, AbuTaha, Zyoud
+Date: 2016 Sep 23
+~
+Abstract: Antimicrobial resistance is a global public health challenge and carbapenem resistance, in particular, is considered an urgent global health threat. This study was carried out to give a bibliometric overview of literature on carbapenem resistance. In specific, number of publications, top productive countries and institutes, highly cited articles, citation analysis, co-authorships, international collaboration, top active authors, and journals publishing articles on carbapenem resistance were analyzed and discussed.
+~
+PMID: 27663999
+Journal: Annals of clinical microbiology and antimicrobials" fillcolor="#ABE4E8" margin=0.17787536009528288]
+    27724920 [label="Sweileh (2016)" href="https://pubmed.ncbi.nlm.nih.gov/27724920/" tooltip="Title: Bibliometric analysis of literature on female genital mutilation: (1930 - 2015).
+~
+By: Sweileh
+Date: 2016 Oct 10
+~
+Abstract: Female genital mutilation/cutting (FGM/C) is a common harmful traditional practice in many communities in Africa and to a lesser extent in Middle East and other regions in the world. In order to better understand publishing on this topic, we conducted a bibliometric study on FGM/C. Bibliometric analyses can be used as an indicator of the extent of interaction of researchers, health authorities, and communities with a particular health issue.
+~
+PMID: 27724920
+Journal: Reproductive health" fillcolor="#BDE2D3" margin=0.16461280356782382]
+    27843745 [label="Sweileh, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27843745/" tooltip="Title: Bibliometric analysis of medicine-related publications on poverty (2005-2015).
+~
+By: Sweileh, Al-Jabi, Sawalha, AbuTaha, Zyoud
+Date: 2016
+~
+Abstract: Poverty is a global problem. The war against poverty requires not only financial support, but also poverty-related research to pinpoint areas of high need of intervention. In line with international efforts to fight poverty and negative consequences, we carried out this study to give a bibliometric overview of medicine-related literature on poverty. Such a s study is an indicator of the extent of interaction of various international key players on the war against poverty-related health problems.
+~
+PMID: 27843745
+Journal: SpringerPlus" fillcolor="#B5E3DC" margin=0.1579181246047625]
+    27884199 [label="Sweileh, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27884199/" tooltip="Title: A bibliometric analysis of literature on malaria vector resistance: (1996 - 2015).
+~
+By: Sweileh, Sawalha, Al-Jabi, Zyoud, Shraim, Abu-Taha
+Date: 2016 11 25
+~
+Abstract: Emergence of insecticide resistance in malaria vectors is a real threat to future goals of elimination and control of malaria. Therefore, the objective of this study was to assess research trend on insecticide resistance of Anopheles mosquito. In specific, number of publications, countries, institutions, and authors' research profile, citation analysis, international collaborations, and impact of journals publishing documents on insecticide resistance will be presented. It was conducted via Scopus search engine which was used to retrieve relevant data. Keywords used were based on literature available on this topic. The duration of study was set from 1996-2015.
+~
+PMID: 27884199
+Journal: Globalization and health" fillcolor="#B0E3E2" margin=0.18010299956639814]
+    27899145 [label="Sweileh, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27899145/" tooltip="Title: Bibliometric analysis of publications on Campylobacter: (2000-2015).
+~
+By: Sweileh, Al-Jabi, Sawalha, AbuTaha, Zyoud
+Date: 2016 11 29
+~
+Abstract: Campylobacter species are widespread zoonotic pathogens. Campylobacter jejuni causes a form of gastroenteritis called campylobacteriosis. Campylobacter drug resistance is considered a serious threat. In order to better understand national and international research output on Campylobacter, we conducted this bibliometric overview of publications on Campylobacter. This study can be used to assess extent of interaction and response of researchers, food regulators, and health policy makers to global burden of campylobacateriosis.
+~
+PMID: 27899145
+Journal: Journal of health, population, and nutrition" fillcolor="#C4E1CB" margin=0.17552725051033058]
+    28153037 [label="Zyoud, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28153037/" tooltip="Title: Global cocaine intoxication research trends during 1975-2015: a bibliometric analysis of Web of Science publications.
+~
+By: Zyoud, Waring, Al-Jabi, Sweileh
+Date: 2017 02 02
+~
+Abstract: Cocaine is subject to recreational abuse as a stimulant and psychoactive agent, which poses a major worldwide health problem. The aim of the present study was to perform a bibliometric analysis of publication related to cocaine intoxication an insight of the research trends at a global level to enable recommendations for future research strategies in this field.
+~
+PMID: 28153037
+Journal: Substance abuse treatment, prevention, and policy" fillcolor="#BCE2D5" margin=0.18617278360175926]
+    28320410 [label="Sweileh (2017)" href="https://pubmed.ncbi.nlm.nih.gov/28320410/" tooltip="Title: Bibliometric analysis of medicine - related publications on refugees, asylum-seekers, and internally displaced people: 2000 - 2015.
+~
+By: Sweileh
+Date: 2017 03 20
+~
+Abstract: Wars and violent domestic conflicts have forced millions of people to move outside their homes. Meeting the basic health needs of those people requires an understanding of research activity and research output on this topic. The objective of this study was to shed light on the quantity and impact of medicine - related publications on refugees, asylum seekers and internally displaced people (IDP).
+~
+PMID: 28320410
+Journal: BMC international health and human rights" fillcolor="#CAE1C5" margin=0.16760912590556815]
+    28603233 [label="Culquichicón, et
+al. (2017)" href="https://pubmed.ncbi.nlm.nih.gov/28603233/" tooltip="Title: Where are we after 60 years of paragonimiasis research? A bibliometric assessment.
+~
+By: Culquichicón, Hernández-Pacherres, Labán-Seminario, Cardona-Ospina, Rodríguez-Morales
+Date: 2017 Jun 01
+~
+Abstract: Paragonimiasis is highly prevalent endemic food-borne disease in Southeast Asia and Latin America, and constitutes a major public health concern. A bibliometric analysis was performed about the worldwide scientific production of paragonimiasis. We browsed in the Science Citation Index-Expanded (SCI-E) (1957-2015), Scopus (1976-2015), Medline/PubMed/GoPubMed® (1970-2015), ScIELO (1981-2014) and LILACS (1985-2011). All types of articles were included and categorized by year of publication, number, type of scientific article, city and institution of origin, international cooperation, scientific journal, impact factor, language of publication, authors and H index. In SCI-E, 1,028 manuscripts were recovered, while Japan (21.9%) and the USA (17.7%) were the countries with highest scientific production. In this database, Asian region studies received 5,454 citations (H index=32). In Scopus 2161 items were recovered, corresponding to 45.8% of Asian countries. Japan (18.2%) was the first with the University of Miyazaki (11.7% of the country); South Korea (9.5%) was second with the Seoul National University (11.2% of the country). In SciELO 29 items were found, with no contributions from the Asian region. In LILACS 1487 articles were found (22.9% covering Asia). Among the databases, the Journal of Parasitology (Impact factor=1.227) showed the highest number of manuscripts and 'Agatsuma T', from Japan, was the author with most records. Japan and South Korea lead global scientific production on paragonimiasis. By contrast, in Latin America, production has been extremely low especially in the last five years.
+~
+PMID: 28603233
+Journal: Le infezioni in medicina" fillcolor="#FFDC8C" margin=0.09771212547196625]
+    28856028 [label="Sweileh, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28856028/" tooltip="Title: Bibliometric Analysis of Worldwide Publications on Antimalarial Drug Resistance (2006-2015).
+~
+By: Sweileh, Al-Jabi, Sawalha, AbuTaha, Zyoud
+Date: 2017
+~
+Abstract: In response to international efforts to control and eradicate malaria, we designed this study to give a bibliometric overview of research productivity in antimalarial drug resistance (AMDR).
+~
+PMID: 28856028
+Journal: Malaria research and treatment" fillcolor="#CAE1C5" margin=0.1704119982655925]
+    29562909 [label="Sweileh (2018)" href="https://pubmed.ncbi.nlm.nih.gov/29562909/" tooltip="Title: Bibliometric analysis of peer-reviewed literature in transgender health (1900 - 2017).
+~
+By: Sweileh
+Date: 2018 03 21
+~
+Abstract: Transgender community is marginalized and under-researched. Analysis of peer-reviewed literature in transgender health is needed to better understand health needs and human rights of transgender people. Therefore, the aim of this study was to analyze global research activity in transgender health published in peer-reviewed journals.
+~
+PMID: 29562909
+Journal: BMC international health and human rights" fillcolor="#D3E0BB" margin=0.18010299956639814]
+    29914447 [label="Sweileh (2018)" href="https://pubmed.ncbi.nlm.nih.gov/29914447/" tooltip="Title: Global research output in the health of international Arab migrants (1988-2017).
+~
+By: Sweileh
+Date: 2018 06 18
+~
+Abstract: In the past few decades Arab countries had witnessed several intra-regional conflicts and civil wars that led to the creation of millions of refugees and migrants. Assessment of research activity is an indicator of national and international efforts to improve the health of those millions of war victims. Therefore, the aim of this study was to analyze published literature in international Arab migrants.
+~
+PMID: 29914447
+Journal: BMC public health" fillcolor="#B0E3E2" margin=0.1454242509439325]
+    29925353 [label="Sweileh, et al.
+(2018)" href="https://pubmed.ncbi.nlm.nih.gov/29925353/" tooltip="Title: Bibliometric analysis of global migration health research in peer-reviewed literature (2000-2016).
+~
+By: Sweileh, Wickramage, Pottie, Hui, Roberts, Sawalha, Zyoud
+Date: 2018 06 20
+~
+Abstract: The health of migrants has become an important issue in global health and foreign policy. Assessing the current status of research activity and identifying gaps in global migration health (GMH) is an important step in mapping the evidence-base and on advocating health needs of migrants and mobile populations. The aim of this study was to analyze globally published peer-reviewed literature in GMH.
+~
+PMID: 29925353
+Journal: BMC public health" fillcolor="#D6DFB8" margin=0.21127838567197355]
+    30305093 [label="Sweileh (2018)" href="https://pubmed.ncbi.nlm.nih.gov/30305093/" tooltip="Title: Global research output on HIV/AIDS-related medication adherence from 1980 to 2017.
+~
+By: Sweileh
+Date: 2018 Oct 10
+~
+Abstract: 'Human Immunodeficiency Virus (HIV)' and Acquired Immunodeficiency Syndrome (AIDS) are global health burden. Medication adherence in people living with HIV (PLWH) is a key element in reducing morbidity and mortality. Quantitative and qualitative assessment of research activity helps identify research gaps as well as efforts implemented to improve adherence behaviors in PLWH. The aim of the current study was to assess and analyze literature on HIV/AIDS-related medication adherence using bibliometric methods.
+~
+PMID: 30305093
+Journal: BMC health services research" fillcolor="#DFDFAE" margin=0.17787536009528288]
+    30377667 [label="Sweileh (2018)" href="https://pubmed.ncbi.nlm.nih.gov/30377667/" tooltip="Title: A bibliometric analysis of global research output on health and human rights (1900-2017).
+~
+By: Sweileh
+Date: 2018
+~
+Abstract: Baseline data on global research activity on health and human rights (HHR) needs to be assessed and analyzed to identify research gaps and to prioritize funding and research agendas. Therefore, the aim of this study was to assess the growth of publications and research pattern on HHR.
+~
+PMID: 30377667
+Journal: Global health research and policy" fillcolor="#FFDC8C" margin=0.12781512503836437]
+    30386407 [label="Sweileh (2018)" href="https://pubmed.ncbi.nlm.nih.gov/30386407/" tooltip="Title: Analysis of global research output on diabetes depression and suicide.
+~
+By: Sweileh
+Date: 2018
+~
+Abstract: Diabetic patients, during the course of the disease, are most likely to experience depressive symptoms that might ultimately lead to suicidal ideation or suicide. The size of literature in diabetes depression/suicide is a good indicator of national and international efforts to address psychological co-morbidities associated with diabetes mellitus (DM). Therefore, the objective of this study was to give a comprehensive analysis, both quantitative and qualitative, of scientific literature in diabetes depression/suicide.
+~
+PMID: 30386407
+Journal: Annals of general psychiatry" fillcolor="#F3DD98" margin=0.1345098040014257]
+    30409221 [label="Sweileh (2018)" href="https://pubmed.ncbi.nlm.nih.gov/30409221/" tooltip="Title: Global output of research on the health of international migrant workers from 2000 to 2017.
+~
+By: Sweileh
+Date: 2018 11 08
+~
+Abstract: Approximately 150 million international migrant workers work under conditions that increase their risk of illness and injuries. The current study aimed to assess and analyze the global output of research on the health of international migrant workers to promote national and international policies that could help improve the health of international migrant workers.
+~
+PMID: 30409221
+Journal: Globalization and health" fillcolor="#FFDC8C" margin=0.15413926851582252]
+    30409223 [label="Sweileh (2018)" href="https://pubmed.ncbi.nlm.nih.gov/30409223/" tooltip="Title: Research trends on human trafficking: a bibliometric analysis using Scopus database.
+~
+By: Sweileh
+Date: 2018 11 08
+~
+Abstract: Human trafficking is a crime against humanity. It is also a serious threat to global health and security. Globalization has made human trafficking an easier task for the criminal organizations. No data are available on the volume, research trends, and key players in this field. Therefore, the aim of this study was to assess the research activity and research trends on human trafficking.
+~
+PMID: 30409223
+Journal: Globalization and health" fillcolor="#F5DC96" margin=0.15413926851582252]
+    31138250 [label="Sweileh, et al.
+(2019)" href="https://pubmed.ncbi.nlm.nih.gov/31138250/" tooltip="Title: Nursing and midwifery research activity in Arab countries from 1950 to 2017.
+~
+By: Sweileh, Huijer, Al-Jabi, Zyoud, Sawalha
+Date: 2019 May 28
+~
+Abstract: Nursing and midwifery research activity is an important indicator of the quality of healthcare services and the status of nursing profession. The main aim of this study was to assess the research activity in nursing and midwifery field in Arab countries.
+~
+PMID: 31138250
+Journal: BMC health services research" fillcolor="#FFDC8C" margin=0.12781512503836437]
+    32754061 [label="Duan, et al. (2020)" href="https://pubmed.ncbi.nlm.nih.gov/32754061/" tooltip="Title: Research on the Development of Theme Trends and Changes of Knowledge Structures of Drug Therapy Studies on Major Depressive Disorder Since the 21st Century: A Bibliometric Analysis.
+~
+By: Duan, Gao, Shao, Tian, Fu, Zhu
+Date: 2020
+~
+Abstract: Antidepressant treatment is one of the most effective ways of relieving or curing depressive symptoms in patients with major depressive disorder (MDD). Although many studies have explored the efficacy, tolerability, adverse reactions, and functional mechanism of the disease, there has been no systematic evaluation of the relevant results in this field.
+~
+PMID: 32754061
+Journal: Frontiers in psychiatry" fillcolor="#FFDC8C" margin=0.08010299956639813]
+    32807154 [label="Sweileh (2020)" href="https://pubmed.ncbi.nlm.nih.gov/32807154/" tooltip="Title: Bibliometric analysis of global scientific literature on vaccine hesitancy in peer-reviewed journals (1990-2019).
+~
+By: Sweileh
+Date: 2020 Aug 17
+~
+Abstract: Vaccine hesitancy is a growing threat to national and global health security. The current study was undertaken to provide insights into the global scientific literature on vaccine hesitancy in peer-reviewed journals.
+~
+PMID: 32807154
+Journal: BMC public health" fillcolor="#FFDC8C" margin=0.11020599913279625]
+    33489662 [label="Arnal-GÓmez,
+Navarro-Molina, &
+EspÍ-LÓpez (2020)" href="https://pubmed.ncbi.nlm.nih.gov/33489662/" tooltip="Title: Bibliometric analysis of core journals which publish articles of physical therapy on aging.
+~
+By: Arnal-GÓmez, Navarro-Molina, EspÍ-LÓpez
+Date: 2020
+~
+Abstract: Increase in population's longevity has led to considerable efforts worldwide on physical therapy aging research. The aim of this study is to identify which are the main scientific journals, as well as the most productive authors, institutions and keywords related to the journals, that have published about physical therapy and aging.
+~
+PMID: 33489662
+Journal: Physical therapy research" fillcolor="#FFDC8C" margin=0.05]
+
+16275915:n->27724920:s [penwidth=0.009555]
+    16275915:n->27843745:s [penwidth=0.008134]
+    16275915:n->27884199:s [penwidth=0.005078]
+    16275915:n->27899145:s [penwidth=0.001449]
+    16275915:n->28320410:s [penwidth=0.002995]
+    16275915:n->29562909:s [penwidth=0.000775]
+    16275915:n->30305093:s [penwidth=0.004040]
+    16275915:n->30377667:s [penwidth=0.002115]
+    16275915:n->30409223:s [penwidth=0.002125]
+    16275915:n->32754061:s [penwidth=0.004604]
+    16275915:n->33489662:s [penwidth=0.012207]
+    16545114:n->27579264:s [penwidth=0.008531]
+    16545114:n->28603233:s [penwidth=0.002609]
+    17884971:n->27663999:s [penwidth=0.027200]
+    17884971:n->27724920:s [penwidth=0.067307]
+    17884971:n->27843745:s [penwidth=0.030620]
+    17884971:n->27884199:s [penwidth=0.090096]
+    17884971:n->27899145:s [penwidth=0.008937]
+    17884971:n->28153037:s [penwidth=0.040985]
+    17884971:n->28320410:s [penwidth=0.007217]
+    17884971:n->28856028:s [penwidth=0.002562]
+    17884971:n->29562909:s [penwidth=0.012457]
+    17884971:n->29914447:s [penwidth=0.018067]
+    17884971:n->29925353:s [penwidth=0.022356]
+    17884971:n->30377667:s [penwidth=0.005839]
+    17884971:n->30386407:s [penwidth=0.025473]
+    17884971:n->30409223:s [penwidth=0.034161]
+    17884971:n->31138250:s [penwidth=0.013260]
+    17884971:n->32807154:s [penwidth=0.003269]
+    25940769:n->27579264:s [penwidth=0.092209]
+    25940769:n->27724920:s [penwidth=0.085364]
+    25940769:n->27843745:s [penwidth=0.053014]
+    25940769:n->28153037:s [penwidth=0.095498]
+    25940769:n->28320410:s [penwidth=0.014769]
+    25940769:n->28603233:s [penwidth=0.158568]
+    25940769:n->29925353:s [penwidth=0.031247]
+    25940769:n->30386407:s [penwidth=0.030856]
+    25940769:n->32754061:s [penwidth=0.009411]
+    25940769:n->33489662:s [penwidth=0.030305]
+    27663999:n->27899145:s [penwidth=0.318976]
+    27663999:n->28856028:s [penwidth=0.117422]
+    27663999:n->29562909:s [penwidth=0.097482]
+    27663999:n->32807154:s [penwidth=0.064573]
+    27724920:n->27899145:s [penwidth=0.815090]
+    27724920:n->28320410:s [penwidth=0.029064]
+    27724920:n->29562909:s [penwidth=0.091913]
+    27724920:n->30305093:s [penwidth=0.094664]
+    27724920:n->30377667:s [penwidth=0.045175]
+    27843745:n->28153037:s [penwidth=0.300818]
+    27843745:n->28320410:s [penwidth=0.135175]
+    27843745:n->28856028:s [penwidth=0.182879]
+    27843745:n->29562909:s [penwidth=0.086470]
+    27843745:n->29925353:s [penwidth=0.200541]
+    27843745:n->30377667:s [penwidth=0.103758]
+    27843745:n->30386407:s [penwidth=0.142697]
+    27884199:n->28153037:s [penwidth=0.142697]
+    27884199:n->28320410:s [penwidth=0.153543]
+    27884199:n->28856028:s [penwidth=0.095110]
+    27884199:n->29562909:s [penwidth=0.106361]
+    27884199:n->29925353:s [penwidth=0.109291]
+    27884199:n->30409223:s [penwidth=0.294648]
+    27899145:n->28320410:s [penwidth=0.051883]
+    27899145:n->28856028:s [penwidth=0.379446]
+    27899145:n->29925353:s [penwidth=0.075013]
+    27899145:n->30305093:s [penwidth=0.057781]
+    27899145:n->30409221:s [penwidth=0.095857]
+    28153037:n->28856028:s [penwidth=0.096646]
+    28153037:n->29925353:s [penwidth=0.353112]
+    28153037:n->30305093:s [penwidth=0.229596]
+    28153037:n->30386407:s [penwidth=0.078488]
+    28153037:n->30409221:s [penwidth=0.043600]
+    28153037:n->30409223:s [penwidth=0.706309]
+    28153037:n->31138250:s [penwidth=0.309820]
+    28320410:n->29562909:s [penwidth=0.109494]
+    28320410:n->29925353:s [penwidth=0.264121]
+    28320410:n->30305093:s [penwidth=0.074866]
+    28320410:n->30377667:s [penwidth=0.699804]
+    28320410:n->30386407:s [penwidth=0.029652]
+    28320410:n->30409221:s [penwidth=0.129728]
+    28320410:n->30409223:s [penwidth=0.152825]
+    28856028:n->29925353:s [penwidth=0.025473]
+    28856028:n->30305093:s [penwidth=0.028018]
+    28856028:n->30377667:s [penwidth=0.068587]
+    28856028:n->30409221:s [penwidth=0.026208]
+    28856028:n->30409223:s [penwidth=0.027200]
+    28856028:n->31138250:s [penwidth=0.088541]
+    29562909:n->30305093:s [penwidth=0.248930]
+    29562909:n->30386407:s [penwidth=0.104774]
+    29562909:n->30409221:s [penwidth=0.102531]
+    29562909:n->30409223:s [penwidth=0.592499]
+    29562909:n->31138250:s [penwidth=0.552237]
+    29914447:n->30386407:s [penwidth=0.323436]
+    29914447:n->30409221:s [penwidth=0.385367]
+    29914447:n->30409223:s [penwidth=0.295468]
+    29925353:n->30377667:s [penwidth=0.916814]
+    29925353:n->30386407:s [penwidth=0.057565]
+    29925353:n->30409221:s [penwidth=0.161856]
+    29925353:n->30409223:s [penwidth=0.676858]
+    29925353:n->32807154:s [penwidth=0.463510]
+    30305093:n->30409223:s [penwidth=0.368675]
+    30305093:n->31138250:s [penwidth=0.165294]
+    30305093:n->32807154:s [penwidth=0.081217]
+    30386407:n->31138250:s [penwidth=0.097482]
+    30409223:n->32807154:s [penwidth=0.204800]
+
+}
+

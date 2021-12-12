@@ -715,9 +715,6 @@ def repl_main():
                 repl_graph(par, args)
             elif cmd in ("PNG", "SVG", "PDF"):
                 repl_render(par, args, cmd)
-            elif cmd == "RENDER":
-                for typ in ("PNG", "SVG", "PDF"):
-                    repl_render(par, args, typ)
             elif cmd == "CSV":
                 repl_table(par, args)
             elif cmd == "TXT":
