@@ -609,7 +609,7 @@ def repl_essay(par, args):
     if not os.path.exists(dir_out):
         os.makedirs(dir_out)
 
-    text = wrap(" ".join(lst), 76)
+    text = wrap(" ".join(lst), 80)
     print(text, file=open(fpath, "w", encoding="utf8"))
     printt("Wrote {}...".format(repr(fpath)))
 
@@ -671,7 +671,9 @@ def repl_main():
                 ("PNG", "δ", "Render out a PNG file, can specify DPI"),
                 ("CSV", "δ", "Export articles to a table"),
                 ("TXT NGRAM", "δ",
-                 "Export n-grams from all abstracts, must specify number"),
+                 "Export N-grams from all abstracts, can specify N"),
+                ("TXT ESSAY", "δ",
+                 "Export a fake essay on the topic, can specify word number"),
                 ("PEEK", "δ", "Peek the articles in the active file"),
             )
 
