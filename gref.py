@@ -36,7 +36,7 @@ FORM_EDGE = "{}:n->{}:s [penwidth={}]".format
 FORM_GRAPH = """
 digraph {{
 
-pad=0.7
+pad=0.25
 layout=dot
 rankdir=BT
 ranksep=0.5
