@@ -1,2 +1,3 @@
-# gref
+# Gref
+
 Graphical reference tool.
