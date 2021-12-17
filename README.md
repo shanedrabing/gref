@@ -1,7 +1,5 @@
 # Gref
 
-Graphical reference tool.
-
 <div align="center">
     <img src="docs/gref/svg/biblio_styled.svg" width="80%" />
 </div>
