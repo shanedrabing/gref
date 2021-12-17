@@ -228,11 +228,15 @@ def efetch_pubmed(pmids):
 
 
 def efetch_pubmed_articles(pmids):
+    lst = list()
+
     resp = efetch_pubmed(pmids)
     xml = soup(resp)
+    if xml is None:
+        return lst
+
     articles = xml.select("pubmedarticle")
 
-    lst = list()
     for article in articles:
         journal = article.select_one("journal")
         authors = article.select("author")
@@ -392,6 +396,9 @@ def main_search(term):
 
 def main_add(par, pmids):
     lst = efetch_pubmed_articles(pmids)
+    if not lst:
+        printe("Incorrect PMID(s)!")
+
     for dct in map(article_link, lst):
         printt("Found {}...".format(dct["pmid"]))
         par["data"][dct["pmid"]] = dct
