@@ -5,7 +5,9 @@
 </div>
 
 <div align="center">
-    <img src="docs/gref/svg/biblio_styled.svg" width="80%" />
+    <a href="https://raw.githubusercontent.com/shanedrabing/gref/main/docs/gref/svg/biblio.svg">
+        <img src="docs/gref/svg/biblio_styled.svg" width="80%" />
+    </a>
 </div>
 
 ## Getting Started
