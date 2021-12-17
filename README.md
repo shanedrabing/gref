@@ -3,7 +3,7 @@
 Graphical reference tool.
 
 <div align="center">
-    <img src="docs/gref/svg/biblio_light.svg" />
+    <img src="docs/gref/svg/biblio.svg" />
     <!-- width="640px" -->
 </div>
 
