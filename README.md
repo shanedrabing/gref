@@ -5,8 +5,8 @@ Graphical reference tool.
 ## Getting Started
 
 ``` console
-$ pip install gref
-$ python
+> pip install gref
+> python
 ```
 
 ``` py
