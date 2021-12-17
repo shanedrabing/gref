@@ -4,9 +4,12 @@ Graphical reference tool.
 
 ## Getting Started
 
-``` bash
-  $ pip install gref
-  $ python
+``` console
+$ pip install gref
+$ python
+```
+
+``` py
 >>> import gref
 >>> gref.main()
 ```
