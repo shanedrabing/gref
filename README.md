@@ -91,9 +91,9 @@ in a new tab. Also, notice the tooltips as you hover over a reference!
 Otherwise, check out some of the other outputs found in the [example
 database](docs/gref).
 
-## Available Commands
-
 <div align="center">
+
+## Available Commands
 
 State|Command|Description
 -|-|-
