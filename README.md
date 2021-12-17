@@ -44,7 +44,9 @@ Upon booting gref, we are welcomed and can `SEARCH` for articles:
     [...]
 ```
 
-Once we have an article that we like, we can `ADD` a new file within the gref database, and then `ADD` a new reference (using the PubMed ID) to the active file:
+Once we have an article that we like, we can `ADD` a new file within the gref
+database, and then `ADD` a new reference (using the PubMed ID) to the active
+file:
 
 ``` console
 α > add biblio
@@ -57,7 +59,8 @@ Once we have an article that we like, we can `ADD` a new file within the gref da
     Found 31995273...
 ```
 
-Now comes the fun part, growing the search! Let's use the `GROW` command and specify 5 cycles (each cycle grabs 5 articles):
+Now comes the fun part, growing the search! Let's use the `GROW` command and
+specify 5 cycles (each cycle grabs 5 articles):
 
 ``` console
 δ > grow 5
@@ -80,7 +83,13 @@ Finally, let's render out an `SVG` file, using the command of the same name:
     dot -Tsvg gref/gv/biblio.gv -o gref/svg/biblio.svg
 ```
 
-Congratulations! You have now rendered your first citation graph. This source vector graphics file supports hyperlinks. Try opening some of the references on the [example graph](https://raw.githubusercontent.com/shanedrabing/gref/main/docs/gref/svg/biblio.svg) in a new tab. Otherwise, check out some of the other outputs found in the [example database](docs/gref).
+Congratulations! You have now rendered your first citation graph. This source
+vector graphics file supports hyperlinks. Try opening some of the references on
+the [example
+graph](https://raw.githubusercontent.com/shanedrabing/gref/main/docs/gref/svg/biblio.svg)
+in a new tab. Also, notice the tooltips as you hover over a reference!
+Otherwise, check out some of the other outputs found in the [example
+database](docs/gref).
 
 ## Available Commands
 
