@@ -4,7 +4,7 @@ Graphical reference tool.
 
 ## Getting Started
 
-``` console
+``` bash
   $ pip install gref
   $ python
 >>> import gref
