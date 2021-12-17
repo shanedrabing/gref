@@ -2,7 +2,7 @@
 
 Graphical reference tool.
 
-## Installation
+## Getting Started
 
 ``` console
   $ pip install gref
