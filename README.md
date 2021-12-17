@@ -93,6 +93,8 @@ database](docs/gref).
 
 ## Available Commands
 
+<div align="center">
+
 State|Command|Description
 -|-|-
 α|ADD|Add a new file to the database, becomes active
@@ -113,3 +115,5 @@ State|Command|Description
 δ|TXT ESSAY|Export a fake essay on the topic, can specify word number
 δ|TXT NGRAM|Export N-grams from all abstracts, can specify N
 δ|UNLOAD|Unload active file
+
+</div>
