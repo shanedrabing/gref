@@ -25,7 +25,7 @@ Once Python is running, import `gref` and call the main function.
 
 Upon booting gref, we are welcomed and can `SEARCH` for articles:
 
-``` txt
+``` console
     Welcome :-)
 
 α > search bibliometrics
@@ -59,7 +59,7 @@ Once we have an article that we like, we can `ADD` a new file within the gref da
 
 Now comes the fun part, growing the search! Let's use the `GROW` command and specify 5 cycles (each cycle grabs 5 articles):
 
-``` txt
+``` console
 δ > grow 5
 
     Growing...
@@ -74,7 +74,7 @@ Now comes the fun part, growing the search! Let's use the `GROW` command and spe
 
 Finally, let's render out an `SVG` file, using the command of the same name:
 
-``` txt
+``` console
 δ > svg
 
     dot -Tsvg gref/gv/biblio.gv -o gref/svg/biblio.svg
