@@ -386,7 +386,7 @@ def main_save(par):
 
 
 def main_search(term):
-    pmids = esearch_pubmed_pmids(term)[:5]
+    pmids = esearch_pubmed_pmids(term)
     lst = efetch_pubmed_articles(pmids)
     if not lst:
         printe("No results!")
