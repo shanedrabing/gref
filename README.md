@@ -2,7 +2,10 @@
 
 Graphical reference tool.
 
-![biblio.svg](docs/gref/svg/biblio.svg)
+<div align="center">
+    <img src="docs/gref/svg/biblio.svg)" />
+    <!-- width="640px" -->
+</div>
 
 ## Getting Started
 
