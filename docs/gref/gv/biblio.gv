@@ -1,0 +1,288 @@
+digraph {
+
+pad=0.25
+layout=dot
+rankdir=BT
+ranksep=0.5
+nodesep=0.0
+splines=true
+outputorder=edgesfirst
+
+node [shape=note style=filled fontsize=9
+      fillcolor=none target="_blank" ordering="in"]
+edge [arrowhead=none]
+
+17884971 [label="Falagas, et al.
+(2008)" href="https://pubmed.ncbi.nlm.nih.gov/17884971/" tooltip="Title: Comparison of PubMed, Scopus, Web of Science, and Google Scholar: strengths and weaknesses.
+~
+By: Falagas, Pitsouni, Malietzis, Pappas
+Date: 2008 Feb
+~
+Abstract: The evolution of the electronic age has led to the development of numerous medical databases on the World Wide Web, offering search facilities on a particular subject and the ability to perform citation analysis. We compared the content coverage and practical utility of PubMed, Scopus, Web of Science, and Google Scholar. The official Web pages of the databases were used to extract information on the range of journals covered, search facilities and restrictions, and update frequency. We used the example of a keyword search to evaluate the usefulness of these databases in biomedical information retrieval and a specific published article to evaluate their utility in performing citation analysis. All databases were practical in use and offered numerous search facilities. PubMed and Google Scholar are accessed for free. The keyword search with PubMed offers optimal update frequency and includes online early articles; other databases can rate articles by number of citations, as an index of importance. For citation analysis, Scopus offers about 20% more coverage than Web of Science, whereas Google Scholar offers results of inconsistent accuracy. PubMed remains an optimal tool in biomedical electronic research. Scopus covers a wider journal range, of help both in keyword searching and citation analysis, but it is currently limited to recent articles (published after 1995) compared with Web of Science. Google Scholar, as for the Web in general, can help in the retrieval of even the most obscure information but its use is marred by inadequate, less often updated, citation information.
+~
+PMID: 17884971
+Journal: FASEB journal : official publication of the Federation of American Societies for Experimental Biology" fillcolor="#96E6FF" margin=0.31053050461411097]
+    25940769 [label="Thompson & Walker
+(2015)" href="https://pubmed.ncbi.nlm.nih.gov/25940769/" tooltip="Title: A descriptive and historical review of bibliometrics with applications to medical sciences.
+~
+By: Thompson, Walker
+Date: 2015 Jun
+~
+Abstract: The discipline of bibliometrics involves the application of mathematical and statistical methods to scholarly publications. The first attempts at systematic data collection were provided by Alfred Lotka and Samuel Bradford, who subsequently established the foundational laws of bibliometrics. Eugene Garfield ushered in the modern era of bibliometrics with the routine use of citation analysis and systematized processing. Key elements of bibliometric analysis include database coverage, consistency and accuracy of the data, data fields, search options, and analysis and use of metrics. A number of bibliometric applications are currently being used in medical science and health care. Bibliometric parameters and indexes may be increasingly used by grant funding sources as measures of research success. Universities may build benchmarking standards from bibliometric data to determine academic achievement through promotion and tenure guidelines in the future. This article reviews the history, definition, laws, and elements of bibliometric principles and provides examples of bibliometric applications to the broader health care community. To accomplish this, the Medline (1966-2014) and Web of Science (1945-2014) databases were searched to identify relevant articles; select articles were also cross-referenced. Articles selected were those that provided background, history, descriptive analysis, and application of bibliometric principles and metrics to medical science and health care. No attempt was made to cover all areas exhaustively; rather, key articles were chosen that illustrate bibliometric concepts and enhance the reader's knowledge. It is important that faculty and researchers understand the limitations and appropriate uses of bibliometric data. Bibliometrics has considerable potential as a research area for health care scientists and practitioners that can be used to discover new information about academic trends, pharmacotherapy, disease, and broader health sciences trends.
+~
+PMID: 25940769
+Journal: Pharmacotherapy" fillcolor="#96E6FF" margin=0.21127838567197355]
+    26611203 [label="Köster, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/26611203/" tooltip="Title: Rotavirus - Global research density equalizing mapping and gender analysis.
+~
+By: Köster, Klingelhöfer, Groneberg, Schwarzer
+Date: 2016 Jan 02
+~
+Abstract: Rotaviruses are the leading reason for dehydration and severe diarrheal disease and in infants and young children worldwide. An increasing number of related publications cause a crucial challenge to determine the relevant scientific output. Therefore, scientometric analyses are helpful to evaluate quantity as well as quality of the worldwide research activities on Rotavirus. Up to now, no in-depth global scientometric analysis relating to Rotavirus publications has been carried out. This study used scientometric tools and the method of density equalizing mapping to visualize the differences of the worldwide research effort referring to Rotavirus. The aim of the study was to compare scientific output geographically and over time by using an in-depth data analysis and New quality and quantity indices in science (NewQIS) tools. Furthermore, a gender analysis was part of the data interpretation.
+~
+PMID: 26611203
+Journal: Vaccine" fillcolor="#96E6FF" margin=0.1579181246047625]
+    27044432 [label="Brüggmann, et al.
+(2016)" href="https://pubmed.ncbi.nlm.nih.gov/27044432/" tooltip="Title: Global architecture of gestational diabetes research: density-equalizing mapping studies and gender analysis.
+~
+By: Brüggmann, Richter, Klingelhöfer, Gerber, Bundschuh, Jaque, Groneberg
+Date: 2016 Apr 04
+~
+Abstract: Gestational diabetes mellitus (GDM) is associated with substantial morbidity for mothers and their offspring. While clinical and basic research activities on this important disease grow constantly, there is no concise analysis of global architecture of GDM research. Hence, it was the objective of this study to assess the global scientific performance chronologically, geographically and in relation to existing research networks and gender distribution of publishing authors.
+~
+PMID: 27044432
+Journal: Nutrition journal" fillcolor="#CAE1C5" margin=0.1579181246047625]
+    28086974 [label="Brüggmann, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28086974/" tooltip="Title: Ovarian cancer: density equalizing mapping of the global research architecture.
+~
+By: Brüggmann, Pulch, Klingelhöfer, Pearce, Groneberg
+Date: 2017 01 13
+~
+Abstract: Despite its impact on female health worldwide, no efforts have been made to depict the global architecture of ovarian cancer research and to understand the trends in the related literature. Hence, it was the objective of this study to assess the global scientific performance chronologically, geographically and in regards to economic benchmarks using bibliometric tools and density equalizing map projections.
+~
+PMID: 28086974
+Journal: International journal of health geographics" fillcolor="#DCDFB2" margin=0.16760912590556815]
+    28479858 [label="Liang, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28479858/" tooltip="Title: Study of acupuncture for low back pain in recent 20 years: a bibliometric analysis via CiteSpace.
+~
+By: Liang, Li, Zhao, Wang, Zhu, Chen
+Date: 2017
+~
+Abstract: Acupuncture has been applied to relieve low back pain (LBP) in many countries. However, a bibliometric analysis of the global use of acupuncture for LBP is rare.
+~
+PMID: 28479858
+Journal: Journal of pain research" fillcolor="#96E6FF" margin=0.22558748556724917]
+    28515269 [label="Lewis, et al.
+(2017)" href="https://pubmed.ncbi.nlm.nih.gov/28515269/" tooltip="Title: Effect of omega-3 supplementation on neuropathy in type 1 diabetes: A 12-month pilot trial.
+~
+By: Lewis, Perkins, Lovblom, Bazinet, Wolever, Bril
+Date: 2017 Jun 13
+~
+Abstract: To test the hypothesis that 12 months of seal oil omega-3 polyunsaturated fatty acids (ω-3 PUFA) supplementation will stop the known progression of diabetic sensorimotor polyneuropathy (DSP) in type 1 diabetes mellitus (T1DM).
+~
+PMID: 28515269
+Journal: Neurology" fillcolor="#96E6FF" margin=0.19771212547196626]
+    31710021 [label="AlRyalat, Malkawi,
+& Momani (2019)" href="https://pubmed.ncbi.nlm.nih.gov/31710021/" tooltip="Title: Comparing Bibliometric Analysis Using PubMed, Scopus, and Web of Science Databases.
+~
+By: AlRyalat, Malkawi, Momani
+Date: 2019 10 24
+~
+Abstract: Literature databases (i.e., PubMed, Scopus, and Web of Science) differ in terms of their coverage, focus, and the tool they provide. PubMed focuses mainly on life sciences and biomedical disciplines, whereas Scopus and Web of Science are multidisciplinary. The protocol described in the current study was used to search for publications from Jordanian authors in the years 2013-2017. In this protocol, how to use each database to conduct this type of search is explained in detail. A Scopus search resulted in the highest number of documents (11,444 documents), followed by a Web of Science search (10,943 documents). PubMed resulted in a smaller number of documents due to its narrower scope and coverage (4,363 documents). The results also show a yearly trend in: (1) the number of publications, (2) the disciplines that have the most publications, (3) the countries of collaboration, and (4) the number of open access publications. In contrast, PubMed has a sophisticated keyword optimization service (i.e., Medical Subject Heading, or MeSH), while both Scopus and Web of Science provide search analysis tools that can produce representative figures. Finally, the features of each database are explained in detail and several indices that can be extracted using the search results are provided. This study provides a base for using literature databases for bibliometric analysis.
+~
+PMID: 31710021
+Journal: Journal of visualized experiments : JoVE" fillcolor="#96E6FF" margin=0.17787536009528288]
+    31762442 [label="Zheng & Wang (2019)" href="https://pubmed.ncbi.nlm.nih.gov/31762442/" tooltip="Title: Publications on the Association Between Cognitive Function and Pain from 2000 to 2018: A Bibliometric Analysis Using CiteSpace.
+~
+By: Zheng, Wang
+Date: 2019 Nov 25
+~
+Abstract: BACKGROUND This study aimed to use CiteSpace software to conduct a bibliometric analysis of published studies on the association between pain and cognitive function from 2000 to 2018. The study also aimed to determine publication patterns and authorship and to identify recent trends for research in this field. MATERIAL AND METHODS Publications on the association between cognitive function and pain between 2000 and 2018 were identified from the Web of Science database. Bibliographic information, including authorship, country, citation frequency, changes in citation, and interactive visualization were generated using CiteSpace software. Co-citation, or frequency of two publications cited together by another publication, was also studied. RESULTS On 8th January 2019, 4,889 publications were identified. The United States (1132 publications) and the University of Washington (87 publications) were the most productive country and institution, respectively. The journal, Pain (182 publications) had the largest number of publications and was the most frequently cited journal (citation counts, 1569) with the highest centrality (0.62). Author A had the largest number of publications (21). Author B had the greatest co-citation count (223). Author C tied with Author D as the first co-cited author in terms of centrality (0.18). Author E in 2011 (co-citation count, 96) and Author F in 2008 (centrality: 0.11) had the highest co-citation counts and centrality, respectively. The keyword 'empathy' ranked first for research developments with the highest citation burst (10.045). CONCLUSIONS Bibliometric analysis of the association between pain and cognitive function might identify new directions for future research.
+~
+PMID: 31762442
+Journal: Medical science monitor : international medical journal of experimental and clinical research" fillcolor="#B0E3E2" margin=0.17552725051033058]
+    31772566 [label="Wang, et al. (2019)" href="https://pubmed.ncbi.nlm.nih.gov/31772566/" tooltip="Title: Bibliometric Study of the Comorbidity of Pain and Depression Research.
+~
+By: Wang, Peng, Weng, Zheng, Zhang, Chen
+Date: 2019
+~
+Abstract: Comorbid pain and depression occur with high prevalence in clinical observations, and published academic journals about them have been increasing in number over time. However, few studies used the bibliometric method to analyze the general aspects of scientific researches on the comorbidity of pain and depression. The aim of this study is to systematically provide global scientific research in the comorbidity of pain and depression from 1980 to 2018.
+~
+PMID: 31772566
+Journal: Neural plasticity" fillcolor="#96E6FF" margin=0.1613943352306837]
+    31995273 [label="Kokol, Blažun
+Vošner, & Završnik
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/31995273/" tooltip="Title: Application of bibliometrics in medicine: a historical bibliometrics analysis.
+~
+By: Kokol, Blažun Vošner, Završnik
+Date: 2021 Jun
+~
+Abstract: The application of bibliometrics in medicine enables one to analyse vast amounts of publications and their production patterns on macroscopic and microscopic levels.
+~
+PMID: 31995273
+Journal: Health information and libraries journal" fillcolor="#96E6FF" margin=0.1345098040014257]
+    32174808 [label="Zheng, et al.
+(2020)" href="https://pubmed.ncbi.nlm.nih.gov/32174808/" tooltip="Title: Trends of Repetitive Transcranial Magnetic Stimulation From 2009 to 2018: A Bibliometric Analysis.
+~
+By: Zheng, Dai, Lan, Wang
+Date: 2020
+~
+Abstract: Repetitive transcranial magnetic stimulation (rTMS) technology, which is amongst the most used non-invasive brain stimulation techniques currently available, has developed rapidly from 2009 to 2018. However, reports on the trends of rTMS using bibliometric analysis are rare. The goal of the present bibliometric analysis is to analyze and visualize the trends of rTMS, including general (publication patterns) and emerging trends (research frontiers), over the last 10 years by using the visual analytic tool CiteSpace V. Publications related to rTMS from 2009 to 2018 were retrieved from the Web of Science (WoS) database, including 2,986 peer-reviewed articles/reviews. Active authors, journals, institutions, and countries were identified by WoS and visualized by CiteSpace V, which could also detect burst changes to identify emerging trends. GraphPad Prism 8 was used to analyze the time trend of annual publication outputs. The USA ranked first in this field. Pascual-Leone A (author A), Fitzgerald PB (author B), George MS (author C), Lefaucheur JP (author D), and Fregni F (author E) made great contributions to this field of study. The most prolific institution to publish rTMS-related publications in the last decade was the University of Toronto. The journal Brain Stimulation published most papers. Lefaucheur et al.'s paper in 2014, and the keyword 'sham controlled trial' showed the strongest citation bursts by the end of 2018, which indicates increased attention to the underlying work, thereby indicating the research frontiers. This study reveals the publication patterns and emerging trends of rTMS based on the records published from 2009 to 2018. The insights obtained have reference values for the future research and application of rTMS.
+~
+PMID: 32174808
+Journal: Frontiers in neuroscience" fillcolor="#DCDFB2" margin=0.12781512503836437]
+    32179730 [label="Wang, et al. (2020)" href="https://pubmed.ncbi.nlm.nih.gov/32179730/" tooltip="Title: A Bibliometric Analysis Using CiteSpace of Publications from 1999 to 2018 on Patient Rehabilitation After Total Knee Arthroplasty.
+~
+By: Wang, Gao, Zhang, Xie, Wang, Xu
+Date: 2020 Mar 17
+~
+Abstract: BACKGROUND Following total knee arthroplasty (TKA), postoperative patient rehabilitation is important to achieve the optimal level of knee function and mobility. Clinical research in this field is growing, and bibliometric analysis of publication may provide direction for research clinicians and raise awareness of research trends, journal selection, and key topics. Therefore, this bibliometric study aimed to analyze the current status and trends during the past two decades, between 1999 and 2018, of publications on rehabilitation after total knee arthroplasty (TKA) and used CiteSpace. MATERIAL AND METHODS The global literature was searched between 2018 to 2019 for publications related to rehabilitation after TKA. Publication data were identified using relevant search terms and the Web of Science Core Collection database. CiteSpace (5.3.R11) software was used to analyze the journals, authors, institutions, countries, cited references, and keywords using standard bibliometric indicators. RESULTS A total of 1,292 publications were retrieved between 1999 to 2018, and the most active journals, countries, authors, and institutions in the field of TKA rehabilitation were identified. Key areas of research included postoperative analgesia, muscle inhibition, range of motion, inhibitors, knee flexion, pain control, self-reporting, spectral analysis, in vivo forces, and rotator cuff repair. The emerging research topics included epidural analgesia, physiotherapy, postoperative analgesia, recovery, and the use of ropivacaine local analgesia. CONCLUSIONS The findings from this bibliometric study provided insight into trends in clinical research publications in the field of rehabilitation following TKA for the past 20 years, including global trends in emerging areas of research.
+~
+PMID: 32179730
+Journal: Medical science monitor : international medical journal of experimental and clinical research" fillcolor="#C0E2D1" margin=0.1345098040014257]
+    32215136 [label="Weng, et al. (2020)" href="https://pubmed.ncbi.nlm.nih.gov/32215136/" tooltip="Title: A Bibliometric Analysis of Nonspecific Low Back Pain Research.
+~
+By: Weng, Zheng, Peng, Chang, Wu, Wang
+Date: 2020
+~
+Abstract: Researchers are highly interested in the study of nonspecific low back pain (NSLBP). However, few have attempted to collect global data, analyze the emerging trends, and conduct reviews from the perspectives of visualization and bibliometrics.
+~
+PMID: 32215136
+Journal: Pain research & management" fillcolor="#CAE1C5" margin=0.1345098040014257]
+    33240559 [label="Wang, et al. (2020)" href="https://pubmed.ncbi.nlm.nih.gov/33240559/" tooltip="Title: What You Should Know About Osteoarthritis Rehabilitation: A Bibliometric Analysis of the 50 Most-Cited Articles.
+~
+By: Wang, Wang, Zhang, Sun, Xie, Jiang, Ou, Miyamoto, Wang
+Date: 2020
+~
+Abstract: Osteoarthritis is a degenerative disease that commonly occurs in middle-aged and elderly people. High-quality articles in the field of osteoarthritis rehabilitation have not been studied in detail.
+~
+PMID: 33240559
+Journal: Geriatric orthopaedic surgery & rehabilitation" fillcolor="#FFDC8C" margin=0.05]
+    33488420 [label="Zhu, et al. (2020)" href="https://pubmed.ncbi.nlm.nih.gov/33488420/" tooltip="Title: Bibliometric and Visual Analysis of Research on the Links Between the Gut Microbiota and Depression From 1999 to 2019.
+~
+By: Zhu, Hu, Deng, Tan, Qiu, Zhang, Ni, Lu, Wang, Li, Chen, Huang, Xiao, Shang, Wen
+Date: 2020
+~
+Abstract: Background: There is a crucial link between the gut microbiota and the host central nervous system, and the communication between them occurs via a bidirectional pathway termed the 'microbiota-gut-brain axis.' The gut microbiome in the modern environment has markedly changed in response to environmental factors. These changes may affect a broad range of host psychiatric disorders, such as depression, by interacting with the host through metabolic, immune, neural, and endocrine pathways. Nevertheless, the general aspects of the links between the gut microbiota and depression have not been systematically investigated through bibliometric analysis. Aim: This study aimed to analyze the current status and developing trends in gut microbiota research in the depression field through bibliometric and visual analysis. Methods: A total of 1,962 publications published between 1999 and 2019 were retrieved from the Web of Science Core Collection. CiteSpace (5.6 R5) was used to perform collaboration network analysis, co-citation analysis, co-occurrence analysis, and citation burst detection. Results: The number of publications has been rapidly growing since 2010. The collaboration network analysis revealed that the USA, University College Cork, and John F. Cryan were the most influential country, institute, and scholar, respectively. The most productive and co-cited journals were Brain Behavior and Immunity and Proceedings of the National Academy of Sciences of the United States of America, respectively. The co-citation analysis of references revealed that the most recent research focus was in the largest theme cluster, 'cytokines,' thus reflecting the important research foundation in this field. The co-occurrence analysis of keywords revealed that 'fecal microbiota' and 'microbiome' have become the top two research hotspots since 2013. The citation burst detection for keywords identified several keywords, including 'Parkinson's disease,' 'microbiota-gut-brain axis,' 'microbiome,' 'dysbiosis,' 'bipolar disorder,' 'impact,' 'C reactive protein,' and 'immune system,' as new research frontiers, which have currently ongoing bursts. Conclusions: These results provide an instructive perspective on the current research and future directions in the study of the links between the gut microbiota and depression, which may help researchers choose suitable cooperators or journals, and promote their research illustrating the underlying molecular mechanisms of depression, including its etiology, prevention, and treatment.
+~
+PMID: 33488420
+Journal: Frontiers in psychiatry" fillcolor="#FFDC8C" margin=0.1345098040014257]
+    33688338 [label="Wang, Wu, & Wang
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/33688338/" tooltip="Title: Bibliometric Study of Pain after Spinal Cord Injury.
+~
+By: Wang, Wu, Wang
+Date: 2021
+~
+Abstract: The prevalence of comorbid pain after spinal cord injury (SCI) is relatively high in clinical observations and has continued to increase over time. Neuropathic pain (70.14%) is the most popular subject in academic journals after SCI. However, studies that used the bibliometric method to analyze comorbid pain after SCI are still lacking. This study is aimed at combining and integrating acquired information to analyze the global trends of research on the comorbidity of pain after SCI in the last three decades (1990-2019).
+~
+PMID: 33688338
+Journal: Neural plasticity" fillcolor="#FFDC8C" margin=0.05]
+    33897259 [label="Zhao, et al. (2021)" href="https://pubmed.ncbi.nlm.nih.gov/33897259/" tooltip="Title: Bibliometric Analysis of Research Articles on Pain in the Elderly Published from 2000 to 2019.
+~
+By: Zhao, Zhang, Guo, Feng, Zhao, Wang, Wang
+Date: 2021
+~
+Abstract: Given the rapid growth of the global aging population, pain has become an unneglectable concern amongst the elderly. The quantity of scientific research outputs on pain in the elderly has increased over time, but only a small number of studies have used bibliometric methods to analyze scientific research in this field. This paper aimed to analyze scientific research on pain in the elderly published from 2000 to 2019 in a systematic manner using bibliometric methods.
+~
+PMID: 33897259
+Journal: Journal of pain research" fillcolor="#FFDC8C" margin=0.08010299956639813]
+    34150972 [label="El Bairi, Al
+Jarroudi, & Afqir
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34150972/" tooltip="Title: Tracing ovarian cancer research in Morocco: A bibliometric analysis.
+~
+By: El Bairi, Al Jarroudi, Afqir
+Date: 2021 Aug
+~
+Abstract: The burden of ovarian cancer (OC) in low-income countries continues to increase annually. This gynecological cancer, known for its poor survival outcomes, has not attracted much interest in medical research as compared to other women's malignancies such as breast cancer. This bibliometric study was conducted to better depict the global map and the future directions of scientific productivity in the area of OC research in Morocco.
+~
+PMID: 34150972
+Journal: Gynecologic oncology reports" fillcolor="#E4DEA8" margin=0.08010299956639813]
+    34169036 [label="Saberi, et al.
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34169036/" tooltip="Title: Iranian researchers' contributions to research on COVID-19: A bibliometric analysis and visualization.
+~
+By: Saberi, Farhadi, Karami, Mokhtari
+Date: 2021
+~
+Abstract: Background: COVID-19 pandemic crisis motivated researchers worldwide to deeply investigate it from different perspectives. As Iran is one of the highly-affected countries by Covid-19, Iranian researchers have focused on studying it. This study aimed at analyzing and visualizing Iranian researchers' papers on COVID-19 from a bibliometric perspective. Methods: By searching MeSH-selected keywords related to COVID-19 in Scopus, Iranian researchers' papers on COVID-19 were extracted in a CSV format and underwent bibliometric techniques, such as coauthorship analysis, citation, and co-citation analysis, keyword and term co-occurrence mapping and etc. in the Microsoft Excel and VOSviewer software package. Results: A total of 405 papers were authored by Iranian researchers on COVID-19 during the study period, with the average number of citations per paper of 2.60 and a mean h-index of 15. The majority of papers were original articles in English. Archives of Clinical Infectious Diseases and Archives of Iranian Medicine and Medical Hypotheses were highly ranked publishing journals, respectively. The most productive institute and author were Tehran University of Medical Sciences with 119 papers and Rezaei, N. with 12 papers. Iranian researchers collaborated with the researchers of 73 countries, with the USA ranking first in Covid-19 research, followed by Italy, Canada, and United Kingdom. In publishing papers on COVID-19, Iran ranked first among the Middle Eastern countries and thirteenth internationally. Conclusion: Iranian researchers were active in 5 main areas of COVID-19 research, including epidemiology, diagnosis, treatment, virology, and systematic review.
+~
+PMID: 34169036
+Journal: Medical journal of the Islamic Republic of Iran" fillcolor="#FFDC8C" margin=0.05]
+    34306062 [label="Su, Hu, & Xu (2021)" href="https://pubmed.ncbi.nlm.nih.gov/34306062/" tooltip="Title: Global Research on Neuropathic Pain Rehabilitation over the Last 20 Years.
+~
+By: Su, Hu, Xu
+Date: 2021
+~
+Abstract: Neuropathic pain has long been a very popular and productive field of clinical research. Neuropathic pain is difficult to cure radically because of its complicated etiology and uncertain pathogenesis. As pain worsens and persists, pain recovery techniques become more important, and medication alone is insufficient. No summary of bibliometric studies on neuropathic pain rehabilitation is yet available. The purpose of the present study is to analyze in a systematic manner the trends of neuropathic pain rehabilitation research over the period of 2000-2019.
+~
+PMID: 34306062
+Journal: Neural plasticity" fillcolor="#FFDC8C" margin=0.05]
+    34368063 [label="You, et al. (2021)" href="https://pubmed.ncbi.nlm.nih.gov/34368063/" tooltip="Title: Bibliometric Review to Explore Emerging High-Intensity Interval Training in Health Promotion: A New Century Picture.
+~
+By: You, Li, Liu, Li, Fu, Ma
+Date: 2021
+~
+Abstract: Background: High-intensity interval training (HIIT) is an emerging exercise strategy and is considered to be a recipe for health promotion. This study aimed to systematically identify collaboration networks, track research trends, highlight current hotspots, and predict future frontiers in HIIT and its applications in health promotion since the start of the new century. Methods: Relevant original publications were obtained from the Science Citation Index Expanded of the Web of Science Core Collection (WoSCC) database between 2001 and 2020. CiteSpace and VOSviewer software were used to perform bibliometric visualization and comparative analysis of involved indexes that included countries, institutions, journals, authors, references, and keywords. Results: A total of 572 papers were included, and the trend of annual publications showed a remarkable growth. The United States and the University of Exeter were the most productive country and institutions, respectively, with 107 and 18 publications, respectively. European Journal of Applied Physiology took the lead in the number of published articles, and Medicine and Science in Sports and Exercise ranked first in the cocitation counts. Barker AR and Gibala MJ were considered as the most productive and the most highly-cited authors. Conclusions: 'Health risks,' 'adolescent,' and 'aging' are the three noteworthy topics during the evolution of HIIT-health promotion (HIIT-HP) research. The current research hotspots of HIIT and its practices in the health promotion domain lies in 'metabolic diseases,' 'cardiovascular diseases,' 'neurological diseases,' and 'musculoskeletal diseases.' The authors summarize that 'prevention and rehabilitation,' 'micro and molecular level,' and 'cognition and mental health' are becoming frontiers and focus on the health topics related to HIIT in the upcoming years, which are worthy of further exploration.
+~
+PMID: 34368063
+Journal: Frontiers in public health" fillcolor="#FFDC8C" margin=0.05]
+    34541276 [label="El Bairi, Al
+Jarroudi, & Afqir
+(2021)" href="https://pubmed.ncbi.nlm.nih.gov/34541276/" tooltip="Title: Ovarian cancer in Morocco: Time to act is now.
+~
+By: El Bairi, Al Jarroudi, Afqir
+Date: 2021 Aug
+~
+Abstract: •Ovarian cancer seems is a neglected cancer in Morocco.•No publications that impact clinical practice were published in the last decade.•In this editorial, we provide our vision to develop this ignored area of gynecologic oncology.
+~
+PMID: 34541276
+Journal: Gynecologic oncology reports" fillcolor="#FFDC8C" margin=0.05]
+
+17884971:n->28086974:s [penwidth=0.012448]
+    17884971:n->32179730:s [penwidth=0.100794]
+    17884971:n->33240559:s [penwidth=0.008531]
+    25940769:n->31762442:s [penwidth=0.174623]
+    25940769:n->32174808:s [penwidth=0.201465]
+    25940769:n->33488420:s [penwidth=0.204800]
+    25940769:n->33897259:s [penwidth=0.017827]
+    25940769:n->34150972:s [penwidth=0.048873]
+    25940769:n->34541276:s [penwidth=0.005630]
+    26611203:n->27044432:s [penwidth=0.247892]
+    27044432:n->28086974:s [penwidth=0.942382]
+    28086974:n->34150972:s [penwidth=0.479537]
+    28479858:n->31762442:s [penwidth=0.005015]
+    28479858:n->32174808:s [penwidth=0.009146]
+    28479858:n->32215136:s [penwidth=0.099806]
+    28479858:n->33240559:s [penwidth=0.018467]
+    28479858:n->33488420:s [penwidth=0.005442]
+    28479858:n->33897259:s [penwidth=0.096646]
+    28479858:n->34368063:s [penwidth=0.004713]
+    28515269:n->34306062:s [penwidth=0.000871]
+    31710021:n->32179730:s [penwidth=0.259646]
+    31710021:n->33240559:s [penwidth=0.017340]
+    31710021:n->34169036:s [penwidth=0.087979]
+    31762442:n->32174808:s [penwidth=0.904251]
+    31762442:n->32215136:s [penwidth=0.014655]
+    31762442:n->33488420:s [penwidth=0.812085]
+    31762442:n->33688338:s [penwidth=0.040954]
+    31762442:n->33897259:s [penwidth=0.050949]
+    31762442:n->34368063:s [penwidth=0.755041]
+    31772566:n->32174808:s [penwidth=0.091913]
+    31772566:n->32215136:s [penwidth=0.374384]
+    31772566:n->33688338:s [penwidth=2.363461]
+    31772566:n->33897259:s [penwidth=0.920843]
+    31995273:n->33240559:s [penwidth=0.007552]
+    31995273:n->34150972:s [penwidth=0.009983]
+    31995273:n->34169036:s [penwidth=0.005394]
+    31995273:n->34306062:s [penwidth=0.010889]
+    32174808:n->33488420:s [penwidth=0.425348]
+    32174808:n->33897259:s [penwidth=0.087016]
+    32179730:n->33488420:s [penwidth=0.549028]
+    32179730:n->33688338:s [penwidth=0.204800]
+    32179730:n->34306062:s [penwidth=0.165970]
+    32215136:n->33688338:s [penwidth=0.127763]
+    32215136:n->33897259:s [penwidth=0.061437]
+    32215136:n->34368063:s [penwidth=0.037893]
+    34150972:n->34541276:s [penwidth=0.061044]
+
+}
+
