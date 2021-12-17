@@ -363,7 +363,7 @@ def tuplefy(dct):
     return dct
 
 
-def repl_par():
+def main_par():
     return {
         "state": State.FILEIO,
         "data": None,
@@ -371,17 +371,17 @@ def repl_par():
     }
 
 
-def repl_load(par):
+def main_load(par):
     with open(par["fpath"] + ".json", "r", encoding="utf8") as fh:
         par["data"] = tuplefy(json.load(fh))
 
 
-def repl_save(par):
+def main_save(par):
     with open(par["fpath"] + ".json", "w", encoding="utf8") as fh:
         json.dump(par["data"], fh)
 
 
-def repl_search(term):
+def main_search(term):
     pmids = esearch_pubmed_pmids(term)
     lst = efetch_pubmed_articles(pmids)
     if not lst:
@@ -390,14 +390,14 @@ def repl_search(term):
         printt("\n\n".join(map(article_summary, lst)))
 
 
-def repl_add(par, pmids):
+def main_add(par, pmids):
     lst = efetch_pubmed_articles(pmids)
     for dct in map(article_link, lst):
         printt("Found {}...".format(dct["pmid"]))
         par["data"][dct["pmid"]] = dct
 
 
-def repl_grow(par):
+def main_grow(par):
     counts = dict()
     def anon(x):
         return counts.get(x), random.random()
@@ -412,10 +412,10 @@ def repl_grow(par):
 
     keys = set(counts) - set(par["data"])
     pmids = tuple(sorted(keys, key=anon, reverse=True)[:5])
-    repl_add(par, pmids)
+    main_add(par, pmids)
 
 
-def repl_graph(par, args, echo=True):
+def main_graph(par, args, echo=True):
     dct = par["data"]
 
     if echo is True:
@@ -472,7 +472,7 @@ def repl_graph(par, args, echo=True):
     return fpath
 
 
-def repl_render(par, args, cmd):
+def main_render(par, args, cmd):
     cmd = cmd.lower()
 
     dir_out = f"gref/{cmd}/"
@@ -480,7 +480,7 @@ def repl_render(par, args, cmd):
         os.makedirs(dir_out)
 
     fpath = "gref/gv/" + par["fpath"].split("/")[-1] + ".gv"
-    repl_graph(par, args, echo=False)
+    main_graph(par, args, echo=False)
 
     name = fpath.split("/")[-1].replace(".gv", "")
     if cmd == "png":
@@ -492,7 +492,7 @@ def repl_render(par, args, cmd):
     os.system(expression)
 
 
-def repl_table(par, args, echo=True):
+def main_table(par, args, echo=True):
     dct = par["data"]
 
     if echo is True:
@@ -528,7 +528,7 @@ def repl_table(par, args, echo=True):
     return fpath
 
 
-def repl_ngram(par, args):
+def main_ngram(par, args):
     dct = par["data"]
     if not args:
         args += [2]
@@ -561,7 +561,7 @@ def repl_ngram(par, args):
     return fpath
 
 
-def repl_essay(par, args):
+def main_essay(par, args):
     dct = par["data"]
     if not args:
         args += [500]
@@ -617,9 +617,9 @@ def repl_essay(par, args):
     return fpath
 
 
-def repl_main():
+def main():
     # parameters
-    par = repl_par()
+    par = main_par()
 
     # user shell
     printt("\nWelcome :-)")
@@ -629,7 +629,7 @@ def repl_main():
 
         # save database (if applicable)
         if par["state"] == State.MAIN:
-            repl_save(par)
+            main_save(par)
 
         # prompt for input
         try:
@@ -688,7 +688,7 @@ def repl_main():
                 continue
 
             term = " ".join(args)
-            repl_search(term)
+            main_search(term)
 
         elif par["state"] == State.FILEIO:
             # overlapping checks and operations
@@ -718,7 +718,7 @@ def repl_main():
                     printe("Filepath does not exist!")
                 else:
                     printt("Loading...")
-                    repl_load(par)
+                    main_load(par)
                     if par["data"] is None:
                         printe("Incompatible format!")
                     else:
@@ -755,7 +755,7 @@ def repl_main():
         elif par["state"] == State.MAIN:
             if cmd == "UNLOAD":
                 printt("Unloading...")
-                par = repl_par()
+                par = main_par()
             elif cmd == "PEEK":
                 data = par["data"]
                 if not data:
@@ -774,7 +774,7 @@ def repl_main():
                     continue
 
                 printt("Adding...")
-                repl_add(par, args)
+                main_add(par, args)
 
             elif cmd == "GROW":
                 if not args:
@@ -788,25 +788,25 @@ def repl_main():
                 printt("Growing...")
                 try:
                     for i in range(cycles):
-                        repl_grow(par)
+                        main_grow(par)
                 except KeyboardInterrupt:
                     printe("Aborted!")
             elif cmd == "GV":
-                repl_graph(par, args)
+                main_graph(par, args)
             elif cmd in ("PNG", "SVG", "PDF"):
-                repl_render(par, args, cmd)
+                main_render(par, args, cmd)
             elif cmd == "CSV":
-                repl_table(par, args)
+                main_table(par, args)
             elif cmd == "TXT":
                 try:
                     if not args:
                         pass
                     elif (args[0].upper() == "NGRAM"):
                         _, *args = args
-                        repl_ngram(par, args)
+                        main_ngram(par, args)
                     elif (args[0].upper() == "ESSAY"):
                         _, *args = args
-                        repl_essay(par, args)
+                        main_essay(par, args)
                 except KeyboardInterrupt:
                     printe("Aborted!")
             else:
@@ -817,4 +817,4 @@ def repl_main():
 
 
 if __name__ == "__main__":
-    repl_main()
+    main()
