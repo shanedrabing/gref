@@ -80,7 +80,7 @@ Finally, let's render out an `SVG` file, using the command of the same name:
     dot -Tsvg gref/gv/biblio.gv -o gref/svg/biblio.svg
 ```
 
-Congratulations! You have now rendered your first citation graph. This source vector graphics file supports hyperlinks. Try opening some of the references on the [example graph](https://raw.githubusercontent.com/shanedrabing/gref/main/docs/gref/svg/biblio.svg) in a new tab.
+Congratulations! You have now rendered your first citation graph. This source vector graphics file supports hyperlinks. Try opening some of the references on the [example graph](https://raw.githubusercontent.com/shanedrabing/gref/main/docs/gref/svg/biblio.svg) in a new tab. Otherwise, check out some of the other outputs found in the [example database](docs/gref).
 
 ## Available Commands
 
