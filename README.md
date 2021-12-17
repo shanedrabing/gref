@@ -2,6 +2,8 @@
 
 Graphical reference tool.
 
+![biblio.svg](docs/gref/svg/biblio.svg)
+
 ## Getting Started
 
 Use [pip](https://pip.pypa.io/en/stable/) to install
@@ -18,3 +20,28 @@ Once Python is running, import `gref` and call the main function.
 >>> import gref
 >>> gref.main()
 ```
+
+## Usage
+
+Upon booting gref, we are greeted and may search for articles:
+
+``` txt
+    Welcome :-)
+
+α > search bibliometrics
+
+     PMID: 31995273
+    Title: Application of bibliometrics in medicine: a historical bibliometrics
+           analysis.
+       By: Kokol, Blažun Vošner, Završnik
+
+     PMID: 34586077
+    Title: Scholarly Productivity Evaluation of KL2 Scholars Using
+           Bibliometrics and Federal Follow-on Funding: Cross-Institution
+           Study.
+       By: Qua, Yu, Patel, Dave, Cornelius, Pelfrey
+
+[...]
+```
+
+## Sample Output
