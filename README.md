@@ -40,8 +40,29 @@ Upon booting gref, we are greeted and may search for articles:
            Bibliometrics and Federal Follow-on Funding: Cross-Institution
            Study.
        By: Qua, Yu, Patel, Dave, Cornelius, Pelfrey
-
-[...]
 ```
 
 ## Sample Output
+
+## Commands
+
+State|Command|Description
+-|-|-
+α|ADD|Add a new file to the database, becomes active
+δ|ADD|Add a new PubMed ID to the active file
+δ|CSV|Export articles to a table
+*|EXIT|Exit the program
+δ|GROW|Find related articles, can specify number of cycles
+δ|GV|Render out a GV file, this is the base graph
+*|HELP|Help page for command state and usage
+α|LOAD|Load a file from the database, becomes active
+δ|PDF|Render out a PDF file
+α|PEEK|Peek the files in the database
+δ|PEEK|Peek the articles in the active file
+δ|PNG|Render out a PNG file, can specify DPI
+α|RM|Remove a file from the database
+*|SEARCH|Search PubMed, query follows command
+δ|SVG|Render out a SVG file, has hyperlink support
+δ|TXT ESSAY|Export a fake essay on the topic, can specify word number
+δ|TXT NGRAM|Export N-grams from all abstracts, can specify N
+δ|UNLOAD|Unload active file
