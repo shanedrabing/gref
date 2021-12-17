@@ -12,7 +12,7 @@ gref. Then, run Python from the command line.
 > python
 ```
 
-Once Python is running, import $gref$ and launch the main application.
+Once Python is running, import `gref` and call the main function.
 
 ``` py
 >>> import gref
