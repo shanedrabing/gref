@@ -1,4 +1,8 @@
+<div align="center">
+
 # Gref
+
+</div>
 
 <div align="center">
     <img src="docs/gref/svg/biblio_styled.svg" width="80%" />
@@ -91,9 +95,9 @@ in a new tab. Also, notice the tooltips as you hover over a reference!
 Otherwise, check out some of the other outputs found in the [example
 database](docs/gref).
 
-<div align="center">
-
 ## Available Commands
+
+<div align="center">
 
 State|Command|Description
 -|-|-
